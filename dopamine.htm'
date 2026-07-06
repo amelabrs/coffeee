@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The God Test — Chapter One</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+    :root{
+        --bg:#f6f3ef;
+        --paper:#fffdf9;
+        --ink:#1f1f1f;
+        --muted:#6d6d6d;
+        --accent:#1d4c8f;
+        --gold:#c89b47;
+        --line:#ddd7cf;
+    }
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+
+    body{
+        background:linear-gradient(to bottom,#efebe6,#f8f5f1);
+        color:var(--ink);
+        font-family:'Cormorant Garamond', serif;
+        line-height:1.8;
+        padding:60px 20px;
+    }
+
+    .page{
+        max-width:1200px;
+        margin:auto;
+        background:var(--paper);
+        border-radius:18px;
+        box-shadow:
+            0 10px 40px rgba(0,0,0,0.08),
+            0 2px 6px rgba(0,0,0,0.05);
+        overflow:hidden;
+    }
+
+    .hero{
+        padding:80px 90px 60px;
+        border-bottom:1px solid var(--line);
+        position:relative;
+    }
+
+    .chapter-label{
+        text-align:center;
+        letter-spacing:4px;
+        font-family:'Inter',sans-serif;
+        font-size:14px;
+        font-weight:600;
+        color:var(--accent);
+        margin-bottom:18px;
+    }
+
+    .title{
+        text-align:center;
+        font-family:'Inter',sans-serif;
+        font-size:clamp(3rem,7vw,6rem);
+        font-weight:700;
+        line-height:0.95;
+        letter-spacing:-3px;
+        color:#163a6b;
+        text-transform:uppercase;
+    }
+
+    .divider{
+        width:120px;
+        height:2px;
+        background:var(--gold);
+        margin:35px auto 0;
+    }
+
+    .content{
+        display:grid;
+        grid-template-columns: minmax(0,1fr) 320px;
+        gap:60px;
+        padding:70px 90px 90px;
+    }
+
+    .main{
+        font-size:1.55rem;
+    }
+
+    .main p{
+        margin-bottom:32px;
+    }
+
+    .main p:first-child::first-letter{
+        float:left;
+        font-size:6rem;
+        line-height:0.8;
+        padding-right:12px;
+        font-weight:600;
+        color:var(--accent);
+    }
+
+    .sidebar{
+        display:flex;
+        flex-direction:column;
+        gap:30px;
+    }
+
+    .quote-box{
+        border-left:4px solid var(--gold);
+        padding-left:24px;
+    }
+
+    .quote-mark{
+        font-size:4rem;
+        color:var(--gold);
+        line-height:1;
+        margin-bottom:10px;
+    }
+
+    .quote{
+        font-family:'Inter',sans-serif;
+        font-size:1.4rem;
+        line-height:1.6;
+        color:#173b6f;
+        font-weight:500;
+    }
+
+    .info-card{
+        background:#f2f5fa;
+        border:1px solid #dbe4f2;
+        padding:30px;
+        border-radius:16px;
+    }
+
+    .info-card h3{
+        font-family:'Inter',sans-serif;
+        font-size:0.95rem;
+        letter-spacing:2px;
+        color:var(--accent);
+        margin-bottom:18px;
+        text-transform:uppercase;
+    }
+
+    .info-card p{
+        font-size:1.25rem;
+        line-height:1.7;
+    }
+
+    .section-heading{
+        margin-top:70px;
+        margin-bottom:24px;
+        font-family:'Inter',sans-serif;
+        text-transform:uppercase;
+        font-size:1.3rem;
+        letter-spacing:2px;
+        color:var(--accent);
+        border-top:2px solid var(--gold);
+        padding-top:18px;
+    }
+
+    .callout{
+        margin:45px 0;
+        background:#fbf7ef;
+        border:1px solid #eadfca;
+        padding:35px;
+        border-radius:18px;
+    }
+
+    .callout-title{
+        font-family:'Inter',sans-serif;
+        font-size:1rem;
+        letter-spacing:2px;
+        text-transform:uppercase;
+        color:#9a6b1e;
+        margin-bottom:15px;
+    }
+
+    .callout p{
+        margin:0;
+        font-size:1.35rem;
+    }
+
+    .footer{
+        padding:30px 90px 50px;
+        border-top:1px solid var(--line);
+        font-family:'Inter',sans-serif;
+        color:var(--muted);
+        font-size:0.95rem;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .page-number{
+        color:var(--accent);
+        font-weight:700;
+        font-size:1.1rem;
+    }
+
+    @media (max-width: 960px){
+
+        .content{
+            grid-template-columns:1fr;
+            padding:50px 35px 60px;
+        }
+
+        .hero{
+            padding:60px 35px 40px;
+        }
+
+        .footer{
+            padding:30px 35px 45px;
+        }
+
+        .main{
+            font-size:1.35rem;
+        }
+
+        .title{
+            letter-spacing:-1px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+    <section class="hero">
+        <div class="chapter-label">
+            CHAPTER ONE
+        </div>
+
+        <h1 class="title">
+            A Blast From<br>
+            The Future
+        </h1>
+
+        <div class="divider"></div>
+    </section>
+
+    <section class="content">
+
+        <article class="main">
+
+            <p>
+                In 1983, while researching an article about artificial intelligence
+                for <em>The Wilson Quarterly</em>, Robert Wright interviewed an
+                obscure computer scientist named Geoffrey Hinton. At the time,
+                Hinton advocated an unconventional approach to AI — one many
+                researchers dismissed as fringe.
+            </p>
+
+            <p>
+                Four decades later, Hinton would become known as “The Godfather
+                of AI.” The very methods he championed eventually led to dramatic
+                breakthroughs in generative artificial intelligence: systems capable
+                of producing images, text, code, and conversation with startling fluency.
+            </p>
+
+            <div class="callout">
+                <div class="callout-title">
+                    The Shift
+                </div>
+
+                <p>
+                    AI was no longer a distant laboratory curiosity. It had entered
+                    everyday life — and with it came excitement, anxiety, speculation,
+                    and fear about what humanity had unleashed.
+                </p>
+            </div>
+
+            <p>
+                Hinton himself became increasingly alarmed by the speed of progress.
+                AI systems were improving far faster than expected, raising concerns
+                about misinformation, job displacement, autonomous decision-making,
+                and eventually the possibility of machines acting independently
+                of human interests.
+            </p>
+
+            <h2 class="section-heading">
+                Which Awe Is In Order?
+            </h2>
+
+            <p>
+                Wright frames the public reaction to AI as existing along an “awe
+                spectrum.” On one side are the accelerationists — those who see AI
+                as the gateway to abundance, medical miracles, and post-scarcity
+                civilization. On the other are the doomers, who imagine humanity
+                surrendering power to superintelligent systems.
+            </p>
+
+            <p>
+                Between those extremes lies a more difficult question:
+                can humanity guide technological evolution wisely enough
+                to preserve freedom, meaning, and moral agency?
+            </p>
+
+        </article>
+
+        <aside class="sidebar">
+
+            <div class="quote-box">
+                <div class="quote-mark">“</div>
+
+                <div class="quote">
+                    The approach he championed had worked.
+                </div>
+            </div>
+
+            <div class="info-card">
+                <h3>
+                    Generative AI
+                </h3>
+
+                <p>
+                    AI systems that generate text, images, audio,
+                    code, or simulations based on patterns learned
+                    from enormous datasets.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h3>
+                    The Singularity
+                </h3>
+
+                <p>
+                    A hypothetical point where AI improves itself
+                    recursively, causing an explosive acceleration
+                    in intelligence and technological change.
+                </p>
+            </div>
+
+        </aside>
+
+    </section>
+
+    <footer class="footer">
+        <div>
+            Inspired by <em>The God Test</em> by Robert Wright
+        </div>
+
+        <div class="page-number">
+            — 01 —
+        </div>
+    </footer>
+
+</div>
+
+</body>
+</html>
+

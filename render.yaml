@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: coffee-vocab-trainer
-    runtime: static
-    staticPublishPath: .
-    buildCommand: ""
