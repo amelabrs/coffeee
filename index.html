@@ -383,6 +383,148 @@
     text-align: center;
     margin-top: 18px;
   }
+
+  .stage-progress {
+    font-family: "DM Mono", monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.03em;
+    color: #8a8272;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .home-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .action-card {
+    background: #fffdf7;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    box-shadow: var(--card-shadow);
+    padding: 22px 20px;
+    text-align: center;
+  }
+
+  .action-card.study {
+    border-color: var(--amber);
+  }
+
+  .action-card .icon {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  .action-card h2 {
+    font-family: "Playfair Display", serif;
+    color: var(--forest);
+    margin: 0 0 8px;
+    font-size: 1.2rem;
+  }
+
+  .action-card p {
+    font-size: 0.9rem;
+    color: #5a5445;
+    line-height: 1.5;
+    margin: 0 0 14px;
+  }
+
+  .btn-secondary {
+    width: 100%;
+    padding: 13px;
+    border-radius: 10px;
+    border: 1.5px solid var(--forest);
+    background: transparent;
+    color: var(--forest);
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+
+  .btn-secondary:active {
+    background: rgba(31,61,46,0.08);
+  }
+
+  .study-sheet-header {
+    margin-bottom: 18px;
+  }
+
+  .study-sheet-header .stage-label {
+    font-family: "DM Mono", monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--amber-dark);
+    margin-bottom: 6px;
+  }
+
+  .study-sheet-header h2 {
+    font-family: "Playfair Display", serif;
+    color: var(--forest);
+    font-size: 1.4rem;
+    margin: 0 0 8px;
+  }
+
+  .study-sheet-header p {
+    font-size: 0.92rem;
+    color: #5a5445;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .study-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+
+  .study-item {
+    background: #fffdf7;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 18px;
+    box-shadow: var(--card-shadow);
+  }
+
+  .study-item .term-name {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--forest);
+    margin-bottom: 8px;
+  }
+
+  .study-item .block {
+    margin-bottom: 10px;
+  }
+
+  .study-item .block:last-child {
+    margin-bottom: 0;
+  }
+
+  .study-item .block .tag {
+    font-family: "DM Mono", monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--amber-dark);
+    display: block;
+    margin-bottom: 3px;
+  }
+
+  .study-item .block p {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.5;
+  }
+
+  .study-item .why p {
+    font-style: italic;
+  }
 </style>
 </head>
 <body>
@@ -409,6 +551,8 @@
       <div class="label">Due now</div>
     </div>
   </div>
+
+  <div class="stage-progress" id="stage-progress"></div>
 
   <main id="main"></main>
 </div>
@@ -505,24 +649,59 @@
     return dist <= threshold || distShort <= thresholdShort;
   }
 
-  function initState(deck) {
+  function initState(deck, stages) {
     var existing = loadProgress();
+    var isNewInstall = !existing;
     var state = existing || {
       cards: {},
       streak: 0,
       lastPracticeDate: null,
-      totalReviews: 0
+      totalReviews: 0,
+      unlockedStages: []
     };
     var today = todayStr();
 
-    deck.forEach(function (card) {
-      if (!state.cards[card.id]) {
-        state.cards[card.id] = { box: 1, dueDate: today };
-      }
+    if (!state.unlockedStages) {
+      // Migrating progress saved before staged unlocking existed: a stage counts
+      // as already-unlocked if any of its cards were already being tracked.
+      state.unlockedStages = stages
+        .filter(function (stage) {
+          return stage.card_ids.some(function (id) { return !!state.cards[id]; });
+        })
+        .map(function (stage) { return stage.id; });
+    }
+
+    // Only auto-initialize cards belonging to already-unlocked stages (deck growth
+    // within a studied stage). Cards in not-yet-unlocked stages wait until the
+    // user studies that stage via the Study Sheet.
+    var unlockedSet = {};
+    state.unlockedStages.forEach(function (id) { unlockedSet[id] = true; });
+    stages.forEach(function (stage) {
+      if (!unlockedSet[stage.id]) return;
+      stage.card_ids.forEach(function (id) {
+        if (!state.cards[id]) {
+          state.cards[id] = { box: 1, dueDate: today };
+        }
+      });
     });
 
     saveProgress(state);
     return state;
+  }
+
+  function getNextLockedStage(stages, state) {
+    var unlockedSet = {};
+    state.unlockedStages.forEach(function (id) { unlockedSet[id] = true; });
+    for (var i = 0; i < stages.length; i++) {
+      if (!unlockedSet[stages[i].id]) return stages[i];
+    }
+    return null;
+  }
+
+  function unlockedStageCount(stages, state) {
+    var unlockedSet = {};
+    state.unlockedStages.forEach(function (id) { unlockedSet[id] = true; });
+    return stages.filter(function (s) { return unlockedSet[s.id]; }).length;
   }
 
   function getDueCards(deck, state) {
@@ -563,22 +742,25 @@
   // ---------- App ----------
 
   var deck = [];
+  var stages = [];
+  var cardsById = {};
   var state = null;
   var queue = [];
   var queueIndex = 0;
   var sessionCorrect = 0;
   var sessionSeen = 0;
-  var totalDueAtStart = 0;
 
   var mainEl = document.getElementById("main");
   var statStreak = document.getElementById("stat-streak");
   var statMastered = document.getElementById("stat-mastered");
   var statDue = document.getElementById("stat-due");
+  var stageProgressEl = document.getElementById("stage-progress");
 
   function refreshStats() {
     statStreak.textContent = state.streak;
     statMastered.textContent = masteredCount(state);
     statDue.textContent = getDueCards(deck, state).length;
+    stageProgressEl.textContent = unlockedStageCount(stages, state) + " / " + stages.length + " stages unlocked";
   }
 
   function render() {
@@ -588,6 +770,101 @@
       return;
     }
     renderQuestion(queue[queueIndex]);
+  }
+
+  function renderHome() {
+    refreshStats();
+    var due = getDueCards(deck, state);
+    var nextStage = getNextLockedStage(stages, state);
+
+    if (due.length === 0 && !nextStage) {
+      renderAllDone(); // fully caught up + fully studied: reassuring empty state
+      return;
+    }
+
+    var html = '<div class="home-actions">';
+
+    if (due.length > 0) {
+      html += '<div class="action-card">';
+      html += '<div class="icon">☕</div>';
+      html += "<h2>" + due.length + " term" + (due.length === 1 ? "" : "s") + " due for review</h2>";
+      html += "<p>Cards you've already studied, coming back right on schedule.</p>";
+      html += '<button class="primary-btn" id="start-review-btn">Review now</button>';
+      html += "</div>";
+    }
+
+    if (nextStage) {
+      html += '<div class="action-card study">';
+      html += '<div class="icon">📖</div>';
+      html += "<h2>New stage: " + escapeHtml(nextStage.title) + "</h2>";
+      html += "<p>" + escapeHtml(nextStage.blurb) + " (" + nextStage.card_ids.length + " terms)</p>";
+      html += '<button class="' + (due.length > 0 ? "btn-secondary" : "primary-btn") + '" id="start-study-btn">Study this stage</button>';
+      html += "</div>";
+    }
+
+    html += "</div>";
+    mainEl.innerHTML = html;
+
+    var reviewBtn = document.getElementById("start-review-btn");
+    if (reviewBtn) reviewBtn.addEventListener("click", startReviewSession);
+    var studyBtn = document.getElementById("start-study-btn");
+    if (studyBtn) studyBtn.addEventListener("click", function () { renderStudySheet(nextStage); });
+  }
+
+  function startReviewSession() {
+    queue = buildSessionQueue(deck, state);
+    queueIndex = 0;
+    sessionCorrect = 0;
+    sessionSeen = 0;
+    render();
+  }
+
+  function renderStudySheet(stage) {
+    var html = '<div class="study-sheet-header">';
+    html += '<div class="stage-label">Stage ' + (stages.indexOf(stage) + 1) + " of " + stages.length + "</div>";
+    html += "<h2>" + escapeHtml(stage.title) + "</h2>";
+    html += "<p>" + escapeHtml(stage.blurb) + " Read through these first — you'll be quizzed on exactly these terms right after.</p>";
+    html += "</div>";
+
+    html += '<div class="study-list">';
+    stage.card_ids.forEach(function (id) {
+      var card = cardsById[id];
+      if (!card) return;
+      html += '<div class="study-item">';
+      html += '<div class="term-name">' + escapeHtml(card.term) + "</div>";
+      html += '<div class="block"><span class="tag">Definition</span><p>' + escapeHtml(card.definition) + "</p></div>";
+      html += '<div class="block"><span class="tag">Think of it like</span><p>' + escapeHtml(card.analogy) + "</p></div>";
+      html += '<div class="block why"><span class="tag">Why it matters</span><p>' + escapeHtml(card.why_it_matters) + "</p></div>";
+      html += "</div>";
+    });
+    html += "</div>";
+
+    html += '<button class="primary-btn" id="start-stage-quiz-btn">Start quiz on these ' + stage.card_ids.length + ' terms</button>';
+
+    mainEl.innerHTML = html;
+    mainEl.scrollIntoView({ behavior: "smooth", block: "start" });
+
+    document.getElementById("start-stage-quiz-btn").addEventListener("click", function () {
+      unlockStage(stage);
+      queue = stage.card_ids.map(function (id) { return cardsById[id]; }).filter(Boolean);
+      queueIndex = 0;
+      sessionCorrect = 0;
+      sessionSeen = 0;
+      render();
+    });
+  }
+
+  function unlockStage(stage) {
+    var today = todayStr();
+    if (state.unlockedStages.indexOf(stage.id) === -1) {
+      state.unlockedStages.push(stage.id);
+    }
+    stage.card_ids.forEach(function (id) {
+      if (!state.cards[id]) {
+        state.cards[id] = { box: 1, dueDate: today };
+      }
+    });
+    saveProgress(state);
   }
 
   function boxTrackHtml(box) {
@@ -744,22 +1021,28 @@
 
   function renderSessionEnd() {
     var dueRemaining = getDueCards(deck, state).length;
+    var nextStage = getNextLockedStage(stages, state);
     var html = '<div class="session-end">';
     html += '<div class="icon">☕</div>';
-    if (sessionSeen === 0) {
-      html += "<h2>Nothing due right now</h2>";
-      html += "<p>Your schedule is working exactly as it should — cards come back when it's time, not before. There's nothing to prove by browsing ahead.</p>";
-      if (dueRemaining === 0 && Object.keys(state.cards).length > 0) {
-        html += "<p>Check back tomorrow for the next batch.</p>";
-      }
-    } else {
-      html += "<h2>Session complete</h2>";
-      html += '<div class="score">' + sessionCorrect + " / " + sessionSeen + "</div>";
-      html += "<p>Nicely done. Come back tomorrow — the schedule will bring back exactly the terms you need to see next.</p>";
-      if (dueRemaining > 0) {
-        html += "<p>(" + dueRemaining + " more were due today beyond today's cap — they'll carry forward, nothing is lost.)</p>";
-      }
+    html += "<h2>Session complete</h2>";
+    html += '<div class="score">' + sessionCorrect + " / " + sessionSeen + "</div>";
+    html += "<p>Nicely done. Come back tomorrow — the schedule will bring back exactly the terms you need to see next.</p>";
+    if (dueRemaining > 0) {
+      html += "<p>(" + dueRemaining + " more were due today beyond today's cap — they'll carry forward, nothing is lost.)</p>";
+    } else if (nextStage) {
+      html += "<p>Ready for another stage whenever you are.</p>";
     }
+    html += '<button class="primary-btn" id="continue-btn">Continue</button>';
+    html += "</div>";
+    mainEl.innerHTML = html;
+    document.getElementById("continue-btn").addEventListener("click", renderHome);
+  }
+
+  function renderAllDone() {
+    var html = '<div class="session-end">';
+    html += '<div class="icon">☕</div>';
+    html += "<h2>All caught up</h2>";
+    html += "<p>Every stage is unlocked and nothing is due right now — your schedule is working exactly as it should. Check back tomorrow for the next batch.</p>";
     html += "</div>";
     mainEl.innerHTML = html;
   }
@@ -769,11 +1052,11 @@
       .then(function (res) { return res.json(); })
       .then(function (data) {
         deck = data.cards;
-        state = initState(deck);
-        totalDueAtStart = getDueCards(deck, state).length;
-        queue = buildSessionQueue(deck, state);
-        queueIndex = 0;
-        render();
+        stages = data.stages || [];
+        cardsById = {};
+        deck.forEach(function (card) { cardsById[card.id] = card; });
+        state = initState(deck, stages);
+        renderHome();
       })
       .catch(function (err) {
         mainEl.innerHTML = '<div class="empty-state"><div class="icon">⚠️</div><h2>Could not load the deck</h2><p>' + escapeHtml(String(err)) + "</p></div>";

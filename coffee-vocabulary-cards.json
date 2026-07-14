@@ -3,7 +3,7 @@
     "title": "Coffee Business Vocabulary — Spaced Repetition Deck",
     "source": "coffee-business-vocabulary.md + specialty-coffee-reading-guide.md",
     "method": "Leitner box spaced repetition (5 boxes: 1/2/4/7/14 day intervals). Box 1 = MCQ recognition. Box 2+ = fill-in-the-blank recall.",
-    "card_count": 71
+    "card_count": 88
   },
   "cards": [
     {
@@ -160,7 +160,7 @@
       "id": "processing_stages",
       "category": "Processing & Grading",
       "term": "Cherry → Parchment → Green Bean → Clean Coffee",
-      "definition": "The bean's life stages in order: whole ripe fruit (cherry) → dried/pulped with papery husk (parchment) → hulled raw bean (green) → sorted and defect-free (clean coffee).",
+      "definition": "The bean passes through a fixed sequence of stages, each stripping away more of the fruit — starting as the whole ripe fruit and ending as sorted, defect-free green coffee. Price per kg rises sharply at each step since more has been removed.",
       "analogy": "Each stage strips away more of the fruit, so price per kg rises sharply at each step.",
       "why_it_matters": "When a farmer quotes a price, always ask which stage it's for — cherry is cheapest by weight since so much gets removed later.",
       "cloze": "The bean's stages in order are: Cherry → ___ → Green Bean → Clean Coffee.",
@@ -205,7 +205,7 @@
       "id": "honey",
       "category": "Processing & Grading",
       "term": "Honey Process",
-      "definition": "A middle path: skin is removed but some or all mucilage is left on during drying. Named white/yellow/red/black honey by how much mucilage remains.",
+      "definition": "A middle path: skin is removed but some or all mucilage is left on during drying. Named white/yellow/red/black by how much remains.",
       "analogy": "A dial between fully washed and fully natural.",
       "why_it_matters": "This is the 'monitored natural/honey' approach flagged for the Seasonal tier's first season.",
       "cloze": "In ___ processing, skin is removed but mucilage is left on during drying — named white/yellow/red/black by how much remains.",
@@ -214,21 +214,6 @@
         "Washed",
         "Natural",
         "Curing"
-      ]
-    },
-    {
-      "id": "bean_grades",
-      "category": "Processing & Grading",
-      "term": "AB, PB, C, Bulk — Bean Grades",
-      "definition": "Grading by screen (bean) size after hulling: PB (peaberry, smaller/rounder, premium), AB (standard benchmark grade), C (smaller/more defects), Bulk (ungraded, lowest tier).",
-      "analogy": "Like sieving beans into size categories, from prized to bottom-tier.",
-      "why_it_matters": "'AB' in a Coffee Board price table is the reference-quality grade — a good anchor for what to expect to pay at Shevaroys or BR Hills.",
-      "cloze": "___ is the standard, largest-screen-size grade — the benchmark quoted at auction (e.g. 'Arabica cherry AB').",
-      "mcq_options": [
-        "AB",
-        "PB",
-        "C",
-        "Bulk"
       ]
     },
     {
@@ -265,7 +250,7 @@
       "id": "specialty_threshold",
       "category": "Cupping & Quality Language",
       "term": "Specialty Threshold — 80+",
-      "definition": "Green coffee scoring 80 or above on the 100-point SCA scale is 'specialty grade'; below that, it's commercial/commodity grade regardless of origin story.",
+      "definition": "Green coffee scoring at or above the industry's specialty cutoff on the 100-point SCA scale is \"specialty grade\"; below that, it's commercial/commodity grade regardless of origin story.",
       "analogy": "A hard, checkable number, unlike marketing language.",
       "why_it_matters": "This is the industry-standard bar your Seasonal-tier coffee needs to clear to legitimately call itself specialty.",
       "cloze": "Coffee scoring ___ or above on the SCA 100-point scale is considered specialty grade.",
@@ -274,21 +259,6 @@
         "70",
         "90",
         "60"
-      ]
-    },
-    {
-      "id": "cup_score_vs_note",
-      "category": "Cupping & Quality Language",
-      "term": "Cup Score vs. Tasting Note",
-      "definition": "Cup score = the numeric SCA result (how good). Tasting note = descriptive language like 'gooseberry' or 'tamarind' (what it tastes like) — marketing/storytelling, not a formal metric.",
-      "analogy": "Score answers 'how good'; note answers 'what does it taste like.'",
-      "why_it_matters": "Both are useful but distinct — your gooseberry and tamarind notes are storytelling language, not a substitute for a formal score.",
-      "cloze": "A cup score answers 'how good'; a ___ answers 'what does it taste like' (e.g. gooseberry, tamarind).",
-      "mcq_options": [
-        "Tasting Note",
-        "Defect Count",
-        "Differential",
-        "Q Certification"
       ]
     },
     {
@@ -352,21 +322,6 @@
       ]
     },
     {
-      "id": "fta_cepa_ceta",
-      "category": "Trade, Export & Pricing",
-      "term": "FTA / CEPA / CETA",
-      "definition": "Bilateral/regional trade agreements lowering tariffs: FTA is the general umbrella term; CEPA is India's deal with Oman/UAE (broader, covers services too); CETA is the India-UK version of the same idea.",
-      "analogy": "Different names for the same kind of deal, chosen by each partner country.",
-      "why_it_matters": "These are the mechanisms behind the 0%-duty opportunities already flagged for both Oman and UK.",
-      "cloze": "India's trade deal with Oman is called ___, while the India-UK version of the same idea is called CETA.",
-      "mcq_options": [
-        "CEPA",
-        "FOB",
-        "HS Code",
-        "I-CIP"
-      ]
-    },
-    {
       "id": "eudr",
       "category": "Trade, Export & Pricing",
       "term": "EUDR (EU Deforestation Regulation)",
@@ -400,7 +355,7 @@
       "id": "differential",
       "category": "Trade, Export & Pricing",
       "term": "Differential",
-      "definition": "The price gap between two coffee categories or lots (e.g. Colombian Milds–Robustas differential). Widening = milder coffees pulling ahead in price; narrowing = gap closing.",
+      "definition": "The price gap between two coffee categories or lots — for example the gap between Colombian Milds and Robustas. Widening means milder coffees are pulling ahead in price; narrowing means the gap is closing.",
       "analogy": "A spread, like the gap between two stock prices.",
       "why_it_matters": "Tracking the Arabica-Robusta differential tells you whether The Everyday's Robusta-heavy economics are getting cheaper or pricier relative to Seasonal-tier Arabica sourcing.",
       "cloze": "The ___ is the price gap between two coffee categories or lots — useful for tracking Robusta vs. Arabica cost trends.",
@@ -424,21 +379,6 @@
         "Differential",
         "Landed Cost",
         "Working Capital Cycle"
-      ]
-    },
-    {
-      "id": "backwardation",
-      "category": "Trade, Export & Pricing",
-      "term": "Backwardation / Contango",
-      "definition": "Backwardation: spot price is higher than future prices, signalling urgent scarcity. Contango: future prices are higher than spot, signalling comfortable current supply.",
-      "analogy": "Backwardation = 'buy now, don't wait.' Contango = 'no rush, supply is comfortable.'",
-      "why_it_matters": "Backwardation is a signal that locking in supply now, rather than waiting, is the economically rational move.",
-      "cloze": "In ___, the spot price is higher than future delivery prices, signalling immediate scarcity.",
-      "mcq_options": [
-        "Backwardation",
-        "Contango",
-        "Differential",
-        "MFN"
       ]
     },
     {
@@ -472,36 +412,6 @@
       ]
     },
     {
-      "id": "third_party_certs",
-      "category": "Certification & Sourcing Ethics",
-      "term": "Fair Trade / Rainforest Alliance / Organic (NPOP)",
-      "definition": "Third-party certifications: Fair Trade guarantees a minimum floor price plus social premium; Rainforest Alliance audits environmental/social farming standards; NPOP certifies absence of synthetic inputs.",
-      "analogy": "Each is a different kind of audited logo, answering a different question.",
-      "why_it_matters": "Your brand favours named, falsifiable direct claims over these logos — but they matter more in export/EUDR contexts.",
-      "cloze": "___ certification guarantees a minimum floor price plus a social premium paid to the farmer group.",
-      "mcq_options": [
-        "Fair Trade",
-        "Rainforest Alliance",
-        "NPOP",
-        "Direct Trade"
-      ]
-    },
-    {
-      "id": "lot_specificity",
-      "category": "Certification & Sourcing Ethics",
-      "term": "Single-Origin / Micro-lot / Named-lot",
-      "definition": "Increasing specificity of provenance claims: single-origin (one country/region, could be hundreds of farms), micro-lot (small segregated batch from one farm/section), named-lot (specific farm, plot, elevation, farmer's name — the strongest claim).",
-      "analogy": "Three zoom levels on the same map — country, farm, plot.",
-      "why_it_matters": "'Named-lot' is the strongest, most falsifiable claim — the one your Araku-inspired model is built around.",
-      "cloze": "A ___ is a micro-lot with the specific farm, plot, elevation and farmer's name attached — the strongest provenance claim.",
-      "mcq_options": [
-        "Named-lot",
-        "Single-origin",
-        "Micro-lot",
-        "Bulk"
-      ]
-    },
-    {
       "id": "toll_roasting",
       "category": "Roasting, Brand & Day-to-Day",
       "term": "Toll Roasting / Contract Roasting",
@@ -511,21 +421,6 @@
       "cloze": "___ means paying an existing roaster a per-kg fee to roast your own beans without owning the equipment.",
       "mcq_options": [
         "Toll Roasting",
-        "Private Label",
-        "HoReCa",
-        "Direct Trade"
-      ]
-    },
-    {
-      "id": "private_vs_branded",
-      "category": "Roasting, Brand & Day-to-Day",
-      "term": "Private Label vs. Branded",
-      "definition": "Private label: you supply a product carrying someone else's brand name, no visible trace of you. Branded: the product carries your own brand name and story, even when sold B2B.",
-      "analogy": "Invisible supplier vs. visible name on the bag.",
-      "why_it_matters": "The Bhive/Bowring Club pitch is deliberately branded, not private label — 'IP stays with you' — which is why it builds brand equity even as a B2B sale.",
-      "cloze": "In a ___ deal, the product carries your own brand name and story even when sold B2B, unlike private label.",
-      "mcq_options": [
-        "Branded",
         "Private Label",
         "HoReCa",
         "Direct Trade"
@@ -575,21 +470,6 @@
         "Forward Contract",
         "Landed Cost",
         "Backwardation"
-      ]
-    },
-    {
-      "id": "gst_fssai_udyam",
-      "category": "Roasting, Brand & Day-to-Day",
-      "term": "GST / FSSAI / Udyam (MSME)",
-      "definition": "GST: tax registration for turnover thresholds or cross-state/B2B sales. FSSAI: food safety license required for any food product, including coffee. Udyam/MSME: registers you as a small enterprise for scheme eligibility and institutional-buyer preference.",
-      "analogy": "Three separate, commonly-confused registrations — tax, safety, and enterprise status.",
-      "why_it_matters": "Bowring Club and Century Club are institutional buyers — worth checking early if they require an FSSAI number or GST invoice, since these have lead time.",
-      "cloze": "___ is the food safety license required for anyone manufacturing or selling a food product, including coffee.",
-      "mcq_options": [
-        "FSSAI",
-        "GST",
-        "Udyam",
-        "RCMC"
       ]
     },
     {
@@ -743,51 +623,6 @@
       ]
     },
     {
-      "id": "burr_vs_blade",
-      "category": "Grinders & Machines",
-      "term": "Burr Grinder vs. Blade Grinder",
-      "definition": "Burr grinders crush beans between two surfaces to a consistent size; blade grinders chop beans unevenly, undermining extraction. Specialty brewing assumes a burr grinder.",
-      "analogy": "Burrs are like a mill grinding grain to a uniform size; a blade grinder is more like a blender randomly chopping whatever's inside.",
-      "why_it_matters": "The single highest-leverage equipment upgrade for anyone starting to brew more carefully at home.",
-      "cloze": "A ___ crushes beans to a consistent size, unlike a blade grinder's uneven chop.",
-      "mcq_options": [
-        "Burr Grinder",
-        "Blade Grinder",
-        "Flat Burr",
-        "Conical Burr"
-      ]
-    },
-    {
-      "id": "conical_vs_flat",
-      "category": "Grinders & Machines",
-      "term": "Conical Burr vs. Flat Burr",
-      "definition": "Conical burrs tend to produce round, thick, creamy coffee; flat burrs tend to produce brighter, more acidic, \"modern\"-style coffee.",
-      "analogy": "Two different knife shapes cutting the same vegetable into slightly different textures.",
-      "why_it_matters": "Useful when shopping for a grinder or trying to explain why two shops' espresso tastes so different even with similar beans.",
-      "cloze": "A ___ burr grinder is generally associated with brighter, more acidic coffee, versus the rounder, creamier profile from a conical burr.",
-      "mcq_options": [
-        "Flat",
-        "Conical",
-        "Blade",
-        "Dual-Boiler"
-      ]
-    },
-    {
-      "id": "boiler_types",
-      "category": "Grinders & Machines",
-      "term": "Single-Boiler vs. Dual-Boiler Espresso Machines",
-      "definition": "Single-boiler machines share one boiler between brewing and steaming milk, requiring temperature switching between the two; dual-boiler machines separate the two functions for a smoother workflow.",
-      "analogy": "One kettle used for two jobs vs. two dedicated kettles running at once.",
-      "why_it_matters": "Explains why some home espresso setups feel slow between a shot and steamed milk, while café machines don't.",
-      "cloze": "A ___ espresso machine separates brewing and steaming into two boilers for a smoother workflow.",
-      "mcq_options": [
-        "Dual-Boiler",
-        "Single-Boiler",
-        "Pressure Profiling",
-        "Flat Burr"
-      ]
-    },
-    {
       "id": "pressure_profiling",
       "category": "Grinders & Machines",
       "term": "Pressure Profiling",
@@ -836,8 +671,8 @@
       "id": "cortado",
       "category": "Espresso & Milk Drinks",
       "term": "Cortado",
-      "definition": "Roughly equal parts espresso and steamed milk, with little to no foam — a middle ground between a macchiato and a flat white.",
-      "analogy": "Half-and-half, but espresso and milk instead of coffee and cream.",
+      "definition": "Roughly equal parts espresso and steamed milk, with little to no foam on top.",
+      "analogy": "A middle ground in milk ratio — between a bare macchiato and a fuller flat white, without foam.",
       "why_it_matters": "A useful order when a straight shot feels too intense but a latte feels too diluted.",
       "cloze": "A ___ is roughly equal parts espresso and steamed milk.",
       "mcq_options": [
@@ -851,8 +686,8 @@
       "id": "flat_white",
       "category": "Espresso & Milk Drinks",
       "term": "Flat White",
-      "definition": "About 5–6 oz total — espresso plus steamed milk with thin, silky microfoam, generally less airy than a cappuccino.",
-      "analogy": "A latte's smaller, denser sibling.",
+      "definition": "About 5–6 oz total — espresso plus steamed milk with thin, silky microfoam and very little air.",
+      "analogy": "A latte's smaller, denser sibling, and less airy than a cappuccino.",
       "why_it_matters": "The drink to order when you want a milk drink without the thick foam layer of a cappuccino.",
       "cloze": "A ___ is roughly 5–6 oz of espresso and steamed milk with thin microfoam, less airy than a cappuccino.",
       "mcq_options": [
@@ -866,8 +701,8 @@
       "id": "cappuccino",
       "category": "Espresso & Milk Drinks",
       "term": "Cappuccino",
-      "definition": "About 5–6 oz total — espresso plus steamed milk, traditionally with more air/foam on top than a flat white.",
-      "analogy": "A flat white's frothier sibling.",
+      "definition": "About 5–6 oz total — espresso plus steamed milk, traditionally topped with a thick layer of foam.",
+      "analogy": "A flat white's frothier sibling, with noticeably more foam.",
       "why_it_matters": "A good drink to include in the \"three-drink test\" since it directly tests a barista's milk-texturing skill.",
       "cloze": "A ___ is roughly 5–6 oz of espresso and milk, traditionally with more foam on top than a flat white.",
       "mcq_options": [
@@ -881,8 +716,8 @@
       "id": "latte",
       "category": "Espresso & Milk Drinks",
       "term": "Latte",
-      "definition": "Espresso with a larger volume of steamed milk than a cappuccino or flat white — the catch-all term for bigger milk-forward drinks.",
-      "analogy": "The biggest, mildest of the standard milk drinks.",
+      "definition": "Espresso with a generous volume of steamed milk — the catch-all term for bigger, milkier espresso drinks.",
+      "analogy": "The biggest, mildest of the standard milk drinks — noticeably more milk than a cappuccino or flat white.",
       "why_it_matters": "The right order when you want a milkier, more diluted espresso drink rather than a concentrated one.",
       "cloze": "A ___ is espresso with a larger volume of steamed milk than a cappuccino or flat white.",
       "mcq_options": [
@@ -911,7 +746,7 @@
       "id": "roast_rest",
       "category": "Roasting",
       "term": "Roast Rest Period",
-      "definition": "Freshly roasted coffee holds a lot of CO2; brewing within a couple of days of roasting can taste off. A rest of about 7–10 days is generally recommended, though many coffees still taste great 30+ days off roast.",
+      "definition": "Freshly roasted coffee holds a lot of CO2, and brewing it too soon after roasting can produce off flavors. A short rest period is generally recommended before brewing, though many coffees still taste great 30+ days off roast.",
       "analogy": "Bread dough needing time to rest before baking evenly.",
       "why_it_matters": "Explains why \"freshest possible\" isn't always \"best possible\" when buying a just-roasted bag.",
       "cloze": "A rest period of roughly ___ days after roasting is generally recommended before brewing.",
@@ -1016,7 +851,7 @@
       "id": "tds_ey",
       "category": "Barista Technique & Vocabulary",
       "term": "TDS / EY (Total Dissolved Solids / Extraction Yield)",
-      "definition": "Measurements taken with a refractometer to objectively quantify how strong a brew is (TDS) and what percentage of the grounds ended up in the cup (EY).",
+      "definition": "Measurements taken with a refractometer to objectively quantify how strong a brew is and what percentage of the grounds ended up in the cup.",
       "analogy": "A precise thermometer reading instead of guessing \"it feels about right.\"",
       "why_it_matters": "Turns \"does this taste balanced\" into a number you can actually track and repeat.",
       "cloze": "___ are refractometer measurements used to objectively quantify how a coffee was extracted.",
@@ -1046,7 +881,7 @@
       "id": "modern_blends",
       "category": "Café & Industry Practice",
       "term": "Modern Specialty Blends",
-      "definition": "Unlike old \"kitchen sink\" commodity blends, modern specialty blends combine two or more high-quality, traceable coffees to create a new flavor profile — often chocolatey and round, well-suited to espresso with milk.",
+      "definition": "Unlike old \"kitchen sink\" commodity blends, a well-made combination of two or more high-quality, traceable coffees can create a new flavor profile — often chocolatey and round, well-suited to espresso with milk.",
       "analogy": "Blending two excellent single-malt whiskies on purpose, rather than mixing whatever's cheap.",
       "why_it_matters": "Worth knowing before writing off blends altogether — a well-made one is a deliberate flavor choice, not a corner-cutting move.",
       "cloze": "___ combine two or more high-quality, traceable coffees into a new flavor profile, unlike old commodity blends.",
@@ -1061,7 +896,7 @@
       "id": "espresso_caffeine_myth",
       "category": "Café & Industry Practice",
       "term": "Espresso vs. Drip Caffeine",
-      "definition": "A 12 oz drip coffee typically contains more total caffeine than a double shot of espresso — espresso is more concentrated per ounce, but smaller in total volume.",
+      "definition": "A 12 oz drip coffee and a double shot of espresso don't contain the same total caffeine — despite espresso being far more concentrated per ounce, its total serving size is much smaller.",
       "analogy": "A shot glass of a strong spirit vs. a full glass of a milder drink — strength and total amount aren't the same thing.",
       "why_it_matters": "A common myth worth correcting before assuming an espresso-based drink is always the \"stronger\" caffeine choice.",
       "cloze": "A 12 oz drip coffee typically has ___ total caffeine than a double shot of espresso.",
@@ -1070,6 +905,670 @@
         "less",
         "the same",
         "double the"
+      ]
+    },
+    {
+      "id": "ab_grade",
+      "category": "Processing & Grading",
+      "term": "AB Grade",
+      "definition": "The standard, largest-screen-size bean grade — the reference-quality benchmark most often quoted at auction.",
+      "analogy": "The ‘regular size’ tier that everything else is measured against.",
+      "why_it_matters": "‘AB’ in a price table is the anchor grade — a good baseline for what to expect to pay.",
+      "cloze": "___ is the standard, largest-screen-size grade — the benchmark quoted at auction.",
+      "mcq_options": [
+        "AB",
+        "PB",
+        "C",
+        "Bulk"
+      ]
+    },
+    {
+      "id": "pb_grade",
+      "category": "Processing & Grading",
+      "term": "PB (Peaberry) Grade",
+      "definition": "A smaller, rounder bean grade that comes from a cherry that developed just one bean instead of the usual two — generally considered a premium grade.",
+      "analogy": "The ‘special edition’ bean shape, sold as its own category.",
+      "why_it_matters": "Explains why some bags specifically call out ‘peaberry’ as a distinct, sometimes pricier grade.",
+      "cloze": "___ grade beans come from a cherry that developed just one round bean instead of the usual two.",
+      "mcq_options": [
+        "PB (Peaberry)",
+        "AB",
+        "C",
+        "Bulk"
+      ]
+    },
+    {
+      "id": "c_grade",
+      "category": "Processing & Grading",
+      "term": "C Grade",
+      "definition": "A bean grade with more physical defects than the standard grade — a step down in quality and price.",
+      "analogy": "The ‘seconds’ tier below the standard size.",
+      "why_it_matters": "Useful for recognizing when a quoted price is for a lower grade than the reference benchmark.",
+      "cloze": "___ grade beans are smaller and carry more defects than the standard benchmark grade.",
+      "mcq_options": [
+        "C",
+        "AB",
+        "PB",
+        "Bulk"
+      ]
+    },
+    {
+      "id": "bulk_grade",
+      "category": "Processing & Grading",
+      "term": "Bulk Grade",
+      "definition": "Ungraded coffee — the lowest tier, not sorted by size or defect count.",
+      "analogy": "The catch-all bin at the bottom of the sorting process.",
+      "why_it_matters": "The grade to watch out for if a quoted price seems unusually low — it may not be sorted at all.",
+      "cloze": "___ grade coffee is ungraded — the lowest tier, not sorted by size or defect count.",
+      "mcq_options": [
+        "Bulk",
+        "C",
+        "AB",
+        "PB"
+      ]
+    },
+    {
+      "id": "fair_trade",
+      "category": "Certification & Sourcing Ethics",
+      "term": "Fair Trade",
+      "definition": "An official third-party certification that guarantees a minimum floor price plus a social premium paid to the farmer group.",
+      "analogy": "A guaranteed minimum wage, certified by an outside auditor.",
+      "why_it_matters": "Worth knowing as a baseline — many specialty roasters already pay well above this floor without needing the certification.",
+      "cloze": "___ is an official certification guaranteeing a minimum floor price plus a social premium to the farmer group.",
+      "mcq_options": [
+        "Fair Trade",
+        "Rainforest Alliance",
+        "NPOP (Organic)",
+        "Direct Trade"
+      ]
+    },
+    {
+      "id": "rainforest_alliance",
+      "category": "Certification & Sourcing Ethics",
+      "term": "Rainforest Alliance",
+      "definition": "A third-party certification that audits environmental and social farming standards, such as land use and worker conditions.",
+      "analogy": "An outside inspector checking a farm's environmental and labor practices against a checklist.",
+      "why_it_matters": "One of the certifications that matters more in export contexts than in direct, named-farm relationships.",
+      "cloze": "___ certification audits environmental and social farming standards on the farm.",
+      "mcq_options": [
+        "Rainforest Alliance",
+        "Fair Trade",
+        "NPOP (Organic)",
+        "Direct Trade"
+      ]
+    },
+    {
+      "id": "npop_organic",
+      "category": "Certification & Sourcing Ethics",
+      "term": "NPOP (Organic Certification)",
+      "definition": "India's official organic certification, confirming the absence of synthetic inputs like chemical fertilizers or pesticides.",
+      "analogy": "The paperwork proving a farm didn't use synthetic chemicals — not a taste guarantee.",
+      "why_it_matters": "Many farmers grow organically without paying for this certification — worth checking with a farmer rather than assuming either way.",
+      "cloze": "___ is India's official certification confirming a farm didn't use synthetic fertilizers or pesticides.",
+      "mcq_options": [
+        "NPOP (Organic)",
+        "Fair Trade",
+        "Rainforest Alliance",
+        "Direct Trade"
+      ]
+    },
+    {
+      "id": "single_origin",
+      "category": "Certification & Sourcing Ethics",
+      "term": "Single-Origin",
+      "definition": "Coffee traced to one country or region — the broadest level of provenance, which could still span hundreds of individual farms.",
+      "analogy": "Knowing which country a fruit came from, without knowing which orchard.",
+      "why_it_matters": "The loosest traceability claim — a good baseline, but not proof of any single farm's identity.",
+      "cloze": "___ coffee traces to one country or region, though it could still come from hundreds of different farms.",
+      "mcq_options": [
+        "Single-Origin",
+        "Micro-lot",
+        "Named-lot",
+        "Bulk"
+      ]
+    },
+    {
+      "id": "micro_lot",
+      "category": "Certification & Sourcing Ethics",
+      "term": "Micro-lot",
+      "definition": "A small, segregated batch of coffee from one farm or one section of a farm, kept separate rather than blended with other farmers' harvests.",
+      "analogy": "One specific orchard's harvest, kept in its own crate instead of mixed into the general truckload.",
+      "why_it_matters": "A step more specific than single-origin — worth knowing when a bag claims more traceability than just a country name.",
+      "cloze": "A ___ is a small, segregated batch of coffee from one farm or one section of a farm.",
+      "mcq_options": [
+        "Micro-lot",
+        "Single-Origin",
+        "Named-lot",
+        "Bulk"
+      ]
+    },
+    {
+      "id": "named_lot",
+      "category": "Certification & Sourcing Ethics",
+      "term": "Named-lot",
+      "definition": "A micro-lot with the specific farm, plot, elevation, and farmer's name attached — the strongest, most falsifiable provenance claim.",
+      "analogy": "The most zoomed-in level of the same map — down to the exact plot.",
+      "why_it_matters": "The strongest claim a brand can make — because it can be checked and disproven if false.",
+      "cloze": "A ___ is a micro-lot with the specific farm, plot, elevation, and farmer's name attached — the strongest provenance claim.",
+      "mcq_options": [
+        "Named-lot",
+        "Micro-lot",
+        "Single-Origin",
+        "Bulk"
+      ]
+    },
+    {
+      "id": "trade_agreement_fta",
+      "category": "Trade, Export & Pricing",
+      "term": "FTA (Free Trade Agreement)",
+      "definition": "The general umbrella term for a bilateral or regional deal between countries that lowers tariffs on trade between them.",
+      "analogy": "The general category of deal; CEPA and CETA are two specific examples of it.",
+      "why_it_matters": "Useful shorthand whenever any two countries strike a tariff-lowering deal, regardless of what they specifically call it.",
+      "cloze": "An ___ is the general term for a deal between countries that lowers tariffs on trade between them.",
+      "mcq_options": [
+        "FTA (Free Trade Agreement)",
+        "CEPA",
+        "CETA",
+        "MFN Tariff"
+      ]
+    },
+    {
+      "id": "cepa",
+      "category": "Trade, Export & Pricing",
+      "term": "CEPA (Comprehensive Economic Partnership Agreement)",
+      "definition": "India's trade agreement with countries like Oman and the UAE — broader than a typical tariff deal since it also covers services.",
+      "analogy": "One specific brand-name version of a free trade agreement.",
+      "why_it_matters": "Relevant whenever quoting a price to a buyer in Oman or the UAE — it may unlock a lower duty rate.",
+      "cloze": "India's trade deal with Oman and the UAE is called ___.",
+      "mcq_options": [
+        "CEPA",
+        "CETA",
+        "FTA (Free Trade Agreement)",
+        "MFN Tariff"
+      ]
+    },
+    {
+      "id": "ceta",
+      "category": "Trade, Export & Pricing",
+      "term": "CETA (Comprehensive Economic and Trade Agreement)",
+      "definition": "The India–UK version of a free trade agreement, lowering tariffs between the two countries.",
+      "analogy": "The UK-specific version of the same kind of deal as CEPA.",
+      "why_it_matters": "Relevant whenever quoting a price to a UK buyer — it can mean a significantly lower duty rate than the standard MFN rate.",
+      "cloze": "The India-UK version of a free trade agreement is called ___.",
+      "mcq_options": [
+        "CETA",
+        "CEPA",
+        "FTA (Free Trade Agreement)",
+        "MFN Tariff"
+      ]
+    },
+    {
+      "id": "private_label",
+      "category": "Roasting, Brand & Day-to-Day",
+      "term": "Private Label",
+      "definition": "A deal where you supply a product that carries someone else's brand name, with no visible trace of your own brand.",
+      "analogy": "An invisible supplier — your name never appears on the package.",
+      "why_it_matters": "Useful to recognize when a B2B deal builds no brand equity of your own, even if the volume is good.",
+      "cloze": "In a ___ deal, the product carries someone else's brand name with no visible trace of the actual supplier.",
+      "mcq_options": [
+        "Private Label",
+        "Branded",
+        "HoReCa",
+        "Direct Trade"
+      ]
+    },
+    {
+      "id": "branded",
+      "category": "Roasting, Brand & Day-to-Day",
+      "term": "Branded (B2B Deal)",
+      "definition": "A deal where the product carries your own brand name and story, even when it's sold business-to-business rather than direct to consumers.",
+      "analogy": "Your name stays on the bag no matter who's buying it.",
+      "why_it_matters": "Builds brand equity even from a wholesale sale, unlike a private-label arrangement.",
+      "cloze": "In a ___ B2B deal, the product carries your own brand name and story even when sold wholesale.",
+      "mcq_options": [
+        "Branded",
+        "Private Label",
+        "HoReCa",
+        "Direct Trade"
+      ]
+    },
+    {
+      "id": "gst",
+      "category": "Roasting, Brand & Day-to-Day",
+      "term": "GST (Goods and Services Tax)",
+      "definition": "India's tax registration, required once turnover crosses a threshold or for cross-state and B2B sales.",
+      "analogy": "The standard tax registration nearly every growing business eventually needs.",
+      "why_it_matters": "Worth checking early — institutional buyers often require a GST invoice before they'll place an order.",
+      "cloze": "___ is India's tax registration required for cross-state or B2B sales once turnover crosses a threshold.",
+      "mcq_options": [
+        "GST",
+        "FSSAI",
+        "Udyam (MSME)",
+        "RCMC"
+      ]
+    },
+    {
+      "id": "fssai",
+      "category": "Roasting, Brand & Day-to-Day",
+      "term": "FSSAI",
+      "definition": "The food safety license required for anyone manufacturing or selling a food product, including coffee.",
+      "analogy": "Like a health department permit for any food business.",
+      "why_it_matters": "Worth checking early with institutional buyers, since this registration can have real lead time.",
+      "cloze": "___ is the food safety license required for anyone manufacturing or selling a food product, including coffee.",
+      "mcq_options": [
+        "FSSAI",
+        "GST",
+        "Udyam (MSME)",
+        "RCMC"
+      ]
+    },
+    {
+      "id": "udyam_msme",
+      "category": "Roasting, Brand & Day-to-Day",
+      "term": "Udyam (MSME Registration)",
+      "definition": "Registers a business as a small enterprise, which can unlock scheme eligibility and preference from institutional buyers.",
+      "analogy": "A ‘small business’ status badge that can open doors with bigger buyers.",
+      "why_it_matters": "Worth having on file before pitching institutional buyers who may prefer or require MSME-registered vendors.",
+      "cloze": "___ registration marks a business as a small enterprise, useful for scheme eligibility and institutional-buyer preference.",
+      "mcq_options": [
+        "Udyam (MSME)",
+        "GST",
+        "FSSAI",
+        "RCMC"
+      ]
+    },
+    {
+      "id": "burr_grinder",
+      "category": "Grinders & Machines",
+      "term": "Burr Grinder",
+      "definition": "A grinder that crushes beans between two surfaces to a consistent size, which specialty brewing generally assumes you're using.",
+      "analogy": "Like a mill grinding grain to a uniform size.",
+      "why_it_matters": "The single highest-leverage equipment upgrade for anyone starting to brew more carefully at home.",
+      "cloze": "A ___ crushes beans between two surfaces to a consistent size.",
+      "mcq_options": [
+        "Burr Grinder",
+        "Blade Grinder",
+        "Flat Burr",
+        "Conical Burr"
+      ]
+    },
+    {
+      "id": "blade_grinder",
+      "category": "Grinders & Machines",
+      "term": "Blade Grinder",
+      "definition": "A grinder that chops beans unevenly with a spinning cutting edge, producing inconsistent particle sizes that undermine extraction.",
+      "analogy": "More like a blender randomly chopping whatever's inside, rather than a precise mill.",
+      "why_it_matters": "The equipment to move away from first, if you're serious about improving your home brewing.",
+      "cloze": "A ___ chops beans unevenly with a spinning cutting edge, undermining consistent extraction.",
+      "mcq_options": [
+        "Blade Grinder",
+        "Burr Grinder",
+        "Flat Burr",
+        "Conical Burr"
+      ]
+    },
+    {
+      "id": "conical_burr",
+      "category": "Grinders & Machines",
+      "term": "Conical Burr",
+      "definition": "A burr shape that tends to produce round, thick, creamy coffee.",
+      "analogy": "One particular knife shape, suited to a rounder cut.",
+      "why_it_matters": "Useful when shopping for a grinder and trying to predict the flavor tendency it'll favor.",
+      "cloze": "A ___ burr grinder is generally associated with rounder, thicker, creamier coffee.",
+      "mcq_options": [
+        "Conical",
+        "Flat",
+        "Blade",
+        "Dual-Boiler"
+      ]
+    },
+    {
+      "id": "flat_burr",
+      "category": "Grinders & Machines",
+      "term": "Flat Burr",
+      "definition": "A burr shape that tends to produce brighter, more acidic, “modern”-style coffee.",
+      "analogy": "A different knife shape, suited to a sharper, brighter cut.",
+      "why_it_matters": "Useful for explaining why two shops' espresso can taste so different even with similar beans.",
+      "cloze": "A ___ burr grinder is generally associated with brighter, more acidic coffee.",
+      "mcq_options": [
+        "Flat",
+        "Conical",
+        "Blade",
+        "Dual-Boiler"
+      ]
+    },
+    {
+      "id": "single_boiler",
+      "category": "Grinders & Machines",
+      "term": "Single-Boiler Espresso Machine",
+      "definition": "An espresso machine that shares one boiler between brewing and steaming milk, requiring a temperature switch between the two tasks.",
+      "analogy": "One kettle used for two different jobs, one after the other.",
+      "why_it_matters": "Explains why some home espresso setups feel slow between pulling a shot and steaming milk.",
+      "cloze": "A ___ espresso machine shares one boiler between brewing and steaming, requiring a temperature switch.",
+      "mcq_options": [
+        "Single-Boiler",
+        "Dual-Boiler",
+        "Pressure Profiling",
+        "Flat Burr"
+      ]
+    },
+    {
+      "id": "dual_boiler",
+      "category": "Grinders & Machines",
+      "term": "Dual-Boiler Espresso Machine",
+      "definition": "An espresso machine that separates brewing and steaming into two boilers, letting both happen at their own ideal temperature without switching.",
+      "analogy": "Two dedicated kettles running at once instead of sharing one.",
+      "why_it_matters": "Explains why café machines can pull a shot and steam milk back-to-back without any delay.",
+      "cloze": "A ___ espresso machine separates brewing and steaming into two boilers for a smoother workflow.",
+      "mcq_options": [
+        "Dual-Boiler",
+        "Single-Boiler",
+        "Pressure Profiling",
+        "Flat Burr"
+      ]
+    },
+    {
+      "id": "backwardation",
+      "category": "Trade, Export & Pricing",
+      "term": "Backwardation",
+      "definition": "A market condition where the spot price is higher than future delivery prices, signalling immediate scarcity.",
+      "analogy": "“Buy now, don't wait” — prices are only expected to fall or stay flat.",
+      "why_it_matters": "A signal that locking in supply now, rather than waiting, is the economically rational move.",
+      "cloze": "In ___, the spot price is higher than future delivery prices, signalling immediate scarcity.",
+      "mcq_options": [
+        "Backwardation",
+        "Contango",
+        "Differential",
+        "MFN Tariff"
+      ]
+    },
+    {
+      "id": "contango",
+      "category": "Trade, Export & Pricing",
+      "term": "Contango",
+      "definition": "A market condition where future delivery prices are higher than the spot price, signalling comfortable current supply.",
+      "analogy": "“No rush” — the market expects supply to stay easy for now.",
+      "why_it_matters": "The opposite signal from backwardation — a cue that waiting to buy may not cost you anything.",
+      "cloze": "In ___, future delivery prices are higher than the spot price, signalling comfortable current supply.",
+      "mcq_options": [
+        "Contango",
+        "Backwardation",
+        "Differential",
+        "MFN Tariff"
+      ]
+    },
+    {
+      "id": "cup_score",
+      "category": "Cupping & Quality Language",
+      "term": "Cup Score",
+      "definition": "The numeric result of a formal cupping session on the SCA's 100-point scale — a measure of how good a coffee is.",
+      "analogy": "A single number, like a review score out of 100.",
+      "why_it_matters": "The concrete number behind a claim like “cupped at 84.5” — distinct from marketing language.",
+      "cloze": "A ___ is the numeric SCA result on the 100-point scale, answering “how good is it.”",
+      "mcq_options": [
+        "Cup Score",
+        "Tasting Note",
+        "Defect Count",
+        "Differential"
+      ]
+    },
+    {
+      "id": "tasting_note",
+      "category": "Cupping & Quality Language",
+      "term": "Tasting Note",
+      "definition": "Descriptive language like “gooseberry” or “tamarind” that describes what a coffee tastes like — storytelling language, not a formal metric.",
+      "analogy": "The flavor words on a wine label, not the wine's rating.",
+      "why_it_matters": "Useful, but not a substitute for a formal cup score — the two answer different questions.",
+      "cloze": "A ___ is descriptive language like “gooseberry” or “tamarind,” answering “what does it taste like.”",
+      "mcq_options": [
+        "Tasting Note",
+        "Cup Score",
+        "Defect Count",
+        "Q Certification"
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "id": "farmer_orgs",
+      "title": "Farmer Organization & Sourcing",
+      "blurb": "How farmers organize themselves to sell coffee collectively.",
+      "card_ids": [
+        "fpc",
+        "fpo",
+        "coop",
+        "shg",
+        "nabard"
+      ]
+    },
+    {
+      "id": "coffee_board_reg",
+      "title": "Coffee Board & Regulatory Registration",
+      "blurb": "The licenses and registrations that make sourcing and exporting official.",
+      "card_ids": [
+        "rcmc",
+        "curing_license",
+        "pulping_license",
+        "icta",
+        "ico"
+      ]
+    },
+    {
+      "id": "processing_methods",
+      "title": "Processing Methods",
+      "blurb": "How a coffee cherry becomes a green bean, and the three main processing styles.",
+      "card_ids": [
+        "processing_stages",
+        "washed",
+        "natural",
+        "honey"
+      ]
+    },
+    {
+      "id": "grading_defects",
+      "title": "Grading & Defects",
+      "blurb": "How beans get sorted into grades, and how defects get counted.",
+      "card_ids": [
+        "ab_grade",
+        "pb_grade",
+        "c_grade",
+        "bulk_grade",
+        "defect_count"
+      ]
+    },
+    {
+      "id": "cupping_quality",
+      "title": "Cupping & Quality Language",
+      "blurb": "How coffee quality gets measured and talked about.",
+      "card_ids": [
+        "q_grader",
+        "specialty_threshold",
+        "cup_score",
+        "tasting_note"
+      ]
+    },
+    {
+      "id": "pricing_tariffs",
+      "title": "Pricing & Tariff Basics",
+      "blurb": "The basic terms for quoting and shipping coffee internationally.",
+      "card_ids": [
+        "fob",
+        "cif",
+        "hs_code",
+        "mfn"
+      ]
+    },
+    {
+      "id": "trade_agreements",
+      "title": "Trade Agreements & Compliance",
+      "blurb": "Deals between countries that change tariffs, and one big EU compliance rule.",
+      "card_ids": [
+        "trade_agreement_fta",
+        "cepa",
+        "ceta",
+        "eudr"
+      ]
+    },
+    {
+      "id": "market_signals",
+      "title": "Market Signals & Contracts",
+      "blurb": "How to read whether coffee prices are about to rise or fall.",
+      "card_ids": [
+        "icip",
+        "differential",
+        "certified_stocks",
+        "backwardation",
+        "contango",
+        "forward_contract"
+      ]
+    },
+    {
+      "id": "trade_certifications",
+      "title": "Trade & Certifications",
+      "blurb": "Direct trade versus the three most common third-party certifications.",
+      "card_ids": [
+        "direct_trade",
+        "fair_trade",
+        "rainforest_alliance",
+        "npop_organic"
+      ]
+    },
+    {
+      "id": "lot_traceability",
+      "title": "Lot Traceability",
+      "blurb": "Three increasingly specific levels of provenance claim.",
+      "card_ids": [
+        "single_origin",
+        "micro_lot",
+        "named_lot"
+      ]
+    },
+    {
+      "id": "business_models",
+      "title": "Business Models & Channels",
+      "blurb": "How roasting gets outsourced, and who a brand actually sells to.",
+      "card_ids": [
+        "toll_roasting",
+        "private_label",
+        "branded",
+        "horeca"
+      ]
+    },
+    {
+      "id": "costs_compliance",
+      "title": "Costs & Compliance",
+      "blurb": "The real cost of getting coffee to market, and the paperwork a small business needs.",
+      "card_ids": [
+        "landed_cost",
+        "working_capital",
+        "gst",
+        "fssai",
+        "udyam_msme"
+      ]
+    },
+    {
+      "id": "coffee_history",
+      "title": "Coffee History & Culture",
+      "blurb": "The three eras coffee culture has passed through.",
+      "card_ids": [
+        "first_wave",
+        "second_wave",
+        "third_wave"
+      ]
+    },
+    {
+      "id": "origin_terroir",
+      "title": "Origin & Terroir",
+      "blurb": "How environment and genetics shape a coffee's flavor.",
+      "card_ids": [
+        "terroir",
+        "peaberry",
+        "gesha"
+      ]
+    },
+    {
+      "id": "brewing_methods",
+      "title": "Brewing Methods",
+      "blurb": "The main categories of turning grounds into a drink.",
+      "card_ids": [
+        "percolation",
+        "immersion",
+        "espresso_method",
+        "cupping"
+      ]
+    },
+    {
+      "id": "grinders",
+      "title": "Grinders",
+      "blurb": "Why grind consistency matters, and the two common burr shapes.",
+      "card_ids": [
+        "burr_grinder",
+        "blade_grinder",
+        "conical_burr",
+        "flat_burr"
+      ]
+    },
+    {
+      "id": "espresso_machines",
+      "title": "Espresso Machines",
+      "blurb": "How espresso machines handle heat, and one advanced feature.",
+      "card_ids": [
+        "single_boiler",
+        "dual_boiler",
+        "pressure_profiling"
+      ]
+    },
+    {
+      "id": "espresso_drinks",
+      "title": "Espresso & Milk Drinks",
+      "blurb": "The standard menu of espresso-based drinks, by milk ratio.",
+      "card_ids": [
+        "americano",
+        "macchiato",
+        "cortado",
+        "flat_white",
+        "cappuccino",
+        "latte"
+      ]
+    },
+    {
+      "id": "roasting",
+      "title": "Roasting",
+      "blurb": "One key roasting milestone, and how long to rest coffee after it.",
+      "card_ids": [
+        "second_crack",
+        "roast_rest"
+      ]
+    },
+    {
+      "id": "extraction",
+      "title": "Extraction & Dialing In",
+      "blurb": "What goes wrong when a shot tastes off, and how to fix it.",
+      "card_ids": [
+        "under_extraction",
+        "over_extraction",
+        "dialing_in"
+      ]
+    },
+    {
+      "id": "barista_technique",
+      "title": "Barista Technique & Vocabulary",
+      "blurb": "Espresso vocabulary you'll hear baristas use.",
+      "card_ids": [
+        "crema",
+        "wdt",
+        "channeling",
+        "tds_ey"
+      ]
+    },
+    {
+      "id": "industry_practice",
+      "title": "Café & Industry Practice",
+      "blurb": "A few practical habits and myths worth knowing.",
+      "card_ids": [
+        "three_drink_test",
+        "modern_blends",
+        "espresso_caffeine_myth"
       ]
     }
   ]
