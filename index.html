@@ -157,6 +157,16 @@
     background: var(--amber);
   }
 
+  .question-stem {
+    font-family: "DM Mono", monospace;
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 8px;
+  }
+
   .prompt {
     font-family: "Playfair Display", serif;
     font-size: 1.25rem;
@@ -901,6 +911,7 @@
     html += boxTrackHtml(box);
 
     if (isMcq) {
+      html += '<div class="question-stem">Which term matches this definition?</div>';
       html += '<div class="prompt">' + escapeHtml(card.definition) + "</div>";
       html += '<div class="mcq-options" id="mcq-options">';
       var options = shuffle(card.mcq_options);
@@ -909,6 +920,7 @@
       });
       html += "</div>";
     } else {
+      html += '<div class="question-stem">Fill in the blank</div>';
       var clozeParts = card.cloze.split("___");
       var clozeHtml = escapeHtml(clozeParts[0] || "") + '<span class="blank"></span>' + escapeHtml(clozeParts[1] || "");
       html += '<div class="prompt">' + clozeHtml + "</div>";

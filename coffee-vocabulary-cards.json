@@ -158,7 +158,7 @@
     },
     {
       "id": "processing_stages",
-      "category": "Processing & Grading",
+      "category": "Processing Methods",
       "term": "Cherry → Parchment → Green Bean → Clean Coffee",
       "definition": "The bean passes through a fixed sequence of stages, each stripping away more of the fruit — starting as the whole ripe fruit and ending as sorted, defect-free green coffee. Price per kg rises sharply at each step since more has been removed.",
       "analogy": "Each stage strips away more of the fruit, so price per kg rises sharply at each step.",
@@ -173,7 +173,7 @@
     },
     {
       "id": "washed",
-      "category": "Processing & Grading",
+      "category": "Processing Methods",
       "term": "Washed / Wet Process",
       "definition": "Cherries are pulped the same day, then mucilage is broken down in fermentation tanks before washing and drying — produces a cleaner, brighter cup.",
       "analogy": "This is Galaxy Frog's profile.",
@@ -188,7 +188,7 @@
     },
     {
       "id": "natural",
-      "category": "Processing & Grading",
+      "category": "Processing Methods",
       "term": "Natural / Dry Process",
       "definition": "Whole cherries are dried in the sun with fruit still intact, then hulled afterward — fruit sugars ferment into the bean, giving heavier body and fruitier flavours.",
       "analogy": "The opposite extreme from washed processing.",
@@ -203,7 +203,7 @@
     },
     {
       "id": "honey",
-      "category": "Processing & Grading",
+      "category": "Processing Methods",
       "term": "Honey Process",
       "definition": "A middle path: skin is removed but some or all mucilage is left on during drying. Named white/yellow/red/black by how much remains.",
       "analogy": "A dial between fully washed and fully natural.",
@@ -218,7 +218,7 @@
     },
     {
       "id": "defect_count",
-      "category": "Processing & Grading",
+      "category": "Grading & Defects",
       "term": "Defect Count (Category 1 / Category 2)",
       "definition": "Counts physical defects per sample: Category 1 = serious (black, sour, insect-damaged beans); Category 2 = minor (broken, husk fragments, immature).",
       "analogy": "A checkable score card for quality, not a vague impression.",
@@ -263,7 +263,7 @@
     },
     {
       "id": "fob",
-      "category": "Trade, Export & Pricing",
+      "category": "Pricing & Tariff Basics",
       "term": "FOB (Free On Board)",
       "definition": "Seller's price/responsibility ends once goods are loaded onto the ship at the origin port; buyer pays sea freight and insurance from there.",
       "analogy": "You hand the bag over at the dock; they take it from there.",
@@ -278,7 +278,7 @@
     },
     {
       "id": "cif",
-      "category": "Trade, Export & Pricing",
+      "category": "Pricing & Tariff Basics",
       "term": "CIF (Cost, Insurance, Freight)",
       "definition": "Seller's quoted price already includes shipping and insurance all the way to the destination port.",
       "analogy": "Door-to-door pricing, vs. FOB's dock-only pricing.",
@@ -293,7 +293,7 @@
     },
     {
       "id": "hs_code",
-      "category": "Trade, Export & Pricing",
+      "category": "Pricing & Tariff Basics",
       "term": "HS Code (Harmonized System)",
       "definition": "An internationally standard numeric classification for every traded good, used by customs everywhere (e.g. HS 090111 = green coffee).",
       "analogy": "A universal product barcode category every country's customs reads the same way.",
@@ -308,7 +308,7 @@
     },
     {
       "id": "mfn",
-      "category": "Trade, Export & Pricing",
+      "category": "Pricing & Tariff Basics",
       "term": "MFN Tariff (Most Favoured Nation)",
       "definition": "The standard default import duty a country charges any WTO member without a special trade deal — the baseline unless an agreement like CETA/CEPA lowers it.",
       "analogy": "The rate everyone gets unless they have a special deal.",
@@ -323,7 +323,7 @@
     },
     {
       "id": "eudr",
-      "category": "Trade, Export & Pricing",
+      "category": "Trade Agreements & Compliance",
       "term": "EUDR (EU Deforestation Regulation)",
       "definition": "An EU law requiring proof that imported commodities weren't grown on land deforested after a cutoff date, with full supply-chain traceability back to the plot, often GPS-verified.",
       "analogy": "The EU saying: 'show us exactly which patch of land this grew on, and prove it was already farmland.'",
@@ -338,7 +338,7 @@
     },
     {
       "id": "icip",
-      "category": "Trade, Export & Pricing",
+      "category": "Market Signals & Contracts",
       "term": "I-CIP (ICO Composite Indicator Price)",
       "definition": "The ICO's single blended reference price for coffee globally, in US cents/lb, weighting different coffee-group prices by their share of world trade.",
       "analogy": "Coffee's version of a stock market index like the Nifty 50.",
@@ -353,7 +353,7 @@
     },
     {
       "id": "differential",
-      "category": "Trade, Export & Pricing",
+      "category": "Market Signals & Contracts",
       "term": "Differential",
       "definition": "The price gap between two coffee categories or lots — for example the gap between Colombian Milds and Robustas. Widening means milder coffees are pulling ahead in price; narrowing means the gap is closing.",
       "analogy": "A spread, like the gap between two stock prices.",
@@ -368,7 +368,7 @@
     },
     {
       "id": "certified_stocks",
-      "category": "Trade, Export & Pricing",
+      "category": "Market Signals & Contracts",
       "term": "Certified Stocks",
       "definition": "Coffee graded, warehoused, and officially certified as deliverable against a futures contract on an exchange. Falling stocks signal tightening supply and rising prices; rising stocks signal the opposite.",
       "analogy": "The exchange's verified inventory of ready-to-deliver coffee.",
@@ -383,7 +383,7 @@
     },
     {
       "id": "forward_contract",
-      "category": "Trade, Export & Pricing",
+      "category": "Market Signals & Contracts",
       "term": "Forward Contract",
       "definition": "An agreement to buy or sell coffee at a set price for future delivery, locking in the price now regardless of market moves.",
       "analogy": "Like pre-booking a hotel room at today's rate for a trip six months out.",
@@ -398,7 +398,7 @@
     },
     {
       "id": "direct_trade",
-      "category": "Certification & Sourcing Ethics",
+      "category": "Trade & Certifications",
       "term": "Direct Trade",
       "definition": "An informal, non-audited sourcing relationship where the buyer deals directly with the farmer or farmer group, cutting out middlemen, paying a negotiated price rather than a certification-mandated floor.",
       "analogy": "This is essentially your model — and Black Baza's.",
@@ -413,7 +413,7 @@
     },
     {
       "id": "toll_roasting",
-      "category": "Roasting, Brand & Day-to-Day",
+      "category": "Business Models & Channels",
       "term": "Toll Roasting / Contract Roasting",
       "definition": "Paying an existing roaster a per-kg fee to roast your own green beans to your own spec, without owning roasting equipment yourself.",
       "analogy": "Like using a shared commercial kitchen to bake your own recipe, rather than buying an oven.",
@@ -428,7 +428,7 @@
     },
     {
       "id": "horeca",
-      "category": "Roasting, Brand & Day-to-Day",
+      "category": "Business Models & Channels",
       "term": "HoReCa",
       "definition": "Shorthand for Hotels, Restaurants, and Cafés — the standard industry term for the B2B foodservice channel, distinct from retail.",
       "analogy": "The channel label for The Everyday's target buyers.",
@@ -443,7 +443,7 @@
     },
     {
       "id": "landed_cost",
-      "category": "Roasting, Brand & Day-to-Day",
+      "category": "Costs & Compliance",
       "term": "Landed Cost",
       "definition": "The true total cost of a product once it reaches you — bean cost + transport + toll roasting fee + packaging + duties — vs. just the farm-gate price.",
       "analogy": "The real number, not the headline price you paid the farmer.",
@@ -459,7 +459,7 @@
     },
     {
       "id": "working_capital",
-      "category": "Roasting, Brand & Day-to-Day",
+      "category": "Costs & Compliance",
       "term": "Working Capital Cycle",
       "definition": "The time gap between paying cash out (beans, roaster fees) and receiving cash in (client payment). Longer cycle = more cash reserves needed idle.",
       "analogy": "How long your money is 'out' before it comes back to be reused.",
@@ -624,7 +624,7 @@
     },
     {
       "id": "pressure_profiling",
-      "category": "Grinders & Machines",
+      "category": "Espresso Machines",
       "term": "Pressure Profiling",
       "definition": "A feature on more advanced espresso machines that lets you vary water pressure through the shot (rather than holding it constant) for finer flavor control.",
       "analogy": "Like adjusting your grip pressure through a handshake instead of squeezing at one constant force the whole time.",
@@ -909,7 +909,7 @@
     },
     {
       "id": "ab_grade",
-      "category": "Processing & Grading",
+      "category": "Grading & Defects",
       "term": "AB Grade",
       "definition": "The standard, largest-screen-size bean grade — the reference-quality benchmark most often quoted at auction.",
       "analogy": "The ‘regular size’ tier that everything else is measured against.",
@@ -924,7 +924,7 @@
     },
     {
       "id": "pb_grade",
-      "category": "Processing & Grading",
+      "category": "Grading & Defects",
       "term": "PB (Peaberry) Grade",
       "definition": "A smaller, rounder bean grade that comes from a cherry that developed just one bean instead of the usual two — generally considered a premium grade.",
       "analogy": "The ‘special edition’ bean shape, sold as its own category.",
@@ -939,7 +939,7 @@
     },
     {
       "id": "c_grade",
-      "category": "Processing & Grading",
+      "category": "Grading & Defects",
       "term": "C Grade",
       "definition": "A bean grade with more physical defects than the standard grade — a step down in quality and price.",
       "analogy": "The ‘seconds’ tier below the standard size.",
@@ -954,7 +954,7 @@
     },
     {
       "id": "bulk_grade",
-      "category": "Processing & Grading",
+      "category": "Grading & Defects",
       "term": "Bulk Grade",
       "definition": "Ungraded coffee — the lowest tier, not sorted by size or defect count.",
       "analogy": "The catch-all bin at the bottom of the sorting process.",
@@ -969,7 +969,7 @@
     },
     {
       "id": "fair_trade",
-      "category": "Certification & Sourcing Ethics",
+      "category": "Trade & Certifications",
       "term": "Fair Trade",
       "definition": "An official third-party certification that guarantees a minimum floor price plus a social premium paid to the farmer group.",
       "analogy": "A guaranteed minimum wage, certified by an outside auditor.",
@@ -984,7 +984,7 @@
     },
     {
       "id": "rainforest_alliance",
-      "category": "Certification & Sourcing Ethics",
+      "category": "Trade & Certifications",
       "term": "Rainforest Alliance",
       "definition": "A third-party certification that audits environmental and social farming standards, such as land use and worker conditions.",
       "analogy": "An outside inspector checking a farm's environmental and labor practices against a checklist.",
@@ -999,7 +999,7 @@
     },
     {
       "id": "npop_organic",
-      "category": "Certification & Sourcing Ethics",
+      "category": "Trade & Certifications",
       "term": "NPOP (Organic Certification)",
       "definition": "India's official organic certification, confirming the absence of synthetic inputs like chemical fertilizers or pesticides.",
       "analogy": "The paperwork proving a farm didn't use synthetic chemicals — not a taste guarantee.",
@@ -1014,7 +1014,7 @@
     },
     {
       "id": "single_origin",
-      "category": "Certification & Sourcing Ethics",
+      "category": "Lot Traceability",
       "term": "Single-Origin",
       "definition": "Coffee traced to one country or region — the broadest level of provenance, which could still span hundreds of individual farms.",
       "analogy": "Knowing which country a fruit came from, without knowing which orchard.",
@@ -1029,7 +1029,7 @@
     },
     {
       "id": "micro_lot",
-      "category": "Certification & Sourcing Ethics",
+      "category": "Lot Traceability",
       "term": "Micro-lot",
       "definition": "A small, segregated batch of coffee from one farm or one section of a farm, kept separate rather than blended with other farmers' harvests.",
       "analogy": "One specific orchard's harvest, kept in its own crate instead of mixed into the general truckload.",
@@ -1044,7 +1044,7 @@
     },
     {
       "id": "named_lot",
-      "category": "Certification & Sourcing Ethics",
+      "category": "Lot Traceability",
       "term": "Named-lot",
       "definition": "A micro-lot with the specific farm, plot, elevation, and farmer's name attached — the strongest, most falsifiable provenance claim.",
       "analogy": "The most zoomed-in level of the same map — down to the exact plot.",
@@ -1059,7 +1059,7 @@
     },
     {
       "id": "trade_agreement_fta",
-      "category": "Trade, Export & Pricing",
+      "category": "Trade Agreements & Compliance",
       "term": "FTA (Free Trade Agreement)",
       "definition": "The general umbrella term for a bilateral or regional deal between countries that lowers tariffs on trade between them.",
       "analogy": "The general category of deal; CEPA and CETA are two specific examples of it.",
@@ -1074,7 +1074,7 @@
     },
     {
       "id": "cepa",
-      "category": "Trade, Export & Pricing",
+      "category": "Trade Agreements & Compliance",
       "term": "CEPA (Comprehensive Economic Partnership Agreement)",
       "definition": "India's trade agreement with countries like Oman and the UAE — broader than a typical tariff deal since it also covers services.",
       "analogy": "One specific brand-name version of a free trade agreement.",
@@ -1089,7 +1089,7 @@
     },
     {
       "id": "ceta",
-      "category": "Trade, Export & Pricing",
+      "category": "Trade Agreements & Compliance",
       "term": "CETA (Comprehensive Economic and Trade Agreement)",
       "definition": "The India–UK version of a free trade agreement, lowering tariffs between the two countries.",
       "analogy": "The UK-specific version of the same kind of deal as CEPA.",
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "private_label",
-      "category": "Roasting, Brand & Day-to-Day",
+      "category": "Business Models & Channels",
       "term": "Private Label",
       "definition": "A deal where you supply a product that carries someone else's brand name, with no visible trace of your own brand.",
       "analogy": "An invisible supplier — your name never appears on the package.",
@@ -1119,7 +1119,7 @@
     },
     {
       "id": "branded",
-      "category": "Roasting, Brand & Day-to-Day",
+      "category": "Business Models & Channels",
       "term": "Branded (B2B Deal)",
       "definition": "A deal where the product carries your own brand name and story, even when it's sold business-to-business rather than direct to consumers.",
       "analogy": "Your name stays on the bag no matter who's buying it.",
@@ -1134,7 +1134,7 @@
     },
     {
       "id": "gst",
-      "category": "Roasting, Brand & Day-to-Day",
+      "category": "Costs & Compliance",
       "term": "GST (Goods and Services Tax)",
       "definition": "India's tax registration, required once turnover crosses a threshold or for cross-state and B2B sales.",
       "analogy": "The standard tax registration nearly every growing business eventually needs.",
@@ -1149,7 +1149,7 @@
     },
     {
       "id": "fssai",
-      "category": "Roasting, Brand & Day-to-Day",
+      "category": "Costs & Compliance",
       "term": "FSSAI",
       "definition": "The food safety license required for anyone manufacturing or selling a food product, including coffee.",
       "analogy": "Like a health department permit for any food business.",
@@ -1164,7 +1164,7 @@
     },
     {
       "id": "udyam_msme",
-      "category": "Roasting, Brand & Day-to-Day",
+      "category": "Costs & Compliance",
       "term": "Udyam (MSME Registration)",
       "definition": "Registers a business as a small enterprise, which can unlock scheme eligibility and preference from institutional buyers.",
       "analogy": "A ‘small business’ status badge that can open doors with bigger buyers.",
@@ -1179,7 +1179,7 @@
     },
     {
       "id": "burr_grinder",
-      "category": "Grinders & Machines",
+      "category": "Grinders",
       "term": "Burr Grinder",
       "definition": "A grinder that crushes beans between two surfaces to a consistent size, which specialty brewing generally assumes you're using.",
       "analogy": "Like a mill grinding grain to a uniform size.",
@@ -1194,7 +1194,7 @@
     },
     {
       "id": "blade_grinder",
-      "category": "Grinders & Machines",
+      "category": "Grinders",
       "term": "Blade Grinder",
       "definition": "A grinder that chops beans unevenly with a spinning cutting edge, producing inconsistent particle sizes that undermine extraction.",
       "analogy": "More like a blender randomly chopping whatever's inside, rather than a precise mill.",
@@ -1209,7 +1209,7 @@
     },
     {
       "id": "conical_burr",
-      "category": "Grinders & Machines",
+      "category": "Grinders",
       "term": "Conical Burr",
       "definition": "A burr shape that tends to produce round, thick, creamy coffee.",
       "analogy": "One particular knife shape, suited to a rounder cut.",
@@ -1224,7 +1224,7 @@
     },
     {
       "id": "flat_burr",
-      "category": "Grinders & Machines",
+      "category": "Grinders",
       "term": "Flat Burr",
       "definition": "A burr shape that tends to produce brighter, more acidic, “modern”-style coffee.",
       "analogy": "A different knife shape, suited to a sharper, brighter cut.",
@@ -1239,7 +1239,7 @@
     },
     {
       "id": "single_boiler",
-      "category": "Grinders & Machines",
+      "category": "Espresso Machines",
       "term": "Single-Boiler Espresso Machine",
       "definition": "An espresso machine that shares one boiler between brewing and steaming milk, requiring a temperature switch between the two tasks.",
       "analogy": "One kettle used for two different jobs, one after the other.",
@@ -1254,7 +1254,7 @@
     },
     {
       "id": "dual_boiler",
-      "category": "Grinders & Machines",
+      "category": "Espresso Machines",
       "term": "Dual-Boiler Espresso Machine",
       "definition": "An espresso machine that separates brewing and steaming into two boilers, letting both happen at their own ideal temperature without switching.",
       "analogy": "Two dedicated kettles running at once instead of sharing one.",
@@ -1269,7 +1269,7 @@
     },
     {
       "id": "backwardation",
-      "category": "Trade, Export & Pricing",
+      "category": "Market Signals & Contracts",
       "term": "Backwardation",
       "definition": "A market condition where the spot price is higher than future delivery prices, signalling immediate scarcity.",
       "analogy": "“Buy now, don't wait” — prices are only expected to fall or stay flat.",
@@ -1284,7 +1284,7 @@
     },
     {
       "id": "contango",
-      "category": "Trade, Export & Pricing",
+      "category": "Market Signals & Contracts",
       "term": "Contango",
       "definition": "A market condition where future delivery prices are higher than the spot price, signalling comfortable current supply.",
       "analogy": "“No rush” — the market expects supply to stay easy for now.",
