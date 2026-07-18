@@ -409,6 +409,62 @@
     gap: 14px;
   }
 
+  .category-overview {
+    margin-top: 26px;
+    background: #fffdf7;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 18px;
+  }
+
+  .category-overview .overview-title {
+    font-family: "DM Mono", monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--amber-dark);
+    margin-bottom: 10px;
+  }
+
+  .category-overview ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .category-overview li {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 7px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.88rem;
+  }
+
+  .category-overview li:last-child {
+    border-bottom: none;
+  }
+
+  .category-overview .cat-name {
+    color: var(--ink);
+  }
+
+  .category-overview li.locked .cat-name {
+    color: #a39c8a;
+  }
+
+  .category-overview .cat-status {
+    font-family: "DM Mono", monospace;
+    font-size: 0.68rem;
+    white-space: nowrap;
+    color: var(--green-ok);
+  }
+
+  .category-overview li.locked .cat-status {
+    color: #a39c8a;
+  }
+
   .action-card {
     background: #fffdf7;
     border: 1px solid var(--border);
@@ -782,6 +838,37 @@
     renderQuestion(queue[queueIndex]);
   }
 
+  function dueCategoryBreakdown(due) {
+    var counts = {};
+    var order = [];
+    due.forEach(function (card) {
+      if (!counts[card.category]) { counts[card.category] = 0; order.push(card.category); }
+      counts[card.category] += 1;
+    });
+    if (order.length === 1) {
+      return "From " + order[0] + ".";
+    }
+    var parts = order.slice(0, 3).map(function (cat) { return cat + " (" + counts[cat] + ")"; });
+    var suffix = order.length > 3 ? " and " + (order.length - 3) + " more" : "";
+    return "From " + parts.join(", ") + suffix + ".";
+  }
+
+  function categoryOverviewHtml() {
+    var unlockedSet = {};
+    state.unlockedStages.forEach(function (id) { unlockedSet[id] = true; });
+    var html = '<div class="category-overview">';
+    html += '<div class="overview-title">All categories</div><ul>';
+    stages.forEach(function (s) {
+      var isUnlocked = !!unlockedSet[s.id];
+      html += '<li class="' + (isUnlocked ? "unlocked" : "locked") + '">';
+      html += '<span class="cat-name">' + escapeHtml(s.title) + "</span>";
+      html += '<span class="cat-status">' + (isUnlocked ? "✓ unlocked" : "🔒 " + s.card_ids.length + " terms") + "</span>";
+      html += "</li>";
+    });
+    html += "</ul></div>";
+    return html;
+  }
+
   function renderHome() {
     refreshStats();
     var due = getDueCards(deck, state);
@@ -798,7 +885,7 @@
       html += '<div class="action-card">';
       html += '<div class="icon">☕</div>';
       html += "<h2>" + due.length + " term" + (due.length === 1 ? "" : "s") + " due for review</h2>";
-      html += "<p>Cards you've already studied, coming back right on schedule.</p>";
+      html += "<p>" + escapeHtml(dueCategoryBreakdown(due)) + "</p>";
       html += '<button class="primary-btn" id="start-review-btn">Review now</button>';
       html += "</div>";
     }
@@ -813,6 +900,7 @@
     }
 
     html += "</div>";
+    html += categoryOverviewHtml();
     mainEl.innerHTML = html;
 
     var reviewBtn = document.getElementById("start-review-btn");
