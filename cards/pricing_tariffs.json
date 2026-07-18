@@ -1,0 +1,64 @@
+{
+  "cards": [
+    {
+      "id": "fob",
+      "category": "Pricing & Tariff Basics",
+      "term": "FOB (Free On Board)",
+      "definition": "Seller's price/responsibility ends once goods are loaded onto the ship at the origin port; buyer pays sea freight and insurance from there.",
+      "analogy": "You hand the bag over at the dock; they take it from there.",
+      "why_it_matters": "When quoting The Wild to an overseas buyer, FOB (Chennai/Cochin) vs. CIF changes your price by a meaningful margin.",
+      "cloze": "___ pricing means the seller's responsibility ends once goods are loaded onto the ship at the origin port.",
+      "mcq_options": [
+        "FOB",
+        "CIF",
+        "MFN",
+        "HS Code"
+      ]
+    },
+    {
+      "id": "cif",
+      "category": "Pricing & Tariff Basics",
+      "term": "CIF (Cost, Insurance, Freight)",
+      "definition": "Seller's quoted price already includes shipping and insurance all the way to the destination port.",
+      "analogy": "Door-to-door pricing, vs. FOB's dock-only pricing.",
+      "why_it_matters": "Whether you quote FOB or CIF changes who's liable if something goes wrong in transit.",
+      "cloze": "___ pricing means the seller's quote already includes shipping and insurance to the destination port.",
+      "mcq_options": [
+        "CIF",
+        "FOB",
+        "EUDR",
+        "Forward Contract"
+      ]
+    },
+    {
+      "id": "hs_code",
+      "category": "Pricing & Tariff Basics",
+      "term": "HS Code (Harmonized System)",
+      "definition": "An internationally standard numeric classification for every traded good, used by customs everywhere (e.g. HS 090111 = green coffee).",
+      "analogy": "A universal product barcode category every country's customs reads the same way.",
+      "why_it_matters": "Tariff rates are set per HS code, not per 'coffee' generally — whether you export green, roasted, or instant genuinely changes your duty rate.",
+      "cloze": "An ___ is the internationally standard numeric classification customs use for every traded good, including coffee.",
+      "mcq_options": [
+        "HS Code",
+        "RCMC",
+        "MFN Tariff",
+        "I-CIP"
+      ]
+    },
+    {
+      "id": "mfn",
+      "category": "Pricing & Tariff Basics",
+      "term": "MFN Tariff (Most Favoured Nation)",
+      "definition": "The standard default import duty a country charges any WTO member without a special trade deal — the baseline unless an agreement like CETA/CEPA lowers it.",
+      "analogy": "The rate everyone gets unless they have a special deal.",
+      "why_it_matters": "UK's MFN rate on roast & ground is 6–8%; under CETA, India specifically gets 0% — a real cost advantage over Brazil or Vietnam.",
+      "cloze": "The ___ tariff is the standard default import duty a country charges, unless a trade agreement lowers it further.",
+      "mcq_options": [
+        "MFN",
+        "CIF",
+        "FOB",
+        "EUDR"
+      ]
+    }
+  ]
+}

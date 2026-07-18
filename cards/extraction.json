@@ -1,0 +1,49 @@
+{
+  "cards": [
+    {
+      "id": "under_extraction",
+      "category": "Extraction & Dialing In",
+      "term": "Under-Extraction",
+      "definition": "Not enough flavor is pulled from the grounds (too little water, too coarse a grind, or too short a brew time), producing sour, puckering flavors.",
+      "analogy": "Tea steeped for too short a time — thin and sharp rather than balanced.",
+      "why_it_matters": "The first thing to check when a cup tastes sour or thin rather than balanced.",
+      "cloze": "___ happens when too little is pulled from the grounds, producing sour, puckering flavors.",
+      "mcq_options": [
+        "Under-Extraction",
+        "Over-Extraction",
+        "Channeling",
+        "Crema"
+      ]
+    },
+    {
+      "id": "over_extraction",
+      "category": "Extraction & Dialing In",
+      "term": "Over-Extraction",
+      "definition": "Too much is pulled from the grounds (too much water, too fine a grind, or too long a brew time), producing bitterness and a lingering harsh finish.",
+      "analogy": "Tea steeped far too long — bitter and harsh rather than balanced.",
+      "why_it_matters": "The first thing to check when a cup tastes bitter or harsh rather than balanced.",
+      "cloze": "___ happens when too much is pulled from the grounds, producing bitterness and a lingering finish.",
+      "mcq_options": [
+        "Over-Extraction",
+        "Under-Extraction",
+        "WDT (Weiss Distribution Technique)",
+        "Terroir"
+      ]
+    },
+    {
+      "id": "dialing_in",
+      "category": "Extraction & Dialing In",
+      "term": "Dialing In",
+      "definition": "The ongoing process of tasting a brew and adjusting parameters — most often grind size — to hit a target result, typically tracked via input (dose), output (yield), and time.",
+      "analogy": "Tuning a guitar string by ear, checking and adjusting until it's right.",
+      "why_it_matters": "The habit that separates a consistently good cup from a lucky one-off.",
+      "cloze": "___ is the process of tasting and adjusting grind size and other parameters to hit a target brew.",
+      "mcq_options": [
+        "Dialing In",
+        "Cupping",
+        "Channeling",
+        "Second Crack"
+      ]
+    }
+  ]
+}

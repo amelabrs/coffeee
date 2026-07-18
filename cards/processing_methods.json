@@ -1,0 +1,64 @@
+{
+  "cards": [
+    {
+      "id": "processing_stages",
+      "category": "Processing Methods",
+      "term": "Cherry → Parchment → Green Bean → Clean Coffee",
+      "definition": "The bean passes through a fixed sequence of stages, each stripping away more of the fruit — starting as the whole ripe fruit and ending as sorted, defect-free green coffee. Price per kg rises sharply at each step since more has been removed.",
+      "analogy": "Each stage strips away more of the fruit, so price per kg rises sharply at each step.",
+      "why_it_matters": "When a farmer quotes a price, always ask which stage it's for — cherry is cheapest by weight since so much gets removed later.",
+      "cloze": "The bean's stages in order are: Cherry → ___ → Green Bean → Clean Coffee.",
+      "mcq_options": [
+        "Parchment",
+        "Cascara",
+        "Mucilage",
+        "Husk Grade"
+      ]
+    },
+    {
+      "id": "washed",
+      "category": "Processing Methods",
+      "term": "Washed / Wet Process",
+      "definition": "Cherries are pulped the same day, then mucilage is broken down in fermentation tanks before washing and drying — produces a cleaner, brighter cup.",
+      "analogy": "This is Galaxy Frog's profile.",
+      "why_it_matters": "This is the benchmark 'clean' process against which honey and natural coffees are judged.",
+      "cloze": "The ___ process pulps cherry the same day, ferments off the mucilage, then washes and dries — giving a bright, clean cup.",
+      "mcq_options": [
+        "Washed / Wet",
+        "Natural / Dry",
+        "Honey",
+        "Curing"
+      ]
+    },
+    {
+      "id": "natural",
+      "category": "Processing Methods",
+      "term": "Natural / Dry Process",
+      "definition": "Whole cherries are dried in the sun with fruit still intact, then hulled afterward — fruit sugars ferment into the bean, giving heavier body and fruitier flavours.",
+      "analogy": "The opposite extreme from washed processing.",
+      "why_it_matters": "Understanding this vs. washed helps you describe why a Seasonal-tier lot tastes the way it does.",
+      "cloze": "In ___ processing, whole cherries dry in the sun with the fruit intact, producing heavier body and wilder flavours.",
+      "mcq_options": [
+        "Natural / Dry",
+        "Washed / Wet",
+        "Honey",
+        "Backwardation"
+      ]
+    },
+    {
+      "id": "honey",
+      "category": "Processing Methods",
+      "term": "Honey Process",
+      "definition": "A middle path: skin is removed but some or all mucilage is left on during drying. Named white/yellow/red/black by how much remains.",
+      "analogy": "A dial between fully washed and fully natural.",
+      "why_it_matters": "This is the 'monitored natural/honey' approach flagged for the Seasonal tier's first season.",
+      "cloze": "In ___ processing, skin is removed but mucilage is left on during drying — named white/yellow/red/black by how much remains.",
+      "mcq_options": [
+        "Honey",
+        "Washed",
+        "Natural",
+        "Curing"
+      ]
+    }
+  ]
+}

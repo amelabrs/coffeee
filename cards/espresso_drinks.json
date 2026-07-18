@@ -1,0 +1,94 @@
+{
+  "cards": [
+    {
+      "id": "americano",
+      "category": "Espresso & Milk Drinks",
+      "term": "Long Black / Americano",
+      "definition": "Espresso diluted with hot water, in varying ratios — the closest espresso-based drink to a black filter coffee.",
+      "analogy": "Espresso stretched out with water instead of milk.",
+      "why_it_matters": "A good order when you want espresso's flavor without milk or a full shot's concentration.",
+      "cloze": "A ___ is espresso diluted with hot water in varying ratios.",
+      "mcq_options": [
+        "Long Black / Americano",
+        "Macchiato",
+        "Cortado",
+        "Flat White"
+      ]
+    },
+    {
+      "id": "macchiato",
+      "category": "Espresso & Milk Drinks",
+      "term": "Macchiato",
+      "definition": "Espresso with just a small dash of milk (roughly an ounce) — barely lightened, not a milk-forward drink.",
+      "analogy": "Espresso with a splash, not a pour.",
+      "why_it_matters": "Useful to know before ordering — a macchiato is nowhere near as milky as a latte, and baristas notice when it's ordered by mistake.",
+      "cloze": "A ___ is espresso with just a small dash of milk, about an ounce.",
+      "mcq_options": [
+        "Macchiato",
+        "Cortado",
+        "Flat White",
+        "Latte"
+      ]
+    },
+    {
+      "id": "cortado",
+      "category": "Espresso & Milk Drinks",
+      "term": "Cortado",
+      "definition": "Roughly equal parts espresso and steamed milk, with little to no foam on top.",
+      "analogy": "A middle ground in milk ratio — between a bare macchiato and a fuller flat white, without foam.",
+      "why_it_matters": "A useful order when a straight shot feels too intense but a latte feels too diluted.",
+      "cloze": "A ___ is roughly equal parts espresso and steamed milk.",
+      "mcq_options": [
+        "Cortado",
+        "Macchiato",
+        "Flat White",
+        "Cappuccino"
+      ]
+    },
+    {
+      "id": "flat_white",
+      "category": "Espresso & Milk Drinks",
+      "term": "Flat White",
+      "definition": "About 5–6 oz total — espresso plus steamed milk with thin, silky microfoam and very little air.",
+      "analogy": "A latte's smaller, denser sibling, and less airy than a cappuccino.",
+      "why_it_matters": "The drink to order when you want a milk drink without the thick foam layer of a cappuccino.",
+      "cloze": "A ___ is roughly 5–6 oz of espresso and steamed milk with thin microfoam, less airy than a cappuccino.",
+      "mcq_options": [
+        "Flat White",
+        "Cappuccino",
+        "Latte",
+        "Cortado"
+      ]
+    },
+    {
+      "id": "cappuccino",
+      "category": "Espresso & Milk Drinks",
+      "term": "Cappuccino",
+      "definition": "About 5–6 oz total — espresso plus steamed milk, traditionally topped with a thick layer of foam.",
+      "analogy": "A flat white's frothier sibling, with noticeably more foam.",
+      "why_it_matters": "A good drink to include in the \"three-drink test\" since it directly tests a barista's milk-texturing skill.",
+      "cloze": "A ___ is roughly 5–6 oz of espresso and milk, traditionally with more foam on top than a flat white.",
+      "mcq_options": [
+        "Cappuccino",
+        "Flat White",
+        "Latte",
+        "Macchiato"
+      ]
+    },
+    {
+      "id": "latte",
+      "category": "Espresso & Milk Drinks",
+      "term": "Latte",
+      "definition": "Espresso with a generous volume of steamed milk — the catch-all term for bigger, milkier espresso drinks.",
+      "analogy": "The biggest, mildest of the standard milk drinks — noticeably more milk than a cappuccino or flat white.",
+      "why_it_matters": "The right order when you want a milkier, more diluted espresso drink rather than a concentrated one.",
+      "cloze": "A ___ is espresso with a larger volume of steamed milk than a cappuccino or flat white.",
+      "mcq_options": [
+        "Latte",
+        "Cappuccino",
+        "Flat White",
+        "Long Black / Americano"
+      ]
+    }
+  ]
+}

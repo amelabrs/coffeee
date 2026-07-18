@@ -1,0 +1,64 @@
+{
+  "cards": [
+    {
+      "id": "q_grader",
+      "category": "Cupping & Quality Language",
+      "term": "Q Grader / Q Certification",
+      "definition": "A person certified through a rigorous multi-day exam to score green coffee on the standardised SCA 100-point cupping scale.",
+      "analogy": "Like a wine sommelier's certification, but for coffee cupping.",
+      "why_it_matters": "A formal cupping score on a Seasonal-tier bag (e.g. 'cupped at 84.5') needs to come from a Q Grader to carry real credibility.",
+      "cloze": "A ___ is certified to score coffee consistently on the SCA 100-point scale — the coffee world's sommelier equivalent.",
+      "mcq_options": [
+        "Q Grader",
+        "Curing License holder",
+        "FPC member",
+        "ICTA agent"
+      ]
+    },
+    {
+      "id": "specialty_threshold",
+      "category": "Cupping & Quality Language",
+      "term": "Specialty Threshold — 80+",
+      "definition": "Green coffee scoring at or above the industry's specialty cutoff on the 100-point SCA scale is \"specialty grade\"; below that, it's commercial/commodity grade regardless of origin story.",
+      "analogy": "A hard, checkable number, unlike marketing language.",
+      "why_it_matters": "This is the industry-standard bar your Seasonal-tier coffee needs to clear to legitimately call itself specialty.",
+      "cloze": "Coffee scoring ___ or above on the SCA 100-point scale is considered specialty grade.",
+      "mcq_options": [
+        "80",
+        "70",
+        "90",
+        "60"
+      ]
+    },
+    {
+      "id": "cup_score",
+      "category": "Cupping & Quality Language",
+      "term": "Cup Score",
+      "definition": "The numeric result of a formal cupping session on the SCA's 100-point scale — a measure of how good a coffee is.",
+      "analogy": "A single number, like a review score out of 100.",
+      "why_it_matters": "The concrete number behind a claim like “cupped at 84.5” — distinct from marketing language.",
+      "cloze": "A ___ is the numeric SCA result on the 100-point scale, answering “how good is it.”",
+      "mcq_options": [
+        "Cup Score",
+        "Tasting Note",
+        "Defect Count",
+        "Differential"
+      ]
+    },
+    {
+      "id": "tasting_note",
+      "category": "Cupping & Quality Language",
+      "term": "Tasting Note",
+      "definition": "Descriptive language like “gooseberry” or “tamarind” that describes what a coffee tastes like — storytelling language, not a formal metric.",
+      "analogy": "The flavor words on a wine label, not the wine's rating.",
+      "why_it_matters": "Useful, but not a substitute for a formal cup score — the two answer different questions.",
+      "cloze": "A ___ is descriptive language like “gooseberry” or “tamarind,” answering “what does it taste like.”",
+      "mcq_options": [
+        "Tasting Note",
+        "Cup Score",
+        "Defect Count",
+        "Q Certification"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "cards": [
+    {
+      "id": "single_origin",
+      "category": "Lot Traceability",
+      "term": "Single-Origin",
+      "definition": "Coffee traced to one country or region — the broadest level of provenance, which could still span hundreds of individual farms.",
+      "analogy": "Knowing which country a fruit came from, without knowing which orchard.",
+      "why_it_matters": "The loosest traceability claim — a good baseline, but not proof of any single farm's identity.",
+      "cloze": "___ coffee traces to one country or region, though it could still come from hundreds of different farms.",
+      "mcq_options": [
+        "Single-Origin",
+        "Micro-lot",
+        "Named-lot",
+        "Bulk"
+      ]
+    },
+    {
+      "id": "micro_lot",
+      "category": "Lot Traceability",
+      "term": "Micro-lot",
+      "definition": "A small, segregated batch of coffee from one farm or one section of a farm, kept separate rather than blended with other farmers' harvests.",
+      "analogy": "One specific orchard's harvest, kept in its own crate instead of mixed into the general truckload.",
+      "why_it_matters": "A step more specific than single-origin — worth knowing when a bag claims more traceability than just a country name.",
+      "cloze": "A ___ is a small, segregated batch of coffee from one farm or one section of a farm.",
+      "mcq_options": [
+        "Micro-lot",
+        "Single-Origin",
+        "Named-lot",
+        "Bulk"
+      ]
+    },
+    {
+      "id": "named_lot",
+      "category": "Lot Traceability",
+      "term": "Named-lot",
+      "definition": "A micro-lot with the specific farm, plot, elevation, and farmer's name attached — the strongest, most falsifiable provenance claim.",
+      "analogy": "The most zoomed-in level of the same map — down to the exact plot.",
+      "why_it_matters": "The strongest claim a brand can make — because it can be checked and disproven if false.",
+      "cloze": "A ___ is a micro-lot with the specific farm, plot, elevation, and farmer's name attached — the strongest provenance claim.",
+      "mcq_options": [
+        "Named-lot",
+        "Micro-lot",
+        "Single-Origin",
+        "Bulk"
+      ]
+    }
+  ]
+}

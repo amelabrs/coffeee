@@ -437,32 +437,55 @@
     align-items: baseline;
     justify-content: space-between;
     gap: 10px;
-    padding: 7px 0;
+    padding: 9px 4px;
+    margin: 0 -4px;
     border-bottom: 1px solid var(--border);
+    border-radius: 8px;
     font-size: 0.88rem;
+    cursor: default;
   }
 
   .category-overview li:last-child {
     border-bottom: none;
   }
 
+  .category-overview li.locked,
+  .category-overview li.has-due {
+    cursor: pointer;
+  }
+
+  .category-overview li.locked:active,
+  .category-overview li.has-due:active {
+    background: var(--parchment-dark);
+  }
+
   .category-overview .cat-name {
+    color: #a39c8a;
+  }
+
+  .category-overview li.unlocked .cat-name {
     color: var(--ink);
   }
 
-  .category-overview li.locked .cat-name {
-    color: #a39c8a;
+  .category-overview li.has-due .cat-name {
+    color: var(--forest);
+    font-weight: 700;
   }
 
   .category-overview .cat-status {
     font-family: "DM Mono", monospace;
     font-size: 0.68rem;
     white-space: nowrap;
-    color: var(--green-ok);
+    color: #a39c8a;
   }
 
-  .category-overview li.locked .cat-status {
-    color: #a39c8a;
+  .category-overview li.unlocked .cat-status {
+    color: #8a8272;
+  }
+
+  .category-overview li.has-due .cat-status {
+    color: var(--amber-dark);
+    font-weight: 700;
   }
 
   .action-card {
@@ -853,20 +876,66 @@
     return "From " + parts.join(", ") + suffix + ".";
   }
 
+  function stageDueCount(stage, state) {
+    var today = todayStr();
+    return stage.card_ids.filter(function (id) {
+      var prog = state.cards[id];
+      return prog && prog.dueDate <= today;
+    }).length;
+  }
+
   function categoryOverviewHtml() {
     var unlockedSet = {};
     state.unlockedStages.forEach(function (id) { unlockedSet[id] = true; });
     var html = '<div class="category-overview">';
-    html += '<div class="overview-title">All categories</div><ul>';
+    html += '<div class="overview-title">All categories — tap to study or review</div><ul>';
     stages.forEach(function (s) {
       var isUnlocked = !!unlockedSet[s.id];
-      html += '<li class="' + (isUnlocked ? "unlocked" : "locked") + '">';
+      var dueCount = isUnlocked ? stageDueCount(s, state) : 0;
+      var li_class = isUnlocked ? "unlocked" : "locked";
+      if (isUnlocked && dueCount > 0) li_class += " has-due";
+      var status;
+      if (!isUnlocked) {
+        status = "🔒 " + s.card_ids.length + " terms";
+      } else if (dueCount > 0) {
+        status = dueCount + " due →";
+      } else {
+        status = "✓ up to date";
+      }
+      html += '<li class="' + li_class + '" data-stage-id="' + s.id + '">';
       html += '<span class="cat-name">' + escapeHtml(s.title) + "</span>";
-      html += '<span class="cat-status">' + (isUnlocked ? "✓ unlocked" : "🔒 " + s.card_ids.length + " terms") + "</span>";
+      html += '<span class="cat-status">' + status + "</span>";
       html += "</li>";
     });
     html += "</ul></div>";
     return html;
+  }
+
+  function attachCategoryOverviewHandlers() {
+    var items = mainEl.querySelectorAll(".category-overview li");
+    items.forEach(function (li) {
+      var stageId = li.getAttribute("data-stage-id");
+      var stage = stages.filter(function (s) { return s.id === stageId; })[0];
+      if (!stage) return;
+      var isUnlocked = li.classList.contains("unlocked");
+      if (!isUnlocked) {
+        li.addEventListener("click", function () { renderStudySheet(stage); });
+      } else if (li.classList.contains("has-due")) {
+        li.addEventListener("click", function () { startReviewForStage(stage); });
+      }
+    });
+  }
+
+  function startReviewForStage(stage) {
+    var idSet = {};
+    stage.card_ids.forEach(function (id) { idSet[id] = true; });
+    var due = getDueCards(deck, state).filter(function (card) { return idSet[card.id]; });
+    due.sort(function (a, b) { return state.cards[a.id].box - state.cards[b.id].box; });
+    queue = due.slice(0, SESSION_CAP);
+    queueIndex = 0;
+    sessionCorrect = 0;
+    sessionSeen = 0;
+    render();
   }
 
   function renderHome() {
@@ -907,6 +976,7 @@
     if (reviewBtn) reviewBtn.addEventListener("click", startReviewSession);
     var studyBtn = document.getElementById("start-study-btn");
     if (studyBtn) studyBtn.addEventListener("click", function () { renderStudySheet(nextStage); });
+    attachCategoryOverviewHandlers();
   }
 
   function startReviewSession() {
@@ -1148,11 +1218,24 @@
   }
 
   function boot() {
+    // The manifest lists each category's stage metadata plus a pointer to its
+    // own small JSON file, so adding terms to one category never means
+    // touching the others.
     fetch(DECK_URL)
       .then(function (res) { return res.json(); })
-      .then(function (data) {
-        deck = data.cards;
-        stages = data.stages || [];
+      .then(function (manifest) {
+        stages = manifest.stages || [];
+        return Promise.all(stages.map(function (stage) {
+          return fetch(stage.file)
+            .then(function (res) { return res.json(); })
+            .then(function (stageData) {
+              stage.card_ids = stageData.cards.map(function (c) { return c.id; });
+              return stageData.cards;
+            });
+        }));
+      })
+      .then(function (cardArraysByStage) {
+        deck = [].concat.apply([], cardArraysByStage);
         cardsById = {};
         deck.forEach(function (card) { cardsById[card.id] = card; });
         state = initState(deck, stages);

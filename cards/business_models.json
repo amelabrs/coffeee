@@ -1,0 +1,64 @@
+{
+  "cards": [
+    {
+      "id": "toll_roasting",
+      "category": "Business Models & Channels",
+      "term": "Toll Roasting / Contract Roasting",
+      "definition": "Paying an existing roaster a per-kg fee to roast your own green beans to your own spec, without owning roasting equipment yourself.",
+      "analogy": "Like using a shared commercial kitchen to bake your own recipe, rather than buying an oven.",
+      "why_it_matters": "This is exactly the arrangement with Adrian at GB Roasters and the Blue Tokai Seetharampalya backup.",
+      "cloze": "___ means paying an existing roaster a per-kg fee to roast your own beans without owning the equipment.",
+      "mcq_options": [
+        "Toll Roasting",
+        "Private Label",
+        "HoReCa",
+        "Direct Trade"
+      ]
+    },
+    {
+      "id": "private_label",
+      "category": "Business Models & Channels",
+      "term": "Private Label",
+      "definition": "A deal where you supply a product that carries someone else's brand name, with no visible trace of your own brand.",
+      "analogy": "An invisible supplier — your name never appears on the package.",
+      "why_it_matters": "Useful to recognize when a B2B deal builds no brand equity of your own, even if the volume is good.",
+      "cloze": "In a ___ deal, the product carries someone else's brand name with no visible trace of the actual supplier.",
+      "mcq_options": [
+        "Private Label",
+        "Branded",
+        "HoReCa",
+        "Direct Trade"
+      ]
+    },
+    {
+      "id": "branded",
+      "category": "Business Models & Channels",
+      "term": "Branded (B2B Deal)",
+      "definition": "A deal where the product carries your own brand name and story, even when it's sold business-to-business rather than direct to consumers.",
+      "analogy": "Your name stays on the bag no matter who's buying it.",
+      "why_it_matters": "Builds brand equity even from a wholesale sale, unlike a private-label arrangement.",
+      "cloze": "In a ___ B2B deal, the product carries your own brand name and story even when sold wholesale.",
+      "mcq_options": [
+        "Branded",
+        "Private Label",
+        "HoReCa",
+        "Direct Trade"
+      ]
+    },
+    {
+      "id": "horeca",
+      "category": "Business Models & Channels",
+      "term": "HoReCa",
+      "definition": "Shorthand for Hotels, Restaurants, and Cafés — the standard industry term for the B2B foodservice channel, distinct from retail.",
+      "analogy": "The channel label for The Everyday's target buyers.",
+      "why_it_matters": "This is the standard term for exactly the channel Bowring Club and Century Club sit in.",
+      "cloze": "___ is the industry shorthand for Hotels, Restaurants, and Cafés — the B2B foodservice channel.",
+      "mcq_options": [
+        "HoReCa",
+        "B2C",
+        "FPO",
+        "NPOP"
+      ]
+    }
+  ]
+}

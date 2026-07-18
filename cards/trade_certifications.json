@@ -1,0 +1,64 @@
+{
+  "cards": [
+    {
+      "id": "direct_trade",
+      "category": "Trade & Certifications",
+      "term": "Direct Trade",
+      "definition": "An informal, non-audited sourcing relationship where the buyer deals directly with the farmer or farmer group, cutting out middlemen, paying a negotiated price rather than a certification-mandated floor.",
+      "analogy": "This is essentially your model — and Black Baza's.",
+      "why_it_matters": "It's the foundation your brand's named-farm, named-price claims are built on.",
+      "cloze": "___ is an informal sourcing relationship where the buyer deals directly with the farmer, cutting out middlemen.",
+      "mcq_options": [
+        "Direct Trade",
+        "Fair Trade",
+        "Rainforest Alliance",
+        "NPOP"
+      ]
+    },
+    {
+      "id": "fair_trade",
+      "category": "Trade & Certifications",
+      "term": "Fair Trade",
+      "definition": "An official third-party certification that guarantees a minimum floor price plus a social premium paid to the farmer group.",
+      "analogy": "A guaranteed minimum wage, certified by an outside auditor.",
+      "why_it_matters": "Worth knowing as a baseline — many specialty roasters already pay well above this floor without needing the certification.",
+      "cloze": "___ is an official certification guaranteeing a minimum floor price plus a social premium to the farmer group.",
+      "mcq_options": [
+        "Fair Trade",
+        "Rainforest Alliance",
+        "NPOP (Organic)",
+        "Direct Trade"
+      ]
+    },
+    {
+      "id": "rainforest_alliance",
+      "category": "Trade & Certifications",
+      "term": "Rainforest Alliance",
+      "definition": "A third-party certification that audits environmental and social farming standards, such as land use and worker conditions.",
+      "analogy": "An outside inspector checking a farm's environmental and labor practices against a checklist.",
+      "why_it_matters": "One of the certifications that matters more in export contexts than in direct, named-farm relationships.",
+      "cloze": "___ certification audits environmental and social farming standards on the farm.",
+      "mcq_options": [
+        "Rainforest Alliance",
+        "Fair Trade",
+        "NPOP (Organic)",
+        "Direct Trade"
+      ]
+    },
+    {
+      "id": "npop_organic",
+      "category": "Trade & Certifications",
+      "term": "NPOP (Organic Certification)",
+      "definition": "India's official organic certification, confirming the absence of synthetic inputs like chemical fertilizers or pesticides.",
+      "analogy": "The paperwork proving a farm didn't use synthetic chemicals — not a taste guarantee.",
+      "why_it_matters": "Many farmers grow organically without paying for this certification — worth checking with a farmer rather than assuming either way.",
+      "cloze": "___ is India's official certification confirming a farm didn't use synthetic fertilizers or pesticides.",
+      "mcq_options": [
+        "NPOP (Organic)",
+        "Fair Trade",
+        "Rainforest Alliance",
+        "Direct Trade"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "cards": [
+    {
+      "id": "landed_cost",
+      "category": "Costs & Compliance",
+      "term": "Landed Cost",
+      "definition": "The true total cost of a product once it reaches you — bean cost + transport + toll roasting fee + packaging + duties — vs. just the farm-gate price.",
+      "analogy": "The real number, not the headline price you paid the farmer.",
+      "why_it_matters": "The ₹700 cost-to-produce-a-kg figure in the Action Plan is essentially a landed cost calculation.",
+      "why_it_matters_short": "",
+      "cloze": "___ is the true total cost once a product reaches you — beans, transport, roasting, packaging and duties combined.",
+      "mcq_options": [
+        "Landed Cost",
+        "Differential",
+        "I-CIP",
+        "Certified Stocks"
+      ]
+    },
+    {
+      "id": "working_capital",
+      "category": "Costs & Compliance",
+      "term": "Working Capital Cycle",
+      "definition": "The time gap between paying cash out (beans, roaster fees) and receiving cash in (client payment). Longer cycle = more cash reserves needed idle.",
+      "analogy": "How long your money is 'out' before it comes back to be reused.",
+      "why_it_matters": "This is exactly what the '15-day invoice terms, 2 months of bean stock' risk mitigant is managing.",
+      "cloze": "The ___ is the gap between paying cash out for beans/roasting and receiving cash in from client invoices.",
+      "mcq_options": [
+        "Working Capital Cycle",
+        "Forward Contract",
+        "Landed Cost",
+        "Backwardation"
+      ]
+    },
+    {
+      "id": "gst",
+      "category": "Costs & Compliance",
+      "term": "GST (Goods and Services Tax)",
+      "definition": "India's tax registration, required once turnover crosses a threshold or for cross-state and B2B sales.",
+      "analogy": "The standard tax registration nearly every growing business eventually needs.",
+      "why_it_matters": "Worth checking early — institutional buyers often require a GST invoice before they'll place an order.",
+      "cloze": "___ is India's tax registration required for cross-state or B2B sales once turnover crosses a threshold.",
+      "mcq_options": [
+        "GST",
+        "FSSAI",
+        "Udyam (MSME)",
+        "RCMC"
+      ]
+    },
+    {
+      "id": "fssai",
+      "category": "Costs & Compliance",
+      "term": "FSSAI",
+      "definition": "The food safety license required for anyone manufacturing or selling a food product, including coffee.",
+      "analogy": "Like a health department permit for any food business.",
+      "why_it_matters": "Worth checking early with institutional buyers, since this registration can have real lead time.",
+      "cloze": "___ is the food safety license required for anyone manufacturing or selling a food product, including coffee.",
+      "mcq_options": [
+        "FSSAI",
+        "GST",
+        "Udyam (MSME)",
+        "RCMC"
+      ]
+    },
+    {
+      "id": "udyam_msme",
+      "category": "Costs & Compliance",
+      "term": "Udyam (MSME Registration)",
+      "definition": "Registers a business as a small enterprise, which can unlock scheme eligibility and preference from institutional buyers.",
+      "analogy": "A ‘small business’ status badge that can open doors with bigger buyers.",
+      "why_it_matters": "Worth having on file before pitching institutional buyers who may prefer or require MSME-registered vendors.",
+      "cloze": "___ registration marks a business as a small enterprise, useful for scheme eligibility and institutional-buyer preference.",
+      "mcq_options": [
+        "Udyam (MSME)",
+        "GST",
+        "FSSAI",
+        "RCMC"
+      ]
+    }
+  ]
+}

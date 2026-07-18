@@ -1,0 +1,64 @@
+{
+  "cards": [
+    {
+      "id": "burr_grinder",
+      "category": "Grinders",
+      "term": "Burr Grinder",
+      "definition": "A grinder that crushes beans between two surfaces to a consistent size, which specialty brewing generally assumes you're using.",
+      "analogy": "Like a mill grinding grain to a uniform size.",
+      "why_it_matters": "The single highest-leverage equipment upgrade for anyone starting to brew more carefully at home.",
+      "cloze": "A ___ crushes beans between two surfaces to a consistent size.",
+      "mcq_options": [
+        "Burr Grinder",
+        "Blade Grinder",
+        "Flat Burr",
+        "Conical Burr"
+      ]
+    },
+    {
+      "id": "blade_grinder",
+      "category": "Grinders",
+      "term": "Blade Grinder",
+      "definition": "A grinder that chops beans unevenly with a spinning cutting edge, producing inconsistent particle sizes that undermine extraction.",
+      "analogy": "More like a blender randomly chopping whatever's inside, rather than a precise mill.",
+      "why_it_matters": "The equipment to move away from first, if you're serious about improving your home brewing.",
+      "cloze": "A ___ chops beans unevenly with a spinning cutting edge, undermining consistent extraction.",
+      "mcq_options": [
+        "Blade Grinder",
+        "Burr Grinder",
+        "Flat Burr",
+        "Conical Burr"
+      ]
+    },
+    {
+      "id": "conical_burr",
+      "category": "Grinders",
+      "term": "Conical Burr",
+      "definition": "A burr shape that tends to produce round, thick, creamy coffee.",
+      "analogy": "One particular knife shape, suited to a rounder cut.",
+      "why_it_matters": "Useful when shopping for a grinder and trying to predict the flavor tendency it'll favor.",
+      "cloze": "A ___ burr grinder is generally associated with rounder, thicker, creamier coffee.",
+      "mcq_options": [
+        "Conical",
+        "Flat",
+        "Blade",
+        "Dual-Boiler"
+      ]
+    },
+    {
+      "id": "flat_burr",
+      "category": "Grinders",
+      "term": "Flat Burr",
+      "definition": "A burr shape that tends to produce brighter, more acidic, “modern”-style coffee.",
+      "analogy": "A different knife shape, suited to a sharper, brighter cut.",
+      "why_it_matters": "Useful for explaining why two shops' espresso can taste so different even with similar beans.",
+      "cloze": "A ___ burr grinder is generally associated with brighter, more acidic coffee.",
+      "mcq_options": [
+        "Flat",
+        "Conical",
+        "Blade",
+        "Dual-Boiler"
+      ]
+    }
+  ]
+}

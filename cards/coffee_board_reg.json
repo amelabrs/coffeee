@@ -1,0 +1,79 @@
+{
+  "cards": [
+    {
+      "id": "rcmc",
+      "category": "Coffee Board & Regulatory Registration",
+      "term": "RCMC (Registration-cum-Membership Certificate)",
+      "definition": "Official Coffee Board registration proving you're a legitimate exporter. Valid 3 years.",
+      "analogy": "Like a gym membership card, but for being a recognized exporter.",
+      "why_it_matters": "Without it you can't formally export; with it, customs and international buyers recognize you as legitimate.",
+      "cloze": "An ___ is the Coffee Board certificate that officially recognizes you as an exporter, valid for 3 years.",
+      "mcq_options": [
+        "RCMC",
+        "Curing License",
+        "Pulping Unit License",
+        "FPC"
+      ]
+    },
+    {
+      "id": "curing_license",
+      "category": "Coffee Board & Regulatory Registration",
+      "term": "Curing License",
+      "definition": "Required license to operate a curing works — the facility that turns raw cherry/parchment into clean, exportable green beans.",
+      "analogy": "Like an FSSAI license, but coffee-specific.",
+      "why_it_matters": "You won't run curing yourself, but it tells you the right question to ask toll roasters and curing works: 'are you licensed, and at what scale?'",
+      "cloze": "A ___ is required to operate a curing works that hulls, polishes, grades and sorts coffee into green beans.",
+      "mcq_options": [
+        "Curing License",
+        "Pulping Unit License",
+        "RCMC",
+        "ICTA"
+      ]
+    },
+    {
+      "id": "pulping_license",
+      "category": "Coffee Board & Regulatory Registration",
+      "term": "Pulping Unit License",
+      "definition": "Registration needed to run pulping equipment at scale — pulping strips skin and pulp off fresh cherry, usually within hours of picking.",
+      "analogy": "The very first processing step after picking.",
+      "why_it_matters": "If Shevaroys smallholders pulp their own cherry rather than selling wet cherry to a central point, that signals a more independent, quality-controlled farmer — a good storytelling detail.",
+      "cloze": "Pulping strips the skin off fresh cherry within hours of picking; running one at scale needs a ___.",
+      "mcq_options": [
+        "Pulping Unit License",
+        "Curing License",
+        "RCMC",
+        "NABARD"
+      ]
+    },
+    {
+      "id": "icta",
+      "category": "Coffee Board & Regulatory Registration",
+      "term": "ICTA (Indian Coffee Trade Association)",
+      "definition": "Runs the weekly Wednesday–Thursday Bengaluru coffee auction — a public price-discovery mechanism.",
+      "analogy": "The 'mandi' for coffee.",
+      "why_it_matters": "ICTA prices are your best public benchmark for whether a farmer's asking price is fair, without seeming like you're haggling.",
+      "cloze": "___ runs the weekly Bengaluru coffee auction that sets public benchmark prices like 'Plantation A' and 'Arabica cherry AB.'",
+      "mcq_options": [
+        "ICTA",
+        "ICO",
+        "NABARD",
+        "EUDR"
+      ]
+    },
+    {
+      "id": "ico",
+      "category": "Coffee Board & Regulatory Registration",
+      "term": "ICO (International Coffee Organization)",
+      "definition": "The global body that tracks and reports coffee statistics across producing and consuming countries — source of the I-CIP price.",
+      "analogy": "Coffee's version of OPEC's reporting arm, but without price-setting power.",
+      "why_it_matters": "It only measures and reports — it doesn't set prices, unlike a cartel.",
+      "cloze": "The ___ is the global body that reports coffee statistics and publishes the I-CIP price, but does not set prices itself.",
+      "mcq_options": [
+        "ICO (International Coffee Organization)",
+        "ICTA",
+        "FPO",
+        "RCMC"
+      ]
+    }
+  ]
+}

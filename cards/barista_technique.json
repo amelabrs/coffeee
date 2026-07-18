@@ -1,0 +1,64 @@
+{
+  "cards": [
+    {
+      "id": "crema",
+      "category": "Barista Technique & Vocabulary",
+      "term": "Crema",
+      "definition": "The reddish-brown foam layer on top of a fresh espresso shot, caused by trapped gas — a sign of freshness, though not flavorful on its own.",
+      "analogy": "The head on a freshly poured beer.",
+      "why_it_matters": "Explains why a shot's top layer looks the way it does — worth knowing so it isn't mistaken for a flavor indicator.",
+      "cloze": "___ is the foam layer on top of espresso, caused by trapped gas from fresh coffee.",
+      "mcq_options": [
+        "Crema",
+        "Terroir",
+        "Channeling",
+        "WDT (Weiss Distribution Technique)"
+      ]
+    },
+    {
+      "id": "wdt",
+      "category": "Barista Technique & Vocabulary",
+      "term": "WDT (Weiss Distribution Technique)",
+      "definition": "Using fine needles to break up clumps in the espresso puck before tamping, to prevent channeling and promote even extraction.",
+      "analogy": "Combing out tangles before braiding hair, so everything runs smooth and even.",
+      "why_it_matters": "A small habit that noticeably improves shot consistency if you're troubleshooting uneven espresso.",
+      "cloze": "___ uses fine needles to break up clumps in the espresso puck and prevent channeling.",
+      "mcq_options": [
+        "WDT (Weiss Distribution Technique)",
+        "RDT (Ross Droplet Technique)",
+        "Pressure Profiling",
+        "Dialing In"
+      ]
+    },
+    {
+      "id": "channeling",
+      "category": "Barista Technique & Vocabulary",
+      "term": "Channeling",
+      "definition": "Uneven paths of water through the coffee bed during espresso extraction, causing simultaneous over- and under-extraction in the same shot.",
+      "analogy": "Water finding a crack in a dam instead of flowing evenly across it.",
+      "why_it_matters": "The usual culprit behind a shot that tastes both sour and bitter at once.",
+      "cloze": "___ is uneven water flow through the coffee bed, causing inconsistent extraction.",
+      "mcq_options": [
+        "Channeling",
+        "Crema",
+        "WDT (Weiss Distribution Technique)",
+        "Second Crack"
+      ]
+    },
+    {
+      "id": "tds_ey",
+      "category": "Barista Technique & Vocabulary",
+      "term": "TDS / EY (Total Dissolved Solids / Extraction Yield)",
+      "definition": "Measurements taken with a refractometer to objectively quantify how strong a brew is and what percentage of the grounds ended up in the cup.",
+      "analogy": "A precise thermometer reading instead of guessing \"it feels about right.\"",
+      "why_it_matters": "Turns \"does this taste balanced\" into a number you can actually track and repeat.",
+      "cloze": "___ are refractometer measurements used to objectively quantify how a coffee was extracted.",
+      "mcq_options": [
+        "TDS / EY",
+        "WDT (Weiss Distribution Technique)",
+        "Crema",
+        "Dialing In"
+      ]
+    }
+  ]
+}

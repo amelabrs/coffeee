@@ -1,0 +1,79 @@
+{
+  "cards": [
+    {
+      "id": "fpc",
+      "category": "Farmer Organization & Sourcing",
+      "term": "FPC (Farmer Producer Company)",
+      "definition": "Farmers forming their own company to pool coffee and sell it together as one unit instead of as separate, weak sellers.",
+      "analogy": "Like a housing society, but for selling coffee instead of managing a building.",
+      "why_it_matters": "If BR Hills' Soliga farmers already have one, you deal with one supplier instead of fifteen individual people.",
+      "cloze": "An ___ is farmers forming their own mini company to pool and sell coffee together as one unit.",
+      "mcq_options": [
+        "FPC (Farmer Producer Company)",
+        "SHG (Self-Help Group)",
+        "Cooperative Society",
+        "NABARD"
+      ]
+    },
+    {
+      "id": "fpo",
+      "category": "Farmer Organization & Sourcing",
+      "term": "FPO (Farmer Producer Organisation)",
+      "definition": "The umbrella category of farmer collectives — could be structured as an FPC, a cooperative society, or a trust.",
+      "analogy": "FPO is the category 'vehicle'; FPC is one specific model of vehicle.",
+      "why_it_matters": "When Coffee Board or VGKK say 'farmer organisation,' ask which structure it actually is — it changes how they negotiate.",
+      "cloze": "___ is the umbrella term that FPC sits under — it could be a company, cooperative, or trust.",
+      "mcq_options": [
+        "FPO (Farmer Producer Organisation)",
+        "RCMC",
+        "ICTA",
+        "HoReCa"
+      ]
+    },
+    {
+      "id": "coop",
+      "category": "Farmer Organization & Sourcing",
+      "term": "Cooperative Society",
+      "definition": "An older, simpler legal structure than an FPC — members pool produce and share profits under Cooperative Societies law, often with stronger state involvement.",
+      "analogy": "Closer to how Araku's Girijan Cooperative Society is set up.",
+      "why_it_matters": "The Araku model you're studying is a cooperative, not an FPC — different governance, worth understanding before trying to replicate it in Shevaroys.",
+      "cloze": "The Araku Girijan model is a ___, governed under Cooperative Societies law rather than Companies law.",
+      "mcq_options": [
+        "Cooperative Society",
+        "FPC",
+        "SHG",
+        "Curing License"
+      ]
+    },
+    {
+      "id": "shg",
+      "category": "Farmer Organization & Sourcing",
+      "term": "SHG (Self-Help Group)",
+      "definition": "A small group (often 10–20 women) who save and lend together and increasingly run livelihood activities.",
+      "analogy": "A trust circle that's now also becoming a business unit.",
+      "why_it_matters": "If you ever explore a women-led retail angle, SHGs are existing infrastructure Coffee Board is already building — not something to create from scratch.",
+      "cloze": "An ___ is a small savings-and-lending group of women, often now running livelihood businesses like café kiosks.",
+      "mcq_options": [
+        "SHG (Self-Help Group)",
+        "FPO",
+        "ICO",
+        "Cooperative Society"
+      ]
+    },
+    {
+      "id": "nabard",
+      "category": "Farmer Organization & Sourcing",
+      "term": "NABARD",
+      "definition": "National Bank for Agriculture and Rural Development — funds and supports FPC formation with working-capital loans and subsidies.",
+      "analogy": "The government's rural-development bank.",
+      "why_it_matters": "If a farmer group doesn't yet have an FPC, NABARD is often why one could exist within a year or two.",
+      "cloze": "___ is the government rural-development bank that funds and subsidises the formation of FPCs.",
+      "mcq_options": [
+        "NABARD",
+        "ICTA",
+        "RCMC",
+        "EUDR"
+      ]
+    }
+  ]
+}

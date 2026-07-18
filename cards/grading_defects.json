@@ -1,0 +1,79 @@
+{
+  "cards": [
+    {
+      "id": "ab_grade",
+      "category": "Grading & Defects",
+      "term": "AB Grade",
+      "definition": "The standard, largest-screen-size bean grade — the reference-quality benchmark most often quoted at auction.",
+      "analogy": "The ‘regular size’ tier that everything else is measured against.",
+      "why_it_matters": "‘AB’ in a price table is the anchor grade — a good baseline for what to expect to pay.",
+      "cloze": "___ is the standard, largest-screen-size grade — the benchmark quoted at auction.",
+      "mcq_options": [
+        "AB",
+        "PB",
+        "C",
+        "Bulk"
+      ]
+    },
+    {
+      "id": "pb_grade",
+      "category": "Grading & Defects",
+      "term": "PB (Peaberry) Grade",
+      "definition": "A smaller, rounder bean grade that comes from a cherry that developed just one bean instead of the usual two — generally considered a premium grade.",
+      "analogy": "The ‘special edition’ bean shape, sold as its own category.",
+      "why_it_matters": "Explains why some bags specifically call out ‘peaberry’ as a distinct, sometimes pricier grade.",
+      "cloze": "___ grade beans come from a cherry that developed just one round bean instead of the usual two.",
+      "mcq_options": [
+        "PB (Peaberry)",
+        "AB",
+        "C",
+        "Bulk"
+      ]
+    },
+    {
+      "id": "c_grade",
+      "category": "Grading & Defects",
+      "term": "C Grade",
+      "definition": "A bean grade with more physical defects than the standard grade — a step down in quality and price.",
+      "analogy": "The ‘seconds’ tier below the standard size.",
+      "why_it_matters": "Useful for recognizing when a quoted price is for a lower grade than the reference benchmark.",
+      "cloze": "___ grade beans are smaller and carry more defects than the standard benchmark grade.",
+      "mcq_options": [
+        "C",
+        "AB",
+        "PB",
+        "Bulk"
+      ]
+    },
+    {
+      "id": "bulk_grade",
+      "category": "Grading & Defects",
+      "term": "Bulk Grade",
+      "definition": "Ungraded coffee — the lowest tier, not sorted by size or defect count.",
+      "analogy": "The catch-all bin at the bottom of the sorting process.",
+      "why_it_matters": "The grade to watch out for if a quoted price seems unusually low — it may not be sorted at all.",
+      "cloze": "___ grade coffee is ungraded — the lowest tier, not sorted by size or defect count.",
+      "mcq_options": [
+        "Bulk",
+        "C",
+        "AB",
+        "PB"
+      ]
+    },
+    {
+      "id": "defect_count",
+      "category": "Grading & Defects",
+      "term": "Defect Count (Category 1 / Category 2)",
+      "definition": "Counts physical defects per sample: Category 1 = serious (black, sour, insect-damaged beans); Category 2 = minor (broken, husk fragments, immature).",
+      "analogy": "A checkable score card for quality, not a vague impression.",
+      "why_it_matters": "A concrete, falsifiable metric you can ask a farmer or curing works to report — fits the 'named farm, named price, named quality' brand ethos better than a vague 'good quality' claim.",
+      "cloze": "___ grading separates serious defects (Category 1) like black/sour beans from minor ones (Category 2) like broken beans.",
+      "mcq_options": [
+        "Defect Count",
+        "Cup Score",
+        "Differential",
+        "Certified Stocks"
+      ]
+    }
+  ]
+}

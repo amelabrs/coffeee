@@ -1,0 +1,49 @@
+{
+  "cards": [
+    {
+      "id": "first_wave",
+      "category": "Coffee History & Culture",
+      "term": "First Wave Coffee",
+      "definition": "The earliest era of mass-market coffee (Folgers, Mr. Coffee) treated as a commodity — cheap, convenient, grab-and-go, with little attention paid to quality or origin.",
+      "analogy": "Coffee as fuel, like a gas-station fill-up rather than a meal.",
+      "why_it_matters": "Knowing this baseline helps you recognize how far \"just a cup of coffee\" has evolved — useful context whenever a café markets itself as different from supermarket coffee.",
+      "cloze": "The ___ of coffee treated it as a cheap, mass-market commodity with little focus on quality — think Folgers or an old drip machine.",
+      "mcq_options": [
+        "First Wave Coffee",
+        "Second Wave Coffee",
+        "Third Wave Coffee",
+        "Direct Trade"
+      ]
+    },
+    {
+      "id": "second_wave",
+      "category": "Coffee History & Culture",
+      "term": "Second Wave Coffee",
+      "definition": "The era defined by Starbucks-style espresso culture — customizable drinks, coffee shops as a social \"third place,\" and the rise of the barista as a public-facing role.",
+      "analogy": "Coffee becomes an experience and a customizable order, not just fuel.",
+      "why_it_matters": "This is the wave most people still picture when they think \"coffee shop\" — recognizing it helps you spot when a café is actually operating in third-wave territory instead.",
+      "cloze": "___ coffee is marked by Starbucks-style espresso culture, drink customization, and cafés as a social gathering spot.",
+      "mcq_options": [
+        "Second Wave Coffee",
+        "First Wave Coffee",
+        "Third Wave Coffee",
+        "Cupping"
+      ]
+    },
+    {
+      "id": "third_wave",
+      "category": "Coffee History & Culture",
+      "term": "Third Wave Coffee",
+      "definition": "The current era treating coffee as a craft — full traceability to origin, labels detailing altitude/variety/processing, and pride in brewing technique.",
+      "analogy": "Coffee treated more like wine or craft beer than a commodity.",
+      "why_it_matters": "This is the frame \"specialty coffee\" sits inside — useful shorthand whenever you're trying to explain why a bag of coffee costs more than the supermarket tin.",
+      "cloze": "___ coffee treats the drink as a craft, with full traceability and labels detailing altitude, variety, and processing.",
+      "mcq_options": [
+        "Third Wave Coffee",
+        "Second Wave Coffee",
+        "First Wave Coffee",
+        "Terroir"
+      ]
+    }
+  ]
+}

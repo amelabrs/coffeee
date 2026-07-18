@@ -1,0 +1,94 @@
+{
+  "cards": [
+    {
+      "id": "icip",
+      "category": "Market Signals & Contracts",
+      "term": "I-CIP (ICO Composite Indicator Price)",
+      "definition": "The ICO's single blended reference price for coffee globally, in US cents/lb, weighting different coffee-group prices by their share of world trade.",
+      "analogy": "Coffee's version of a stock market index like the Nifty 50.",
+      "why_it_matters": "One number that summarises how the market is doing, even though individual origins move differently underneath it.",
+      "cloze": "The ___ is the ICO's single blended reference price for coffee globally — like a stock market index for coffee.",
+      "mcq_options": [
+        "I-CIP",
+        "Differential",
+        "Certified Stocks",
+        "Landed Cost"
+      ]
+    },
+    {
+      "id": "differential",
+      "category": "Market Signals & Contracts",
+      "term": "Differential",
+      "definition": "The price gap between two coffee categories or lots — for example the gap between Colombian Milds and Robustas. Widening means milder coffees are pulling ahead in price; narrowing means the gap is closing.",
+      "analogy": "A spread, like the gap between two stock prices.",
+      "why_it_matters": "Tracking the Arabica-Robusta differential tells you whether The Everyday's Robusta-heavy economics are getting cheaper or pricier relative to Seasonal-tier Arabica sourcing.",
+      "cloze": "The ___ is the price gap between two coffee categories or lots — useful for tracking Robusta vs. Arabica cost trends.",
+      "mcq_options": [
+        "Differential",
+        "Backwardation",
+        "Forward Contract",
+        "I-CIP"
+      ]
+    },
+    {
+      "id": "certified_stocks",
+      "category": "Market Signals & Contracts",
+      "term": "Certified Stocks",
+      "definition": "Coffee graded, warehoused, and officially certified as deliverable against a futures contract on an exchange. Falling stocks signal tightening supply and rising prices; rising stocks signal the opposite.",
+      "analogy": "The exchange's verified inventory of ready-to-deliver coffee.",
+      "why_it_matters": "Falling certified stocks is a leading signal that prices may be about to rise.",
+      "cloze": "___ are coffee lots graded and warehoused as officially deliverable against a futures contract — falling levels signal tightening supply.",
+      "mcq_options": [
+        "Certified Stocks",
+        "Differential",
+        "Landed Cost",
+        "Working Capital Cycle"
+      ]
+    },
+    {
+      "id": "backwardation",
+      "category": "Market Signals & Contracts",
+      "term": "Backwardation",
+      "definition": "A market condition where the spot price is higher than future delivery prices, signalling immediate scarcity.",
+      "analogy": "“Buy now, don't wait” — prices are only expected to fall or stay flat.",
+      "why_it_matters": "A signal that locking in supply now, rather than waiting, is the economically rational move.",
+      "cloze": "In ___, the spot price is higher than future delivery prices, signalling immediate scarcity.",
+      "mcq_options": [
+        "Backwardation",
+        "Contango",
+        "Differential",
+        "MFN Tariff"
+      ]
+    },
+    {
+      "id": "contango",
+      "category": "Market Signals & Contracts",
+      "term": "Contango",
+      "definition": "A market condition where future delivery prices are higher than the spot price, signalling comfortable current supply.",
+      "analogy": "“No rush” — the market expects supply to stay easy for now.",
+      "why_it_matters": "The opposite signal from backwardation — a cue that waiting to buy may not cost you anything.",
+      "cloze": "In ___, future delivery prices are higher than the spot price, signalling comfortable current supply.",
+      "mcq_options": [
+        "Contango",
+        "Backwardation",
+        "Differential",
+        "MFN Tariff"
+      ]
+    },
+    {
+      "id": "forward_contract",
+      "category": "Market Signals & Contracts",
+      "term": "Forward Contract",
+      "definition": "An agreement to buy or sell coffee at a set price for future delivery, locking in the price now regardless of market moves.",
+      "analogy": "Like pre-booking a hotel room at today's rate for a trip six months out.",
+      "why_it_matters": "This is the mitigant flagged for green bean price volatility once your volumes justify it — not needed at current small-batch stage.",
+      "cloze": "A ___ locks in a price now for coffee to be delivered at a future date, regardless of how the market moves.",
+      "mcq_options": [
+        "Forward Contract",
+        "Certified Stock",
+        "Differential",
+        "CIF"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "cards": [
+    {
+      "id": "percolation",
+      "category": "Brewing Methods",
+      "term": "Percolation Brewing",
+      "definition": "Water passes through a bed of grounds (usually via a paper filter), as in drip machines or a V60 pour-over — producing clean, bright cups.",
+      "analogy": "Water raining straight down through a coffee-filled funnel.",
+      "why_it_matters": "Explains why a pour-over and a French press can taste so different even with the same beans — the brew category itself shapes the cup.",
+      "cloze": "___ brewing passes water through a bed of grounds via a filter, producing clean, bright cups — think drip or V60.",
+      "mcq_options": [
+        "Percolation Brewing",
+        "Immersion Brewing",
+        "Espresso (Brew Method)",
+        "Cupping"
+      ]
+    },
+    {
+      "id": "immersion",
+      "category": "Brewing Methods",
+      "term": "Immersion Brewing",
+      "definition": "Grounds steep directly in water and are then filtered out (often through metal), producing a thicker, silkier cup with more retained oils — as in a French press.",
+      "analogy": "Like steeping tea leaves loose in a pot rather than running water through a bag.",
+      "why_it_matters": "A useful category to reach for when you want a heavier-bodied cup than a pour-over gives you.",
+      "cloze": "___ brewing steeps grounds directly in water before filtering them out, producing a thicker, oilier cup — think French press.",
+      "mcq_options": [
+        "Immersion Brewing",
+        "Percolation Brewing",
+        "Espresso (Brew Method)",
+        "Second Crack"
+      ]
+    },
+    {
+      "id": "espresso_method",
+      "category": "Brewing Methods",
+      "term": "Espresso (Brew Method)",
+      "definition": "Pressurized water is forced through finely-ground, tamped coffee to produce a small, concentrated shot — the base for milk drinks like lattes and cappuccinos. It's a brew method, not a roast level.",
+      "analogy": "More like a pressure-cooked concentrate than a \"type\" of bean.",
+      "why_it_matters": "Clears up a common mix-up — coffee isn't roasted \"for espresso\" in some fundamentally different way; espresso is how you brew it, not what it is.",
+      "cloze": "___ is a brew method where pressurized water is forced through fine, tamped grounds to produce a concentrated shot.",
+      "mcq_options": [
+        "Espresso (Brew Method)",
+        "Percolation Brewing",
+        "Immersion Brewing",
+        "Cupping"
+      ]
+    },
+    {
+      "id": "cupping",
+      "category": "Brewing Methods",
+      "term": "Cupping",
+      "definition": "The industry-standard tasting protocol — grind, add hot water, break the crust, taste with a spoon — used worldwide by roasters and graders to score and compare coffees consistently.",
+      "analogy": "A standardized wine tasting, but for green coffee.",
+      "why_it_matters": "The method behind every SCA score you see printed on a bag — worth knowing so those numbers feel concrete rather than marketing.",
+      "cloze": "___ is the standardized tasting protocol — grind, add water, break the crust, taste — used to score coffee worldwide.",
+      "mcq_options": [
+        "Cupping",
+        "Espresso (Brew Method)",
+        "Immersion Brewing",
+        "Dialing In"
+      ]
+    }
+  ]
+}

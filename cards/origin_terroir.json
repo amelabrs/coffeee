@@ -1,0 +1,49 @@
+{
+  "cards": [
+    {
+      "id": "terroir",
+      "category": "Origin & Terroir",
+      "term": "Terroir",
+      "definition": "How a coffee's environment — soil, altitude, climate, surrounding farm conditions — shapes its flavor.",
+      "analogy": "The same idea used to explain why wine tastes different from one hillside to the next.",
+      "why_it_matters": "Explains why two coffees grown a few miles apart can taste completely different, even with identical processing.",
+      "cloze": "___ describes how soil, altitude, and climate shape a coffee's flavor.",
+      "mcq_options": [
+        "Terroir",
+        "Peaberry",
+        "Gesha (Variety)",
+        "Crema"
+      ]
+    },
+    {
+      "id": "peaberry",
+      "category": "Origin & Terroir",
+      "term": "Peaberry",
+      "definition": "A coffee cherry that develops just one round bean instead of the usual two flat-sided beans.",
+      "analogy": "Like finding a single-yolk egg where you'd normally expect two seeds sharing a pod.",
+      "why_it_matters": "Explains a term you'll spot on specialty bags and menus, often sold as a distinct, sometimes pricier grade.",
+      "cloze": "A ___ is a coffee cherry that develops just one round bean instead of the usual two.",
+      "mcq_options": [
+        "Peaberry",
+        "Gesha (Variety)",
+        "Terroir",
+        "Micro-lot"
+      ]
+    },
+    {
+      "id": "gesha",
+      "category": "Origin & Terroir",
+      "term": "Gesha (Variety)",
+      "definition": "A specific coffee variety (genetic cultivar) known for being slow to fruit, expensive to grow, and for producing wild, distinctive floral and tea-like flavors.",
+      "analogy": "Like a rare apple cultivar prized far above ordinary eating apples.",
+      "why_it_matters": "The variety most likely to come up when someone talks about a coffee that broke an auction record.",
+      "cloze": "___ is a coffee variety famous for wild, distinctive flavors and a high price tag.",
+      "mcq_options": [
+        "Gesha (Variety)",
+        "Peaberry",
+        "Terroir",
+        "Q Grader"
+      ]
+    }
+  ]
+}

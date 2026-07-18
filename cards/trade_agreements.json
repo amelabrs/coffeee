@@ -1,0 +1,64 @@
+{
+  "cards": [
+    {
+      "id": "trade_agreement_fta",
+      "category": "Trade Agreements & Compliance",
+      "term": "FTA (Free Trade Agreement)",
+      "definition": "The general umbrella term for a bilateral or regional deal between countries that lowers tariffs on trade between them.",
+      "analogy": "The general category of deal; CEPA and CETA are two specific examples of it.",
+      "why_it_matters": "Useful shorthand whenever any two countries strike a tariff-lowering deal, regardless of what they specifically call it.",
+      "cloze": "An ___ is the general term for a deal between countries that lowers tariffs on trade between them.",
+      "mcq_options": [
+        "FTA (Free Trade Agreement)",
+        "CEPA",
+        "CETA",
+        "MFN Tariff"
+      ]
+    },
+    {
+      "id": "cepa",
+      "category": "Trade Agreements & Compliance",
+      "term": "CEPA (Comprehensive Economic Partnership Agreement)",
+      "definition": "India's trade agreement with countries like Oman and the UAE — broader than a typical tariff deal since it also covers services.",
+      "analogy": "One specific brand-name version of a free trade agreement.",
+      "why_it_matters": "Relevant whenever quoting a price to a buyer in Oman or the UAE — it may unlock a lower duty rate.",
+      "cloze": "India's trade deal with Oman and the UAE is called ___.",
+      "mcq_options": [
+        "CEPA",
+        "CETA",
+        "FTA (Free Trade Agreement)",
+        "MFN Tariff"
+      ]
+    },
+    {
+      "id": "ceta",
+      "category": "Trade Agreements & Compliance",
+      "term": "CETA (Comprehensive Economic and Trade Agreement)",
+      "definition": "The India–UK version of a free trade agreement, lowering tariffs between the two countries.",
+      "analogy": "The UK-specific version of the same kind of deal as CEPA.",
+      "why_it_matters": "Relevant whenever quoting a price to a UK buyer — it can mean a significantly lower duty rate than the standard MFN rate.",
+      "cloze": "The India-UK version of a free trade agreement is called ___.",
+      "mcq_options": [
+        "CETA",
+        "CEPA",
+        "FTA (Free Trade Agreement)",
+        "MFN Tariff"
+      ]
+    },
+    {
+      "id": "eudr",
+      "category": "Trade Agreements & Compliance",
+      "term": "EUDR (EU Deforestation Regulation)",
+      "definition": "An EU law requiring proof that imported commodities weren't grown on land deforested after a cutoff date, with full supply-chain traceability back to the plot, often GPS-verified.",
+      "analogy": "The EU saying: 'show us exactly which patch of land this grew on, and prove it was already farmland.'",
+      "why_it_matters": "Named-farm, named-plot sourcing is exactly the traceability EUDR requires — a genuine tailwind for your model, and why EUDR was flagged as a future demand driver for cacao too.",
+      "cloze": "The ___ requires GPS-verified, plot-level traceability proving coffee wasn't grown on recently deforested land.",
+      "mcq_options": [
+        "EUDR",
+        "MFN",
+        "CETA",
+        "RCMC"
+      ]
+    }
+  ]
+}

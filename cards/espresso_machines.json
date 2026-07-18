@@ -1,0 +1,49 @@
+{
+  "cards": [
+    {
+      "id": "single_boiler",
+      "category": "Espresso Machines",
+      "term": "Single-Boiler Espresso Machine",
+      "definition": "An espresso machine that shares one boiler between brewing and steaming milk, requiring a temperature switch between the two tasks.",
+      "analogy": "One kettle used for two different jobs, one after the other.",
+      "why_it_matters": "Explains why some home espresso setups feel slow between pulling a shot and steaming milk.",
+      "cloze": "A ___ espresso machine shares one boiler between brewing and steaming, requiring a temperature switch.",
+      "mcq_options": [
+        "Single-Boiler",
+        "Dual-Boiler",
+        "Pressure Profiling",
+        "Flat Burr"
+      ]
+    },
+    {
+      "id": "dual_boiler",
+      "category": "Espresso Machines",
+      "term": "Dual-Boiler Espresso Machine",
+      "definition": "An espresso machine that separates brewing and steaming into two boilers, letting both happen at their own ideal temperature without switching.",
+      "analogy": "Two dedicated kettles running at once instead of sharing one.",
+      "why_it_matters": "Explains why café machines can pull a shot and steam milk back-to-back without any delay.",
+      "cloze": "A ___ espresso machine separates brewing and steaming into two boilers for a smoother workflow.",
+      "mcq_options": [
+        "Dual-Boiler",
+        "Single-Boiler",
+        "Pressure Profiling",
+        "Flat Burr"
+      ]
+    },
+    {
+      "id": "pressure_profiling",
+      "category": "Espresso Machines",
+      "term": "Pressure Profiling",
+      "definition": "A feature on more advanced espresso machines that lets you vary water pressure through the shot (rather than holding it constant) for finer flavor control.",
+      "analogy": "Like adjusting your grip pressure through a handshake instead of squeezing at one constant force the whole time.",
+      "why_it_matters": "A feature worth knowing about if you ever compare higher-end home espresso machines.",
+      "cloze": "___ lets you vary water pressure through an espresso shot instead of holding it constant.",
+      "mcq_options": [
+        "Pressure Profiling",
+        "Dual-Boiler",
+        "WDT (Weiss Distribution Technique)",
+        "Channeling"
+      ]
+    }
+  ]
+}

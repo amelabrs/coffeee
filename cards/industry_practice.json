@@ -1,0 +1,49 @@
+{
+  "cards": [
+    {
+      "id": "three_drink_test",
+      "category": "Café & Industry Practice",
+      "term": "Three-Drink Test",
+      "definition": "Ordering an espresso, a cappuccino, and a filter brew at a new café to judge extraction skill, milk-texturing skill, and how the coffee tastes unmasked, respectively.",
+      "analogy": "Judging a restaurant by tasting its simplest dish, its signature dish, and its dessert.",
+      "why_it_matters": "A quick, repeatable way to size up a new café without needing to be an expert taster yourself.",
+      "cloze": "The ___ means ordering an espresso, cappuccino, and filter brew to judge a café's overall skill.",
+      "mcq_options": [
+        "Three-Drink Test",
+        "Cupping",
+        "Dialing In",
+        "Terroir"
+      ]
+    },
+    {
+      "id": "modern_blends",
+      "category": "Café & Industry Practice",
+      "term": "Modern Specialty Blends",
+      "definition": "Unlike old \"kitchen sink\" commodity blends, a well-made combination of two or more high-quality, traceable coffees can create a new flavor profile — often chocolatey and round, well-suited to espresso with milk.",
+      "analogy": "Blending two excellent single-malt whiskies on purpose, rather than mixing whatever's cheap.",
+      "why_it_matters": "Worth knowing before writing off blends altogether — a well-made one is a deliberate flavor choice, not a corner-cutting move.",
+      "cloze": "___ combine two or more high-quality, traceable coffees into a new flavor profile, unlike old commodity blends.",
+      "mcq_options": [
+        "Modern Specialty Blends",
+        "Single Origin",
+        "Direct Trade",
+        "Terroir"
+      ]
+    },
+    {
+      "id": "espresso_caffeine_myth",
+      "category": "Café & Industry Practice",
+      "term": "Espresso vs. Drip Caffeine",
+      "definition": "A 12 oz drip coffee and a double shot of espresso don't contain the same total caffeine — despite espresso being far more concentrated per ounce, its total serving size is much smaller.",
+      "analogy": "A shot glass of a strong spirit vs. a full glass of a milder drink — strength and total amount aren't the same thing.",
+      "why_it_matters": "A common myth worth correcting before assuming an espresso-based drink is always the \"stronger\" caffeine choice.",
+      "cloze": "A 12 oz drip coffee typically has ___ total caffeine than a double shot of espresso.",
+      "mcq_options": [
+        "more",
+        "less",
+        "the same",
+        "double the"
+      ]
+    }
+  ]
+}

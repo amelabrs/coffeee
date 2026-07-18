@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "id": "second_crack",
+      "category": "Roasting",
+      "term": "Second Crack",
+      "definition": "An audible popping stage during roasting, after which beans turn oily and take on a heavy, smoky, carbon-forward flavor that masks origin character.",
+      "analogy": "Like popcorn's second, quieter round of pops.",
+      "why_it_matters": "A marker for spotting when a roast has been pushed past the point where a coffee's own origin flavor can still shine through.",
+      "cloze": "___ is the audible popping stage after which beans turn oily with heavy, smoky flavor.",
+      "mcq_options": [
+        "Second Crack",
+        "Roast Rest Period",
+        "Dialing In",
+        "Channeling"
+      ]
+    },
+    {
+      "id": "roast_rest",
+      "category": "Roasting",
+      "term": "Roast Rest Period",
+      "definition": "Freshly roasted coffee holds a lot of CO2, and brewing it too soon after roasting can produce off flavors. A short rest period is generally recommended before brewing, though many coffees still taste great 30+ days off roast.",
+      "analogy": "Bread dough needing time to rest before baking evenly.",
+      "why_it_matters": "Explains why \"freshest possible\" isn't always \"best possible\" when buying a just-roasted bag.",
+      "cloze": "A rest period of roughly ___ days after roasting is generally recommended before brewing.",
+      "mcq_options": [
+        "7–10",
+        "1–2",
+        "20–25",
+        "45–60"
+      ]
+    }
+  ]
+}
