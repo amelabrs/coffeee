@@ -83,6 +83,23 @@
     color: var(--amber-dark);
   }
 
+  .home-btn {
+    background: #fffdf7;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    width: 42px;
+    height: 42px;
+    font-size: 1.2rem;
+    line-height: 1;
+    cursor: pointer;
+    box-shadow: var(--card-shadow);
+    flex-shrink: 0;
+  }
+
+  .home-btn:active {
+    background: var(--parchment-dark);
+  }
+
   .stats-row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -664,6 +681,7 @@
       <h1>Coffee Terms</h1>
       <div class="tagline">Daily practice</div>
     </div>
+    <button class="home-btn" id="home-btn" title="Back to home" aria-label="Back to home">🏠</button>
   </header>
 
   <div class="stats-row">
@@ -1296,6 +1314,10 @@
     html += "</div>";
     mainEl.innerHTML = html;
   }
+
+  document.getElementById("home-btn").addEventListener("click", function () {
+    if (state) renderHome();
+  });
 
   function boot() {
     // The manifest lists each category's stage metadata plus a pointer to its
