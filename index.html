@@ -450,12 +450,12 @@
   }
 
   .category-overview li.locked,
-  .category-overview li.has-due {
+  .category-overview li.unlocked {
     cursor: pointer;
   }
 
   .category-overview li.locked:active,
-  .category-overview li.has-due:active {
+  .category-overview li.unlocked:active {
     background: var(--parchment-dark);
   }
 
@@ -900,7 +900,7 @@
       } else if (dueCount > 0) {
         status = dueCount + " due →";
       } else {
-        status = "✓ up to date";
+        status = "✓ not due — practice? →";
       }
       html += '<li class="' + li_class + '" data-stage-id="' + s.id + '">';
       html += '<span class="cat-name">' + escapeHtml(s.title) + "</span>";
@@ -920,7 +920,9 @@
       var isUnlocked = li.classList.contains("unlocked");
       if (!isUnlocked) {
         li.addEventListener("click", function () { renderStudySheet(stage); });
-      } else if (li.classList.contains("has-due")) {
+      } else {
+        // Any unlocked category can be picked to study on demand, whether or
+        // not the spaced-repetition schedule says it's due yet.
         li.addEventListener("click", function () { startReviewForStage(stage); });
       }
     });
@@ -929,9 +931,13 @@
   function startReviewForStage(stage) {
     var idSet = {};
     stage.card_ids.forEach(function (id) { idSet[id] = true; });
+    var stageCards = stage.card_ids.map(function (id) { return cardsById[id]; }).filter(Boolean);
     var due = getDueCards(deck, state).filter(function (card) { return idSet[card.id]; });
-    due.sort(function (a, b) { return state.cards[a.id].box - state.cards[b.id].box; });
-    queue = due.slice(0, SESSION_CAP);
+    // If nothing in this category is due yet, let the user practice it anyway
+    // rather than blocking them until the algorithm says it's time.
+    var pool = due.length > 0 ? due : stageCards;
+    pool = pool.slice().sort(function (a, b) { return state.cards[a.id].box - state.cards[b.id].box; });
+    queue = pool.slice(0, SESSION_CAP);
     queueIndex = 0;
     sessionCorrect = 0;
     sessionSeen = 0;
