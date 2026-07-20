@@ -157,6 +157,46 @@
     background: var(--amber);
   }
 
+  .format-toggle {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+
+  .format-btn {
+    flex: 1;
+    padding: 9px;
+    border-radius: 8px;
+    border: 1.5px solid var(--border);
+    background: var(--parchment);
+    color: #6b6455;
+    font-family: "DM Mono", monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .format-btn.active {
+    background: var(--forest);
+    border-color: var(--forest);
+    color: var(--parchment);
+  }
+
+  .link-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: none;
+    border: none;
+    color: #8a8272;
+    font-family: "DM Sans", sans-serif;
+    font-size: 0.85rem;
+    padding: 10px;
+    margin-top: 4px;
+    cursor: pointer;
+  }
+
   .question-stem {
     font-family: "DM Mono", monospace;
     font-size: 0.72rem;
@@ -838,6 +878,11 @@
   var queueIndex = 0;
   var sessionCorrect = 0;
   var sessionSeen = 0;
+  // null = use each card's own box to decide MCQ vs cloze (the normal Leitner
+  // behavior). Set by the user via the in-question format toggle to override
+  // that for the rest of the current session -- useful after a gap of days,
+  // when box-2+ recall can feel too hard and multiple choice is welcome again.
+  var formatOverride = null;
 
   var mainEl = document.getElementById("main");
   var statStreak = document.getElementById("stat-streak");
@@ -917,15 +962,28 @@
       var stageId = li.getAttribute("data-stage-id");
       var stage = stages.filter(function (s) { return s.id === stageId; })[0];
       if (!stage) return;
-      var isUnlocked = li.classList.contains("unlocked");
-      if (!isUnlocked) {
-        li.addEventListener("click", function () { renderStudySheet(stage); });
-      } else {
-        // Any unlocked category can be picked to study on demand, whether or
-        // not the spaced-repetition schedule says it's due yet.
-        li.addEventListener("click", function () { startReviewForStage(stage); });
-      }
+      li.addEventListener("click", function () { renderCategoryChoice(stage); });
     });
+  }
+
+  function renderCategoryChoice(stage) {
+    var isUnlocked = state.unlockedStages.indexOf(stage.id) !== -1;
+    var html = '<div class="action-card study">';
+    html += '<div class="icon">📖</div>';
+    html += "<h2>" + escapeHtml(stage.title) + "</h2>";
+    html += "<p>" + escapeHtml(stage.blurb) + " (" + stage.card_ids.length + " terms)</p>";
+    html += '<button class="' + (isUnlocked ? "btn-secondary" : "primary-btn") + '" id="choice-learn-btn">📖 Learn these terms</button>';
+    if (isUnlocked) {
+      html += '<button class="primary-btn" id="choice-quiz-btn" style="margin-top:10px;">❓ Quiz me</button>';
+    }
+    html += '<button class="link-btn" id="choice-back-btn">← Back</button>';
+    html += "</div>";
+
+    mainEl.innerHTML = html;
+    document.getElementById("choice-learn-btn").addEventListener("click", function () { renderStudySheet(stage); });
+    var quizBtn = document.getElementById("choice-quiz-btn");
+    if (quizBtn) quizBtn.addEventListener("click", function () { startReviewForStage(stage); });
+    document.getElementById("choice-back-btn").addEventListener("click", renderHome);
   }
 
   function startReviewForStage(stage) {
@@ -941,6 +999,7 @@
     queueIndex = 0;
     sessionCorrect = 0;
     sessionSeen = 0;
+    formatOverride = null;
     render();
   }
 
@@ -990,6 +1049,7 @@
     queueIndex = 0;
     sessionCorrect = 0;
     sessionSeen = 0;
+    formatOverride = null;
     render();
   }
 
@@ -1024,6 +1084,7 @@
       queueIndex = 0;
       sessionCorrect = 0;
       sessionSeen = 0;
+      formatOverride = null;
       render();
     });
   }
@@ -1067,12 +1128,16 @@
   function renderQuestion(card) {
     var prog = state.cards[card.id];
     var box = prog.box;
-    var isMcq = box === 1;
+    var isMcq = formatOverride ? formatOverride === "mcq" : box === 1;
 
     var html = '<div class="card">';
     html += progressDotsHtml();
     html += '<div class="category">' + escapeHtml(card.category) + "</div>";
     html += boxTrackHtml(box);
+    html += '<div class="format-toggle">';
+    html += '<button class="format-btn' + (isMcq ? " active" : "") + '" data-format="mcq">Choose</button>';
+    html += '<button class="format-btn' + (!isMcq ? " active" : "") + '" data-format="cloze">Type</button>';
+    html += "</div>";
 
     if (isMcq) {
       html += '<div class="question-stem">Which term matches this definition?</div>';
@@ -1097,6 +1162,15 @@
     html += '<div class="due-note">' + (queue.length - queueIndex - 1 > 0 ? (queue.length - queueIndex - 1) + " more after this" : "Last card in today's session") + "</div>";
 
     mainEl.innerHTML = html;
+
+    mainEl.querySelectorAll(".format-btn").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var chosen = btn.getAttribute("data-format");
+        if ((chosen === "mcq") === isMcq) return;
+        formatOverride = chosen;
+        renderQuestion(card);
+      });
+    });
 
     if (isMcq) {
       var buttons = mainEl.querySelectorAll(".mcq-option");
