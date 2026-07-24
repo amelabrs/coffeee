@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "id": "cbb_boiling_treatment",
+      "category": "Coffee Berry Borer & Biocontrol",
+      "term": "CBB-Damaged Berry Boiling",
+      "definition": "How long partially CBB-damaged berries should be immersed in boiling water — a quick treatment, not a long boil — before proceeding to drying.",
+      "analogy": "A quick blanch, not a full boil — long enough to address the pest, brief enough not to damage the bean.",
+      "why_it_matters": "A low-cost salvage step for damaged fruit that would otherwise be a straight loss.",
+      "cloze": "Berries partially damaged by Coffee Berry Borer can be immersed in boiling water for ___ minute(s) before drying.",
+      "mcq_options": [
+        "1",
+        "30",
+        "60",
+        "10"
+      ]
+    },
+    {
+      "id": "beauveria_bassiana_culture",
+      "category": "Coffee Berry Borer & Biocontrol",
+      "term": "Beauveria Bassiana Culture Prep",
+      "definition": "The steaming time in the recipe for growing Beauveria bassiana — a biological pest-control fungus — on a simple rice-based medium.",
+      "analogy": "Sterilizing a growth medium before inoculating it, the same principle as sterilizing a jar before starting a ferment.",
+      "why_it_matters": "A farmer-producible biological control, worth asking about directly since it needs no purchased pesticide.",
+      "cloze": "To prepare Beauveria bassiana culture, a 375ml bottle is charged with 50g of rice and 50ml of water, steamed for ___ minutes, and is ready for field use in about 3 weeks.",
+      "mcq_options": [
+        "20",
+        "120",
+        "2",
+        "60"
+      ]
+    }
+  ]
+}

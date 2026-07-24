@@ -1,0 +1,79 @@
+{
+  "cards": [
+    {
+      "id": "arabica_effluent_bod",
+      "category": "Effluent Treatment & Compliance",
+      "term": "Arabica Effluent BOD",
+      "definition": "The typical Biochemical Oxygen Demand (a measure of organic pollution load) of the wastewater produced from processing Arabica coffee.",
+      "analogy": "A pollution-load reading, the water-treatment equivalent of a blood-sugar test — a number that determines what treatment is actually required.",
+      "why_it_matters": "The starting point for any effluent treatment conversation — you can't size a lagoon without first knowing this.",
+      "cloze": "The BOD of Arabica coffee effluent typically ranges between ___ ppm.",
+      "mcq_options": [
+        "8000 and 13,000",
+        "500 and 1,000",
+        "20,000 and 25,000",
+        "50 and 100"
+      ]
+    },
+    {
+      "id": "robusta_effluent_bod",
+      "category": "Effluent Treatment & Compliance",
+      "term": "Robusta Effluent BOD",
+      "definition": "The typical Biochemical Oxygen Demand of Robusta processing wastewater — higher than Arabica's, reflecting Robusta's thicker mucilage load.",
+      "analogy": "A more concentrated version of the same pollution-load problem Arabica processing creates, just with a heavier starting load.",
+      "why_it_matters": "Means a Robusta-heavy operation needs a larger or more robust treatment system than an equivalent Arabica one.",
+      "cloze": "The BOD of Robusta coffee effluent typically ranges between ___ ppm, higher than Arabica.",
+      "mcq_options": [
+        "10,000 and 15,000",
+        "1,000 and 2,000",
+        "100 and 200",
+        "30,000 and 35,000"
+      ]
+    },
+    {
+      "id": "cpcb_irrigation_bod_limit",
+      "category": "Effluent Treatment & Compliance",
+      "term": "CPCB Irrigation BOD Limit",
+      "definition": "The legal ceiling, under Central Pollution Control Board rules, on how much organic pollution load treated water can carry if it's going to be reused for irrigation.",
+      "analogy": "A pass/fail bar water has to clear before it's allowed back onto farmland, not a suggestion.",
+      "why_it_matters": "The number that determines whether treated effluent can legally be reused on the farm at all.",
+      "cloze": "As per CPCB rules, water used for irrigation should not contain more than ___ ppm of BOD.",
+      "mcq_options": [
+        "100",
+        "1000",
+        "500",
+        "10"
+      ]
+    },
+    {
+      "id": "cpcb_discharge_bod_limit",
+      "category": "Effluent Treatment & Compliance",
+      "term": "CPCB Discharge BOD Limit",
+      "definition": "The legal ceiling, under CPCB rules, on organic pollution load for water released into a natural stream or water body — a stricter bar than the irrigation-reuse limit.",
+      "analogy": "A stricter pass/fail bar than the irrigation limit, because a natural water body has no crop to absorb the excess.",
+      "why_it_matters": "Worth knowing which limit — irrigation or discharge — applies to how a given farm is actually disposing of its effluent.",
+      "cloze": "Water discharged to natural water bodies should not contain more than ___ ppm of BOD.",
+      "mcq_options": [
+        "30",
+        "300",
+        "150",
+        "5"
+      ]
+    },
+    {
+      "id": "effluent_neutralization_dose",
+      "category": "Effluent Treatment & Compliance",
+      "term": "Effluent Neutralization Dose",
+      "definition": "The dose of liming material needed to bring acidic coffee effluent back to a near-neutral pH before further treatment or discharge.",
+      "analogy": "An antacid dose sized to the exact acidity of what it's neutralizing, not a rough pinch.",
+      "why_it_matters": "The step that makes the rest of the treatment process (lagoons, discharge) actually compliant, not just diluted.",
+      "cloze": "Coffee effluent is neutralized to a pH of 6.9-7.0 using about ___ grams of liming material per litre.",
+      "mcq_options": [
+        "5",
+        "50",
+        "0.5",
+        "25"
+      ]
+    }
+  ]
+}

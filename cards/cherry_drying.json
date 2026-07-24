@@ -1,0 +1,49 @@
+{
+  "cards": [
+    {
+      "id": "cherry_drying_thickness",
+      "category": "Cherry Drying",
+      "term": "Cherry Drying Layer Thickness",
+      "definition": "The recommended depth of the layer when whole cherry is spread out on a drying yard.",
+      "analogy": "Thin enough for air to move through the pile, thick enough not to waste yard space — a balance, not a guess.",
+      "why_it_matters": "Too thick and the inside never dries evenly; too thin and yard capacity is wasted for no quality gain.",
+      "cloze": "Cherry coffee should be spread uniformly in drying yards at a thickness of ___ cm.",
+      "mcq_options": [
+        "7-8",
+        "25-30",
+        "1-2",
+        "15-16"
+      ]
+    },
+    {
+      "id": "cherry_final_moisture",
+      "category": "Cherry Drying",
+      "term": "Cherry Final Moisture Target",
+      "definition": "The moisture percentage whole cherry coffee should be dried down to before storage — a different target than parchment's, since cherry retains the whole fruit.",
+      "analogy": "A slightly different finish line than parchment drying, because there's more material (the whole fruit) holding water.",
+      "why_it_matters": "Confirms cherry and parchment aren't interchangeable numbers — asking which process a stated moisture figure refers to matters.",
+      "cloze": "Cherry coffee should be dried to a moisture level of ___%.",
+      "mcq_options": [
+        "12-12.5",
+        "20-22",
+        "30-35",
+        "5-6"
+      ]
+    },
+    {
+      "id": "cherry_dryness_test",
+      "category": "Cherry Drying",
+      "term": "Cherry Dryness Sound Test",
+      "definition": "The auditory test — alongside a two-day stable-weight check — used to confirm whole cherry has finished drying.",
+      "analogy": "The same instinct as shaking a box of dried beans to hear if they move freely, versus a damp, muffled thud.",
+      "why_it_matters": "A quick field test that, paired with the weight check, avoids relying on a moisture meter alone.",
+      "cloze": "Dried cherry coffee is confirmed ready when a handful produces a ___ sound when shaken and a sample records the same weight on two consecutive days.",
+      "mcq_options": [
+        "rattling",
+        "dull thudding",
+        "squishing",
+        "crackling"
+      ]
+    }
+  ]
+}

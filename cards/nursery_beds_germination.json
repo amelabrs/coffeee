@@ -1,0 +1,49 @@
+{
+  "cards": [
+    {
+      "id": "nursery_bed_height",
+      "category": "Nursery Beds & Germination",
+      "term": "Nursery Bed Height",
+      "definition": "The recommended raised height for nursery germination beds above ground level — enough to help with drainage and reduce waterlogging risk without the added cost of over-building the bed.",
+      "analogy": "A curb height, not a retaining wall — just enough lift to keep water from pooling.",
+      "why_it_matters": "A bed built too low invites waterlogging; too high wastes labor and soil for no extra benefit.",
+      "cloze": "Nursery germination beds should be raised to a height of ___ cm from ground level.",
+      "mcq_options": [
+        "15",
+        "45",
+        "5",
+        "30"
+      ]
+    },
+    {
+      "id": "nursery_compost_mix",
+      "category": "Nursery Beds & Germination",
+      "term": "Nursery Compost Mix",
+      "definition": "The recommended quantity of farm yard manure or compost mixed into a standard 1x6 metre nursery bed.",
+      "analogy": "A measured feed for a small seed bed, not a field-scale application.",
+      "why_it_matters": "Under-composting starves seedlings early; over-composting at nursery scale can burn tender roots.",
+      "cloze": "A 1x6 metre nursery bed mix uses ___ kgs of farm yard manure/compost.",
+      "mcq_options": [
+        "10",
+        "50",
+        "1",
+        "25"
+      ]
+    },
+    {
+      "id": "seed_germination_days",
+      "category": "Nursery Beds & Germination",
+      "term": "Seed Germination Period",
+      "definition": "The typical window between sowing coffee seed in the nursery and the seed reaching the button (or 'topee') stage, where the seed coat sits like a cap on the emerging shoot.",
+      "analogy": "The incubation period before a seed visibly becomes a seedling.",
+      "why_it_matters": "A useful benchmark for judging whether a batch is running normally slow or is actually failing.",
+      "cloze": "Coffee seeds sown in the nursery germinate in about ___ days and reach button/topee stage.",
+      "mcq_options": [
+        "40-45",
+        "10-15",
+        "70-80",
+        "5-8"
+      ]
+    }
+  ]
+}

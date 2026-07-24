@@ -1,0 +1,49 @@
+{
+  "cards": [
+    {
+      "id": "basket_bag_size",
+      "category": "Basket Nursery Preparation",
+      "term": "Basket Nursery Bag Size",
+      "definition": "The recommended dimensions for the polythene bags used to raise coffee seedlings in a basket nursery.",
+      "analogy": "A pot sized to the plant's early root system, not oversized or undersized for the growth stage it's meant for.",
+      "why_it_matters": "Bags too small restrict root development; too large wastes soil mix and nursery space for no benefit.",
+      "cloze": "Basket nursery polythene bags should measure ___ inches and be of 150 gauge.",
+      "mcq_options": [
+        "6 x 9",
+        "20 x 24",
+        "2 x 3",
+        "12 x 18"
+      ]
+    },
+    {
+      "id": "basket_bag_holes",
+      "category": "Basket Nursery Preparation",
+      "term": "Basket Nursery Bag Drainage Holes",
+      "definition": "The number of evenly-spaced drainage holes a basket nursery bag needs for adequate air circulation and water drainage.",
+      "analogy": "Enough perforation for water to actually drain and roots to breathe, without so many holes the bag falls apart.",
+      "why_it_matters": "Too few holes and roots waterlog; this is a cheap, easy detail to get right that's just as easy to skip.",
+      "cloze": "Basket nursery bags need ___ uniform holes of about 3mm at equidistance for air circulation and drainage.",
+      "mcq_options": [
+        "12",
+        "2",
+        "50",
+        "100"
+      ]
+    },
+    {
+      "id": "nursery_soil_mix_ratio",
+      "category": "Basket Nursery Preparation",
+      "term": "Basket Nursery Soil Mix Ratio",
+      "definition": "The recommended ratio of jungle soil, cattle manure or compost, and coarse river sand for basket nursery potting mix.",
+      "analogy": "A recipe with proportions that matter, not just 'a bit of each' — get the ratio wrong and drainage or nutrition suffers.",
+      "why_it_matters": "A quick way to sanity-check a nursery's potting mix without lab testing — the ratio itself is a known, checkable standard.",
+      "cloze": "The basket nursery soil mix ratio is jungle soil : cattle manure/compost : coarse river sand in the proportion ___.",
+      "mcq_options": [
+        "6:2:1",
+        "1:1:1",
+        "10:1:1",
+        "1:6:2"
+      ]
+    }
+  ]
+}

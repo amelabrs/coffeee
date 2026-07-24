@@ -1,0 +1,64 @@
+{
+  "cards": [
+    {
+      "id": "wsb_emergence_periods",
+      "category": "White Stem Borer Management",
+      "term": "WSB Emergence Periods",
+      "definition": "The two main windows in the year when White Stem Borer beetles reach adulthood and become active — the key periods for monitoring and control.",
+      "analogy": "Two distinct hatching seasons, not a single window — missing either one means missing half the pest's active population.",
+      "why_it_matters": "Control measures timed outside these two windows are largely wasted effort.",
+      "cloze": "Coffee White Stem Borer beetles attain adulthood mainly during ___.",
+      "mcq_options": [
+        "April-May and October-December",
+        "June-July only",
+        "year-round equally",
+        "January-February only"
+      ]
+    },
+    {
+      "id": "wsb_progeny_split",
+      "category": "White Stem Borer Management",
+      "term": "WSB Progeny Split",
+      "definition": "The proportion of the October-December WSB generation that goes on to reach adulthood by the following April-May emergence window, versus staying dormant longer.",
+      "analogy": "A minority of one generation moving fast, the majority holding back — a split brood strategy, not a single wave.",
+      "why_it_matters": "Explains why WSB populations don't simply double each cycle — most of one generation is still in reserve for later.",
+      "cloze": "Of the WSB beetles emerging October-December, only ___% attain adulthood by the following April-May.",
+      "mcq_options": [
+        "15-20",
+        "80-85",
+        "95-100",
+        "50-55"
+      ]
+    },
+    {
+      "id": "wsb_collar_pruning_height",
+      "category": "White Stem Borer Management",
+      "term": "WSB Collar Pruning Height",
+      "definition": "The height at which an infested plant can be collar-pruned to remove borer damage that hasn't yet reached the root, salvaging the plant rather than removing it entirely.",
+      "analogy": "Cutting back to healthy wood below the damage, the way a gardener prunes a diseased branch back past the infection line.",
+      "why_it_matters": "A salvage option short of uprooting — worth knowing before assuming an infested plant is a total loss.",
+      "cloze": "Borer-infested plants that haven't been reached at the root can be collar pruned at a height of ___ inches from ground level.",
+      "mcq_options": [
+        "9 to 12",
+        "20 to 24",
+        "36 to 40",
+        "1 to 3"
+      ]
+    },
+    {
+      "id": "wsb_pheromone_traps",
+      "category": "White Stem Borer Management",
+      "term": "WSB Pheromone Trap Density",
+      "definition": "The recommended density of pheromone traps per hectare in areas with heavy White Stem Borer pressure.",
+      "analogy": "A monitoring-and-mass-trapping density, not a token trap or two per field.",
+      "why_it_matters": "A concrete number to check a farm's pest-management effort against, rather than just asking 'do you use traps.'",
+      "cloze": "In highly WSB-infested areas, ___ pheromone traps per hectare should be installed.",
+      "mcq_options": [
+        "25",
+        "500",
+        "100",
+        "2"
+      ]
+    }
+  ]
+}

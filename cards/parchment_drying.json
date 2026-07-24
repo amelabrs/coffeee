@@ -1,0 +1,79 @@
+{
+  "cards": [
+    {
+      "id": "parchment_initial_moisture",
+      "category": "Parchment Drying",
+      "term": "Parchment Initial Moisture",
+      "definition": "The moisture level of parchment coffee right after pulping and washing, before any drying has taken place.",
+      "analogy": "The starting weight before a long dehydration process — most of what gets 'lost' during drying is this water.",
+      "why_it_matters": "The baseline that makes the eventual drying target meaningful — without it, '11%' is just a number.",
+      "cloze": "Freshly pulped parchment coffee initially contains around ___% water content.",
+      "mcq_options": [
+        "50-55",
+        "10-15",
+        "70-75",
+        "25-30"
+      ]
+    },
+    {
+      "id": "parchment_final_moisture",
+      "category": "Parchment Drying",
+      "term": "Parchment Final Moisture Target",
+      "definition": "The moisture percentage parchment coffee should be dried down to before it's considered storage-ready.",
+      "analogy": "The target reading on a moisture meter that tells a processor 'stop drying now,' not a rough guess.",
+      "why_it_matters": "Under-drying risks mould in storage; over-drying wastes labor and can affect bean quality — this is the number both sides are measured against.",
+      "cloze": "Parchment coffee should be dried to a recommended moisture level of ___%.",
+      "mcq_options": [
+        "11.0",
+        "6.0",
+        "25.0",
+        "18.0"
+      ]
+    },
+    {
+      "id": "parchment_drying_days",
+      "category": "Parchment Drying",
+      "term": "Parchment Drying Duration",
+      "definition": "The typical number of days needed to dry parchment coffee down to its target moisture, assuming it's spread correctly.",
+      "analogy": "A baking time, not an instant process — rushing it produces an uneven result.",
+      "why_it_matters": "A useful sanity check: a lot claiming to be dried in a couple of days, or left out for a month, is a flag either way.",
+      "cloze": "Parchment coffee generally takes about ___ days to dry when spread at proper thickness.",
+      "mcq_options": [
+        "7-10",
+        "30-35",
+        "20-25",
+        "1-2"
+      ]
+    },
+    {
+      "id": "parchment_sun_exposure_day",
+      "category": "Parchment Drying",
+      "term": "Parchment Sun Exposure Risk Day",
+      "definition": "The specific point in the drying cycle when parchment coffee is most vulnerable to wrinkling if exposed to intense midday sun.",
+      "analogy": "A specific vulnerable stage in a longer process, the way a photo print is most fragile partway through developing, not at the very start or end.",
+      "why_it_matters": "A detail that separates careful drying-yard management from just 'spreading it out and hoping.'",
+      "cloze": "Parchment coffee should not be exposed to the hottest midday sun especially on the ___ day of drying, to avoid wrinkled beans.",
+      "mcq_options": [
+        "3rd and 4th",
+        "6th and 7th",
+        "1st",
+        "10th"
+      ]
+    },
+    {
+      "id": "gunny_bag_airing",
+      "category": "Parchment Drying",
+      "term": "Gunny Bag Airing Requirement",
+      "definition": "The cup defect that results from storing or transporting coffee in new gunny bags that weren't aired out first.",
+      "analogy": "A brand-new cast iron pan tainting the first few meals cooked in it before it's been properly seasoned and cleaned.",
+      "why_it_matters": "A packaging detail worth asking about — it's a preventable defect that has nothing to do with the coffee itself.",
+      "cloze": "New gunny bags should be turned inside out and aerated before use, otherwise coffee absorbs natural oils and off odours, producing a(n) ___ cup.",
+      "mcq_options": [
+        "acrid (bitter/pungent/harsh)",
+        "overly fruity",
+        "watery",
+        "overly sweet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "cards": [
+    {
+      "id": "leaf_analysis_timing",
+      "category": "Leaf Analysis",
+      "term": "Leaf Analysis Timing",
+      "definition": "The two windows in the year when leaf tissue analysis for nutrient status is ideally carried out.",
+      "analogy": "Two scheduled check-in points rather than a single annual one or a constant stream of testing.",
+      "why_it_matters": "A leaf sample taken outside these windows may not reflect the plant's typical nutrient status.",
+      "cloze": "Coffee leaf analysis is ideally done during ___.",
+      "mcq_options": [
+        "February-March and September-November",
+        "December-January only",
+        "year-round",
+        "June-July only"
+      ]
+    },
+    {
+      "id": "arabica_leaf_sampling_position",
+      "category": "Leaf Analysis",
+      "term": "Arabica Leaf Sampling Position",
+      "definition": "Which pair of leaves, counted from the growing tip, should be collected for Arabica leaf nutrient analysis.",
+      "analogy": "A specific rung on the ladder, not just 'a leaf from the plant' — position affects what the tissue reading actually reflects.",
+      "why_it_matters": "Sampling the wrong leaf pair would skew nutrient readings even with correct lab technique.",
+      "cloze": "For Arabica leaf analysis, the ___ pair of leaves from the growing tip is collected.",
+      "mcq_options": [
+        "fourth",
+        "tenth",
+        "first",
+        "seventh"
+      ]
+    },
+    {
+      "id": "robusta_leaf_sampling_position",
+      "category": "Leaf Analysis",
+      "term": "Robusta Leaf Sampling Position",
+      "definition": "Which pair of leaves, counted from the growing tip, should be collected for Robusta leaf nutrient analysis — a different position than Arabica's.",
+      "analogy": "A different rung on the same ladder than Arabica's sampling point, reflecting the two species' different growth habits.",
+      "why_it_matters": "Confirms Arabica and Robusta leaf-sampling protocols aren't interchangeable, even though the method looks similar.",
+      "cloze": "For Robusta leaf analysis, the ___ pair of leaves from the growing tip is collected.",
+      "mcq_options": [
+        "third",
+        "first",
+        "ninth",
+        "sixth"
+      ]
+    }
+  ]
+}

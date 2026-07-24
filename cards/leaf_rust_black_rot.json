@@ -1,0 +1,79 @@
+{
+  "cards": [
+    {
+      "id": "leaf_rust_shade_conditions",
+      "category": "Leaf Rust & Black Rot Control",
+      "term": "Leaf Rust Favorable Shade",
+      "definition": "The shade condition — alongside humid, cool weather — that most favors leaf rust disease outbreaks.",
+      "analogy": "A disease that thrives when the canopy isn't doing its microclimate-buffering job, not one that shade makes worse.",
+      "why_it_matters": "A reason removing shade for short-term yield can backfire specifically through higher rust pressure, not just lost carbon/moisture benefits.",
+      "cloze": "Coffee leaf rust disease is favoured by humid, cool weather and ___ overhead shade.",
+      "mcq_options": [
+        "thin or no",
+        "double-tier",
+        "moderate",
+        "very thick"
+      ]
+    },
+    {
+      "id": "leaf_rust_elevation",
+      "category": "Leaf Rust & Black Rot Control",
+      "term": "Leaf Rust Elevation Threshold",
+      "definition": "The elevation above which coffee areas are generally spared from leaf rust outbreaks during the February-March risk window.",
+      "analogy": "A cooler, higher zone the disease's favored conditions simply don't reach at that time of year.",
+      "why_it_matters": "A plot's elevation is a real, checkable rust-risk indicator — not just a proxy for general climate quality.",
+      "cloze": "Coffee areas located above ___ feet elevation are generally not affected by leaf rust during Feb-March.",
+      "mcq_options": [
+        "3500",
+        "6000",
+        "1500",
+        "500"
+      ]
+    },
+    {
+      "id": "pre_blossom_bordeaux_spray",
+      "category": "Leaf Rust & Black Rot Control",
+      "term": "Pre-Blossom Bordeaux Spray Strength",
+      "definition": "The concentration of Bordeaux mixture applied as a preventive spray against leaf rust, timed before blossom.",
+      "analogy": "A preventive dose, not a treatment dose — applied before disease pressure arrives, not after.",
+      "why_it_matters": "Worth confirming this is the pre-blossom spray, since black rot's Bordeaux spray (later in the season) is applied at a different strength.",
+      "cloze": "The pre-blossom Bordeaux mixture spray used for leaf rust control is applied at ___% concentration.",
+      "mcq_options": [
+        "0.5",
+        "5.0",
+        "2.0",
+        "0.05"
+      ]
+    },
+    {
+      "id": "black_rot_spray_concentration",
+      "category": "Leaf Rust & Black Rot Control",
+      "term": "Black Rot Spray Concentration",
+      "definition": "The concentration of Bordeaux mixture used against black rot, applied at a specific point in early June — a different strength and timing than the leaf-rust spray.",
+      "analogy": "A stronger, later-season dose than the pre-blossom rust spray — matched to a different disease and a different point in the calendar.",
+      "why_it_matters": "Confusing this with the pre-blossom leaf-rust spray strength would mean the wrong dose at the wrong time.",
+      "cloze": "In black rot-affected areas, ___% Bordeaux mixture is sprayed during the first week of June.",
+      "mcq_options": [
+        "1.0",
+        "10.0",
+        "5.0",
+        "0.1"
+      ]
+    },
+    {
+      "id": "black_rot_humidity_conditions",
+      "category": "Leaf Rust & Black Rot Control",
+      "term": "Black Rot Favorable Humidity",
+      "definition": "The relative humidity range — alongside continuous rain with no dry spell — that most favors black rot outbreaks.",
+      "analogy": "A disease that needs sustained wetness with no break, not just occasional rain.",
+      "why_it_matters": "Explains why a run of unbroken monsoon rain is a specific black-rot warning sign, not just generally bad drying weather.",
+      "cloze": "Black rot disease outbreaks are favoured by continuous rain without a dry spell and relative humidity of ___%.",
+      "mcq_options": [
+        "80-100",
+        "150-160",
+        "10-20",
+        "40-50"
+      ]
+    }
+  ]
+}

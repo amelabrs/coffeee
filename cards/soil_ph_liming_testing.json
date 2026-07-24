@@ -1,0 +1,94 @@
+{
+  "cards": [
+    {
+      "id": "ideal_soil_ph",
+      "category": "Soil pH, Liming & Testing",
+      "term": "Ideal Coffee Soil pH",
+      "definition": "The target soil pH for coffee cultivation, at which applied fertilizer is used most efficiently by the plant.",
+      "analogy": "The 'room temperature' setting for nutrient uptake — soil chemistry works best in a specific band, not just 'less acidic is always better.'",
+      "why_it_matters": "Fertilizer applied to soil far from this pH is partly wasted, regardless of how correct the dose itself is.",
+      "cloze": "The soil pH should be maintained at around ___ in coffee soils for best fertilizer-use efficiency.",
+      "mcq_options": [
+        "6.1",
+        "7.5",
+        "9.0",
+        "4.0"
+      ]
+    },
+    {
+      "id": "soil_testing_frequency",
+      "category": "Soil pH, Liming & Testing",
+      "term": "Soil Testing Frequency",
+      "definition": "How often coffee soil should be tested at minimum, to keep fertilizer and lime recommendations current.",
+      "analogy": "A regular health check-up, not a one-time diagnosis assumed to hold forever.",
+      "why_it_matters": "A farm that hasn't tested soil in this window is applying fertilizer somewhat blind, however experienced the grower.",
+      "cloze": "Coffee soils should be tested compulsorily once every ___ years.",
+      "mcq_options": [
+        "2-3",
+        "20-25",
+        "every month",
+        "10-15"
+      ]
+    },
+    {
+      "id": "liming_period",
+      "category": "Soil pH, Liming & Testing",
+      "term": "Ideal Liming Period",
+      "definition": "The recommended window in the year for applying lime to coffee soil, timed to the dry season rather than the monsoon.",
+      "analogy": "A dry-season task, not a monsoon one — lime applied into heavy rain is prone to washing away before it can act.",
+      "why_it_matters": "Lime applied outside this window is more likely wasted input than a genuine soil correction.",
+      "cloze": "The ideal period for lime application in coffee zones is ___.",
+      "mcq_options": [
+        "November to February",
+        "year-round including monsoon",
+        "March to April only",
+        "June to August"
+      ]
+    },
+    {
+      "id": "max_lime_dose_split",
+      "category": "Soil pH, Liming & Testing",
+      "term": "Maximum Single Lime Dose",
+      "definition": "The threshold above which a recommended lime dose is too large to apply in one go, and must instead be split across two years.",
+      "analogy": "A dose large enough that it needs to be taken in two installments rather than all at once, the way a large loan gets structured in tranches.",
+      "why_it_matters": "A farm applying its full lime recommendation in a single season, above this threshold, is likely over-shocking the soil.",
+      "cloze": "If the recommended lime dose exceeds ___ metric tonnes per hectare, it must be split into two equal applications over two years.",
+      "mcq_options": [
+        "3.5",
+        "25",
+        "10",
+        "0.5"
+      ]
+    },
+    {
+      "id": "soil_sampling_block_size",
+      "category": "Soil pH, Liming & Testing",
+      "term": "Soil Sampling Block Size",
+      "definition": "The block size fields should be divided into for soil sampling, so results reflect real variation across a farm rather than one average.",
+      "analogy": "Testing several rooms of a house separately instead of assuming one reading represents the whole building.",
+      "why_it_matters": "A single soil sample for a large, varied estate would mask real block-to-block differences this sampling size is designed to catch.",
+      "cloze": "For soil testing, fields should be divided into blocks of ___ hectares each for separate sampling.",
+      "mcq_options": [
+        "2",
+        "0.5",
+        "10",
+        "25"
+      ]
+    },
+    {
+      "id": "soil_sample_hole_size",
+      "category": "Soil pH, Liming & Testing",
+      "term": "Soil Sample Hole Size",
+      "definition": "The size of the hole dug to collect a representative soil sample for testing.",
+      "analogy": "A sample scoop sized to reach the depth where coffee roots actually feed, not just a surface scrape.",
+      "why_it_matters": "A sample taken too shallow risks missing the nutrient zone that actually matters for the crop.",
+      "cloze": "Soil samples for testing should be collected from a hole dug to about ___ inches in diameter and depth.",
+      "mcq_options": [
+        "9",
+        "1",
+        "36",
+        "20"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "cards": [
+    {
+      "id": "arabica_fermentation_hours",
+      "category": "Fermentation & Washing",
+      "term": "Arabica Fermentation Time",
+      "definition": "The typical time window for natural fermentation to fully break down the mucilage on pulped Arabica coffee.",
+      "analogy": "A dough proving on schedule — pull it too early and it's not ready, too late and it's over-proved.",
+      "why_it_matters": "The number to have in mind before deciding whether a lot's fermentation tank needs checking or draining.",
+      "cloze": "Natural fermentation in Arabica coffee is generally complete in about ___ hours.",
+      "mcq_options": [
+        "24-36",
+        "60-72",
+        "2-4",
+        "96-120"
+      ]
+    },
+    {
+      "id": "robusta_fermentation_hours",
+      "category": "Fermentation & Washing",
+      "term": "Robusta Fermentation Time",
+      "definition": "The typical fermentation window for Robusta, longer than Arabica's because Robusta's mucilage layer is thicker and tougher to break down.",
+      "analogy": "A denser dough that simply needs more proving time to reach the same state as a lighter one.",
+      "why_it_matters": "Explains why applying an Arabica fermentation schedule to Robusta by default would under-ferment it.",
+      "cloze": "Natural fermentation in Robusta coffee takes about ___ hours, due to its thick, hard mucilage.",
+      "mcq_options": [
+        "36-72",
+        "6-12",
+        "12-18",
+        "18-24"
+      ]
+    },
+    {
+      "id": "over_fermentation_defect",
+      "category": "Fermentation & Washing",
+      "term": "Over-Fermentation Defect",
+      "definition": "The specific cup defect that results from leaving pulped coffee fermenting past the point where the mucilage has fully broken down.",
+      "analogy": "Milk left out past the point of souring — a process that was useful up to a point becomes a defect past it.",
+      "why_it_matters": "The two-sided risk that makes fermentation timing worth actively checking, not just leaving to a fixed clock.",
+      "cloze": "Over-fermentation of pulped coffee results in ___.",
+      "mcq_options": [
+        "foxy beans and a sourish cup",
+        "a stronger aroma",
+        "faster drying",
+        "mustiness in the cup"
+      ]
+    },
+    {
+      "id": "fermentation_hand_check",
+      "category": "Fermentation & Washing",
+      "term": "Fermentation Hand Check",
+      "definition": "The tactile test for judging whether fermentation is complete — no instruments needed, just a handful of beans rubbed together.",
+      "analogy": "The same instinct as rubbing sand to check it's dry and loose rather than damp and clumping.",
+      "why_it_matters": "A zero-cost, on-the-spot check worth asking a processor whether they actually use, versus just running a fixed clock.",
+      "cloze": "Correctly fermented beans feel ___ when rubbed by hand, similar to squeezing pebbles.",
+      "mcq_options": [
+        "rough and gritty",
+        "slick and slippery",
+        "sticky and stringy",
+        "soft and mushy"
+      ]
+    },
+    {
+      "id": "post_wash_soaking_hours",
+      "category": "Fermentation & Washing",
+      "term": "Post-Wash Soaking Time",
+      "definition": "An optional extra soak, after fermentation and washing are already done, that some processors use to further improve cup quality.",
+      "analogy": "A rinse-and-rest step after the main wash cycle, not a substitute for it.",
+      "why_it_matters": "A detail worth asking about if a lot is marketed as having extra soaking — it's a real, bounded step, not indefinite.",
+      "cloze": "After correct fermentation and washing, Arabica beans can be further soaked under water for about ___ hours to enhance quality.",
+      "mcq_options": [
+        "4-6",
+        "10-12",
+        "1-2",
+        "24-30"
+      ]
+    }
+  ]
+}

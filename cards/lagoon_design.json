@@ -1,0 +1,64 @@
+{
+  "cards": [
+    {
+      "id": "anaerobic_lagoon_charging",
+      "category": "Lagoon Design — Anaerobic & Aerobic",
+      "term": "Anaerobic Lagoon Charging",
+      "definition": "How full an anaerobic lagoon should be charged with cow dung slurry ahead of the season, to seed the bacterial culture that will treat the incoming effluent.",
+      "analogy": "A starter culture added before the main batch arrives, the way a sourdough starter needs to be alive before you bake with it.",
+      "why_it_matters": "Skipping this step means the lagoon isn't biologically ready when the first pulping effluent actually arrives.",
+      "cloze": "The anaerobic lagoon should be charged with cow dung slurry up to ___% of its capacity, one month before pulping starts.",
+      "mcq_options": [
+        "10",
+        "1",
+        "75",
+        "50"
+      ]
+    },
+    {
+      "id": "anaerobic_lagoon_capacity",
+      "category": "Lagoon Design — Anaerobic & Aerobic",
+      "term": "Anaerobic Lagoon Capacity",
+      "definition": "How many days' worth of effluent production the anaerobic lagoon needs to be sized to hold, alongside its depth limit.",
+      "analogy": "A holding tank sized to a retention time, not just a volume — the effluent needs to sit long enough for treatment to actually happen.",
+      "why_it_matters": "Undersizing this is a common way an effluent system fails during a busy processing season, not at design time.",
+      "cloze": "The anaerobic lagoon's capacity should equal ___ days of effluent production, with a maximum depth of 3 metres.",
+      "mcq_options": [
+        "21",
+        "100",
+        "3",
+        "60"
+      ]
+    },
+    {
+      "id": "anaerobic_urea_dosing",
+      "category": "Lagoon Design — Anaerobic & Aerobic",
+      "term": "Anaerobic Lagoon Urea Dosing",
+      "definition": "The nitrogen (urea) dose added to the anaerobic lagoon per unit of effluent volume, to feed the bacterial digestion process.",
+      "analogy": "A nutrient supplement for the bacteria doing the actual treatment work, not for the coffee.",
+      "why_it_matters": "Getting this dose wrong under-feeds (slow treatment) or over-feeds (wasted input, possible imbalance) the lagoon's bacterial culture.",
+      "cloze": "For every 20,000 litres of effluent in the anaerobic lagoon, add ___ kg of urea.",
+      "mcq_options": [
+        "4.5",
+        "15",
+        "0.5",
+        "25"
+      ]
+    },
+    {
+      "id": "aerobic_lagoon_spec",
+      "category": "Lagoon Design — Anaerobic & Aerobic",
+      "term": "Aerobic Lagoon Specification",
+      "definition": "The depth limit for the second-stage aerobic lagoon, which finishes treatment after the anaerobic stage — shallower than the anaerobic lagoon so oxygen can reach the whole depth.",
+      "analogy": "A shallow finishing pool rather than a deep holding tank, because this stage needs oxygen to reach the bottom.",
+      "why_it_matters": "The two-stage anaerobic-then-aerobic design only works if each stage is built to its own, different spec.",
+      "cloze": "The aerobic lagoon should have a depth of no more than ___ metre and capacity for 7 days of effluent production.",
+      "mcq_options": [
+        "one",
+        "three",
+        "five",
+        "ten"
+      ]
+    }
+  ]
+}

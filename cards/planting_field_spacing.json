@@ -1,0 +1,94 @@
+{
+  "cards": [
+    {
+      "id": "arabica_tall_spacing",
+      "category": "Planting & Field Spacing",
+      "term": "Arabica Tall Spacing",
+      "definition": "The typical planting spacing range for Arabica Tall varieties, balancing canopy space against planting density.",
+      "analogy": "Room enough for each plant's mature canopy to develop without immediately competing with its neighbor.",
+      "why_it_matters": "Spacing tighter or looser than this range signals either an unusually high-density block or wasted land.",
+      "cloze": "Arabica Tall varieties are typically planted at a spacing of ___ feet.",
+      "mcq_options": [
+        "7 x 7, 7 x 6, or 6 x 6",
+        "20 x 20",
+        "50 x 50",
+        "1 x 1"
+      ]
+    },
+    {
+      "id": "robusta_tall_spacing",
+      "category": "Planting & Field Spacing",
+      "term": "Robusta Tall Spacing",
+      "definition": "The typical planting spacing for Tall Robusta, wider than Arabica Tall's to match Robusta's larger mature canopy.",
+      "analogy": "A wider footprint reserved for a bigger mature plant, the same logic as spacing large fruit trees further apart than shrubs.",
+      "why_it_matters": "Applying Arabica spacing to a Robusta block would crowd the canopy well before maturity.",
+      "cloze": "Tall Robusta plants are typically spaced at ___ feet.",
+      "mcq_options": [
+        "10 x 10",
+        "25 x 25",
+        "2 x 2",
+        "40 x 40"
+      ]
+    },
+    {
+      "id": "planting_pit_dimensions",
+      "category": "Planting & Field Spacing",
+      "term": "Planting Pit Dimensions",
+      "definition": "The standard size for a coffee planting pit — cubic, not just a shallow scoop.",
+      "analogy": "A pit sized to give young roots real room to establish, not just a token hole to drop a seedling into.",
+      "why_it_matters": "A pit dug smaller than this is a common, invisible cause of poor early establishment.",
+      "cloze": "Standard coffee planting pits measure ___ feet in length, breadth, and depth.",
+      "mcq_options": [
+        "1.5 x 1.5 x 1.5",
+        "10 x 10 x 10",
+        "5 x 5 x 5",
+        "0.2 x 0.2 x 0.2"
+      ]
+    },
+    {
+      "id": "pit_weathering_days",
+      "category": "Planting & Field Spacing",
+      "term": "Pit Weathering Period",
+      "definition": "How long a freshly dug planting pit should be left open to the elements before being filled and planted.",
+      "analogy": "Letting dug soil air out and break down before it goes back in, the way turned compost needs time before use.",
+      "why_it_matters": "Filling and planting a pit immediately after digging skips a step that helps soil structure and pest exposure.",
+      "cloze": "After opening, planting pits are exposed for weathering for ___ days before filling.",
+      "mcq_options": [
+        "15-20",
+        "1-2",
+        "60-70",
+        "120-150"
+      ]
+    },
+    {
+      "id": "seedling_planting_age",
+      "category": "Planting & Field Spacing",
+      "term": "Seedling Age at Field Planting",
+      "definition": "The typical age of a coffee seedling (as a root plant) when it's ready to move from nursery to field, timed to the June-July monsoon window.",
+      "analogy": "A young plant old enough to establish on its own, moved at the point in the calendar with the best odds of survival.",
+      "why_it_matters": "A seedling planted much younger or older than this window is taking on avoidable transplant risk.",
+      "cloze": "Coffee seedlings are typically field-planted at ___ months old (root plants) during June-July.",
+      "mcq_options": [
+        "16-18",
+        "1-2",
+        "36-40",
+        "60-70"
+      ]
+    },
+    {
+      "id": "thimmet_dosage_per_pit",
+      "category": "Planting & Field Spacing",
+      "term": "Thimmet Dosage per Pit",
+      "definition": "The dose of thimmet (forate) crystals added to each planting pit as a preventive measure against cockchafer grub damage.",
+      "analogy": "A small preventive dose placed exactly where the pest would attack, not a broadcast treatment.",
+      "why_it_matters": "A cheap, targeted step against a specific early-establishment risk, easy to skip and easy to verify was done.",
+      "cloze": "At planting, ___ grams of thimmet/forate crystals are added per pit to avoid cockchafer problems.",
+      "mcq_options": [
+        "5",
+        "500",
+        "0.1",
+        "50"
+      ]
+    }
+  ]
+}

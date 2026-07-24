@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "id": "cercospora_treatment_dose",
+      "category": "Nursery Disease Control",
+      "term": "Cercospora Treatment Dose",
+      "definition": "The concentration of Indofil M-45 fungicide used to treat Cercospora (brown-eye-spot) disease in nursery seedlings.",
+      "analogy": "A calibrated dose for a specific nursery disease, not a general-purpose fungicide splash.",
+      "why_it_matters": "A treatable, well-defined nursery disease — worth distinguishing from other seedling problems that need a different fungicide entirely.",
+      "cloze": "Cercospora (brown-eye-spot) disease in nursery seedlings is treated by spraying Indofil M-45 at ___ g/litre of water.",
+      "mcq_options": [
+        "5",
+        "50",
+        "0.1",
+        "100"
+      ]
+    },
+    {
+      "id": "myrothecium_treatment_dose",
+      "category": "Nursery Disease Control",
+      "term": "Myrothecium Roridum Treatment Dose",
+      "definition": "The concentration of Tilt (propiconazole) used to treat Myrothecium roridum, a distinct nursery fungal disease from Cercospora.",
+      "analogy": "A different fungicide at a different dose for a different pathogen — not interchangeable with the Cercospora treatment.",
+      "why_it_matters": "Mixing up this dose with Cercospora's would mean the wrong chemical and wrong strength for whichever disease is actually present.",
+      "cloze": "Myrothecium roridum fungal disease in the nursery is treated with Tilt (propiconazole) at ___ ml per litre of water.",
+      "mcq_options": [
+        "0.8",
+        "20.0",
+        "8.0",
+        "0.01"
+      ]
+    }
+  ]
+}

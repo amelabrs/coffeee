@@ -1,0 +1,79 @@
+{
+  "cards": [
+    {
+      "id": "ripeness_squeeze_test",
+      "category": "Harvesting & Fruit Quality",
+      "term": "Ripeness Squeeze Test",
+      "definition": "What happens to the bean inside a coffee fruit, on gentle squeeze, when the fruit is properly ripe and ready to pick.",
+      "analogy": "Like a ripe grape releasing its seed with almost no resistance, versus an unripe one that won't let go.",
+      "why_it_matters": "A fast, hands-on way to sort a picker's basket for ripeness without needing instruments.",
+      "cloze": "A ripe coffee fruit is identified when, on gentle squeeze, the bean ___.",
+      "mcq_options": [
+        "pops out easily",
+        "turns black",
+        "stays firmly lodged",
+        "splits the skin"
+      ]
+    },
+    {
+      "id": "overripe_pulping_defect",
+      "category": "Harvesting & Fruit Quality",
+      "term": "Over-Ripe Pulping Defect",
+      "definition": "The specific cup and bean defect that results from pulping fruit that was picked past its ripeness window.",
+      "analogy": "Fruit left too long on the vine before processing, the way over-ripe produce turns fermented and off rather than merely soft.",
+      "why_it_matters": "A concrete reason picking rounds need to be timed tightly, not just 'whenever there's time.'",
+      "cloze": "Over-ripe coffee fruits, if pulped for parchment, cause ___.",
+      "mcq_options": [
+        "foxy coffee with brown beans and fruity cup",
+        "boat-shaped beans",
+        "immature green beans",
+        "stunted seedlings"
+      ]
+    },
+    {
+      "id": "picking_mats_mycotoxin",
+      "category": "Harvesting & Fruit Quality",
+      "term": "Picking Mats & Mycotoxin Risk",
+      "definition": "The specific mould-linked contaminant that picking mats help suppress by keeping fruit off bare, contaminated ground during harvest.",
+      "analogy": "A groundsheet doing double duty — catching fallen fruit and keeping it off the exact surface mould loves.",
+      "why_it_matters": "A food-safety detail as much as a quality one — this contaminant is regulated in export markets.",
+      "cloze": "Use of picking mats during harvest reduces mould formation and helps prevent the production of ___ in coffee beans.",
+      "mcq_options": [
+        "Ochratoxin-A",
+        "Fumonisin",
+        "Aflatoxin B1",
+        "Patulin"
+      ]
+    },
+    {
+      "id": "harvesting_bags_reuse",
+      "category": "Harvesting & Fruit Quality",
+      "term": "Harvesting Bag Reuse Rule",
+      "definition": "The rule on whether bags that previously held agrochemicals are an acceptable container for harvested coffee fruit.",
+      "analogy": "The same logic as never reusing a pesticide drum to store drinking water — residue risk doesn't wash out reliably.",
+      "why_it_matters": "A simple, zero-cost habit to check for on any farm visit — the bags in use tell you a lot about food-safety awareness.",
+      "cloze": "Bags previously used for storing chemicals, fertilizers, pesticides or fungicides should ___ be used for harvesting coffee fruit.",
+      "mcq_options": [
+        "never",
+        "always",
+        "only after washing once",
+        "sometimes"
+      ]
+    },
+    {
+      "id": "parchment_vs_cherry_quality",
+      "category": "Harvesting & Fruit Quality",
+      "term": "Parchment vs. Cherry Quality",
+      "definition": "The general quality relationship between parchment-processed (washed) coffee and cherry-processed (natural/dry) coffee.",
+      "analogy": "Not a universal ranking so much as a documented tendency — washed processing removes more variables that can go wrong.",
+      "why_it_matters": "Useful context when a farmer or trader frames 'parchment vs cherry' as purely a price distinction rather than a quality one.",
+      "cloze": "The quality of parchment coffee is ___ to that of cherry coffee.",
+      "mcq_options": [
+        "always superior to",
+        "always inferior to",
+        "identical to",
+        "unrelated to"
+      ]
+    }
+  ]
+}

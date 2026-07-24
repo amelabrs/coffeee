@@ -1,0 +1,94 @@
+{
+  "cards": [
+    {
+      "id": "dadap_lime_protection",
+      "category": "Shade & Pruning Management",
+      "term": "Young Dadap Lime Protection",
+      "definition": "The strength of the lime-wash solution used to protect young dadap shade trees from sun scorch before they're established.",
+      "analogy": "Sunscreen for a young tree, mixed to a specific strength rather than 'a splash of lime in some water.'",
+      "why_it_matters": "A specific, checkable ratio — worth knowing before assuming any whitish coating on young dadap stems is this treatment.",
+      "cloze": "Young dadap plants are protected from scorching sun using a lime solution made from ___ kgs of spray lime in 100 litres of water.",
+      "mcq_options": [
+        "10.0",
+        "100.0",
+        "1.0",
+        "50.0"
+      ]
+    },
+    {
+      "id": "pruning_rain_threshold",
+      "category": "Shade & Pruning Management",
+      "term": "Pruning Rain Threshold",
+      "definition": "The minimum rainfall that should have fallen before pruning begins, with exceptions for high-elevation or irrigated blocks.",
+      "analogy": "Waiting for the ground and plant to actually be in growing condition before cutting back, not pruning on the calendar alone.",
+      "why_it_matters": "Pruning before this threshold, outside the stated exceptions, risks stressing plants that aren't yet in active growth.",
+      "cloze": "Pruning should not start until a minimum of ___ inches of rain has been received (except above 3500 ft or in irrigated blocks).",
+      "mcq_options": [
+        "2",
+        "6",
+        "0.1",
+        "12"
+      ]
+    },
+    {
+      "id": "shade_lopping_rain_threshold",
+      "category": "Shade & Pruning Management",
+      "term": "Shade Lopping Rain Threshold",
+      "definition": "The rainfall threshold that should be reached before shade trees are lopped or regulated.",
+      "analogy": "A different, higher rain threshold than pruning's — shade work waits for a more established wet season before starting.",
+      "why_it_matters": "Confusing this with the lower pruning-rain threshold would mean lopping shade too early in the season.",
+      "cloze": "Shade lopping/regulation should preferably be done only after receiving ___ inches of rainfall.",
+      "mcq_options": [
+        "4-5",
+        "0.5-1",
+        "30-40",
+        "15-20"
+      ]
+    },
+    {
+      "id": "cradle_pit_dimensions_kaipidi",
+      "category": "Shade & Pruning Management",
+      "term": "Cradle Pit Dimensions",
+      "definition": "The breadth of a cradle pit — a soil-and-moisture-conservation trench dug between coffee rows — alongside its depth and renovation schedule.",
+      "analogy": "A maintained trench, not a dig-once-and-forget structure — it needs periodic renovation to keep working.",
+      "why_it_matters": "A pit built to a different, smaller breadth than this spec likely won't hold or conserve moisture as intended.",
+      "cloze": "Cradle pits are opened with ___ inch breadth and 12 inch depth, renovated every 2-3 years.",
+      "mcq_options": [
+        "20",
+        "2",
+        "50",
+        "100"
+      ]
+    },
+    {
+      "id": "dadap_spacing",
+      "category": "Shade & Pruning Management",
+      "term": "Dadap Planting Spacing",
+      "definition": "The spacing between dadap shade trees, planted to provide temporary lower-canopy shade while permanent shade trees establish.",
+      "analogy": "A temporary scaffold of shade, spaced to cover the canopy gap until longer-term shade trees take over.",
+      "why_it_matters": "Spaced too far apart, dadap fails at the one job it's planted for — filling the shade gap early on.",
+      "cloze": "Dadap plants are spaced about ___ feet apart to provide temporary lower canopy shade.",
+      "mcq_options": [
+        "20",
+        "2",
+        "50",
+        "100"
+      ]
+    },
+    {
+      "id": "dadap_stake_size",
+      "category": "Shade & Pruning Management",
+      "term": "Dadap Stake Size",
+      "definition": "The height range for dadap stakes at planting, alongside their minimum girth requirement.",
+      "analogy": "A stake substantial enough to survive being planted directly and take root, not a thin cutting.",
+      "why_it_matters": "A stake shorter or thinner than this spec has a real chance of simply failing to establish.",
+      "cloze": "Dadap stakes used for planting should be ___ metre(s) in height with a minimum girth of 5-6 cm.",
+      "mcq_options": [
+        "1-1.5",
+        "10-12",
+        "0.1-0.2",
+        "5-6"
+      ]
+    }
+  ]
+}

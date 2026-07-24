@@ -1,0 +1,49 @@
+{
+  "cards": [
+    {
+      "id": "young_plant_watering",
+      "category": "Young Plant Care & Fertilization",
+      "term": "Young Plant Watering Rate",
+      "definition": "The weekly watering rate for young coffee plants once the monsoon has ended and rainfall can no longer be relied on.",
+      "analogy": "A weekly ration sized to a young plant's actual root system, not a fire-hose approach.",
+      "why_it_matters": "Under-watering at this stage risks losing a young plant right after the establishment investment has already been made.",
+      "cloze": "After monsoon cessation, young coffee plants should be watered with ___ litres of water per plant once a week.",
+      "mcq_options": [
+        "5-10",
+        "25-30",
+        "50-60",
+        "0.5-1"
+      ]
+    },
+    {
+      "id": "sustenance_fertilizer_dose",
+      "category": "Young Plant Care & Fertilization",
+      "term": "Sustenance Fertilizer Dose",
+      "definition": "The baseline N:P:K fertilizer dose for maintaining vegetative growth in mature coffee plants.",
+      "analogy": "A maintenance diet, not a growth-spurt dose — this keeps an already-established plant healthy rather than pushing rapid new growth.",
+      "why_it_matters": "The baseline number a farm's actual fertilizer program can be checked against.",
+      "cloze": "Grown-up coffee plants need a sustenance dose of ___ kg per hectare of N:P:K for vegetative growth.",
+      "mcq_options": [
+        "50:50:50",
+        "5:5:5",
+        "500:500:500",
+        "10:10:10"
+      ]
+    },
+    {
+      "id": "max_split_fertilizer_dose",
+      "category": "Young Plant Care & Fertilization",
+      "term": "Maximum Single Split Fertilizer Dose",
+      "definition": "The ceiling on how much N:P:K can be applied in a single split application, above which nutrient loss (rather than uptake) becomes likely.",
+      "analogy": "A per-meal portion limit — beyond this, more food isn't better absorbed, it's mostly wasted.",
+      "why_it_matters": "A season's full fertilizer recommendation, above this ceiling, needs to be split across multiple applications rather than dumped in one go.",
+      "cloze": "A single split dose of fertilizer should not exceed ___ kg per hectare of N:P:K to avoid nutrient loss.",
+      "mcq_options": [
+        "100:75:100",
+        "1000:750:1000",
+        "5:5:5",
+        "10:5:10"
+      ]
+    }
+  ]
+}

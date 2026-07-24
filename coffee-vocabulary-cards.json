@@ -1,10 +1,10 @@
 {
   "meta": {
     "title": "Coffee Business Vocabulary — Spaced Repetition Deck",
-    "source": "coffee-business-vocabulary.md + specialty-coffee-reading-guide.md + Coffee_Soil_and_Yield_Reference.docx",
+    "source": "coffee-business-vocabulary.md + specialty-coffee-reading-guide.md + Coffee_Soil_and_Yield_Reference.docx + coffee-cultivation-quiz-350.md (Coffee Kaipidi, CCRI)",
     "method": "Leitner box spaced repetition (5 boxes: 1/2/4/7/14 day intervals). Box 1 = MCQ recognition. Box 2+ = fill-in-the-blank recall.",
-    "card_count": 112,
-    "stage_count": 28
+    "card_count": 182,
+    "stage_count": 45
   },
   "stages": [
     {
@@ -174,6 +174,108 @@
       "title": "Arabica vs. Robusta — Climate Risk Profiles",
       "blurb": "Why Arabica isn't just a pickier Robusta — a distinct elevation, disease, and timing risk profile of its own.",
       "file": "cards/arabica_robusta_risk.json"
+    },
+    {
+      "id": "nursery_beds_germination",
+      "title": "Nursery Beds & Germination",
+      "blurb": "The first three weeks of a coffee plant's life, before it's even a seedling.",
+      "file": "cards/nursery_beds_germination.json"
+    },
+    {
+      "id": "harvesting_fruit_quality",
+      "title": "Harvesting & Fruit Quality",
+      "blurb": "Reading ripeness correctly and handling fruit right at the point of picking.",
+      "file": "cards/harvesting_fruit_quality.json"
+    },
+    {
+      "id": "fermentation_washing",
+      "title": "Fermentation & Washing",
+      "blurb": "How long pulped coffee should ferment before washing, and how to tell it's gone right.",
+      "file": "cards/fermentation_washing.json"
+    },
+    {
+      "id": "parchment_drying",
+      "title": "Parchment Drying",
+      "blurb": "Getting washed parchment coffee from freshly pulped to storage-ready without wrinkling or overheating it.",
+      "file": "cards/parchment_drying.json"
+    },
+    {
+      "id": "cherry_drying",
+      "title": "Cherry Drying",
+      "blurb": "The natural/dry-process side of drying — different thickness and moisture targets than parchment.",
+      "file": "cards/cherry_drying.json"
+    },
+    {
+      "id": "effluent_treatment",
+      "title": "Effluent Treatment & Compliance",
+      "blurb": "The regulatory numbers behind wet-processing wastewater — what's produced, and what's legally allowed out.",
+      "file": "cards/effluent_treatment.json"
+    },
+    {
+      "id": "lagoon_design",
+      "title": "Lagoon Design — Anaerobic & Aerobic",
+      "blurb": "The physical sizing and dosing rules for the two-stage lagoon system that treats wet-processing effluent.",
+      "file": "cards/lagoon_design.json"
+    },
+    {
+      "id": "cbb_biocontrol",
+      "title": "Coffee Berry Borer & Biocontrol",
+      "blurb": "Two specific, low-cost interventions against Coffee Berry Borer damage.",
+      "file": "cards/cbb_biocontrol.json"
+    },
+    {
+      "id": "white_stem_borer",
+      "title": "White Stem Borer Management",
+      "blurb": "Timing and trap/pruning specifics for managing White Stem Borer, a major Arabica pest.",
+      "file": "cards/white_stem_borer.json"
+    },
+    {
+      "id": "leaf_rust_black_rot",
+      "title": "Leaf Rust & Black Rot Control",
+      "blurb": "The conditions that favor two major fungal diseases, and the sprays used against them.",
+      "file": "cards/leaf_rust_black_rot.json"
+    },
+    {
+      "id": "soil_ph_liming_testing",
+      "title": "Soil pH, Liming & Testing",
+      "blurb": "How coffee soil should be tested and limed, and how often.",
+      "file": "cards/soil_ph_liming_testing.json"
+    },
+    {
+      "id": "leaf_analysis",
+      "title": "Leaf Analysis",
+      "blurb": "When and how to sample leaves for nutrient testing — timing and sampling position both matter.",
+      "file": "cards/leaf_analysis.json"
+    },
+    {
+      "id": "basket_nursery_prep",
+      "title": "Basket Nursery Preparation",
+      "blurb": "The physical specs for raising seedlings in polythene bags rather than open beds.",
+      "file": "cards/basket_nursery_prep.json"
+    },
+    {
+      "id": "planting_field_spacing",
+      "title": "Planting & Field Spacing",
+      "blurb": "Pit prep and spacing rules for putting seedlings into the ground.",
+      "file": "cards/planting_field_spacing.json"
+    },
+    {
+      "id": "shade_pruning_management",
+      "title": "Shade & Pruning Management",
+      "blurb": "Timing rules for pruning and shade work, and the physical specs for cradle pits and dadap shade trees.",
+      "file": "cards/shade_pruning_management.json"
+    },
+    {
+      "id": "young_plant_fertilization",
+      "title": "Young Plant Care & Fertilization",
+      "blurb": "Watering newly-planted coffee, and the standard NPK doses for established plants.",
+      "file": "cards/young_plant_fertilization.json"
+    },
+    {
+      "id": "nursery_disease_control",
+      "title": "Nursery Disease Control",
+      "blurb": "Fungicide doses for the two most common nursery-stage seedling diseases.",
+      "file": "cards/nursery_disease_control.json"
     }
   ]
 }
