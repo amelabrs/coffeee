@@ -1,0 +1,49 @@
+{
+  "cards": [
+    {
+      "id": "zbnf",
+      "category": "Regenerative Nutrient Management",
+      "term": "ZBNF (Zero Budget Natural Farming)",
+      "definition": "A farming approach built around no tillage, no external fertilizer, cow-based bioformulations, continuous mulching, and on-farm compost production — aiming to cover a farm's full nutrient need without bought chemical inputs.",
+      "analogy": "Running a household entirely on what's grown and made on-site, instead of buying groceries for meals you could have produced yourself.",
+      "why_it_matters": "A documented reference point for input-cost reduction — worth asking about directly if a farm mentions unusually low fertilizer spend.",
+      "cloze": "___ is a farming approach built on no tillage, no external fertilizer, cow-based inputs, and on-farm compost to cover nutrient needs.",
+      "mcq_options": [
+        "ZBNF (Zero Budget Natural Farming)",
+        "Jeevamrutha & Beejamrutha",
+        "On-Farm Vermicompost",
+        "Drip Fertigation"
+      ]
+    },
+    {
+      "id": "jeevamrutha_beejamrutha",
+      "category": "Regenerative Nutrient Management",
+      "term": "Jeevamrutha & Beejamrutha",
+      "definition": "A pair of cow-based bioformulations central to ZBNF, applied to the field roughly three times a year at scale, in place of external chemical fertilizer.",
+      "analogy": "A homemade starter culture used to keep an entire system fermenting and alive, reapplied on a regular schedule.",
+      "why_it_matters": "Specific enough to ask about by name — a farmer using these can point to exactly what they're applying and how often.",
+      "cloze": "___ are the cow-based bioformulations central to ZBNF, applied to the field roughly three times a year.",
+      "mcq_options": [
+        "Jeevamrutha & Beejamrutha",
+        "ZBNF (Zero Budget Natural Farming)",
+        "On-Farm Vermicompost",
+        "Mulching (Coir Pith)"
+      ]
+    },
+    {
+      "id": "vermicompost",
+      "category": "Regenerative Nutrient Management",
+      "term": "On-Farm Vermicompost",
+      "definition": "Compost produced on-site from farm waste like leaf litter, pulp, and pruning residue, at a scale capable of covering a farm's entire nutrient requirement without bought fertilizer.",
+      "analogy": "Cooking from what's already in the fridge — labor-intensive to set up, but once running it covers the whole need at near-zero marginal cost.",
+      "why_it_matters": "The nutrient-source half of the ZBNF cost story — worth asking whether a farm's vermicompost covers full need or just supplements bought fertilizer.",
+      "cloze": "___ is compost produced on-site from farm waste, at a scale capable of covering a farm's entire nutrient requirement.",
+      "mcq_options": [
+        "On-Farm Vermicompost",
+        "Jeevamrutha & Beejamrutha",
+        "Drip Fertigation",
+        "Mulching (Coir Pith)"
+      ]
+    }
+  ]
+}

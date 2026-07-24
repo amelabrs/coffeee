@@ -1,10 +1,10 @@
 {
   "meta": {
     "title": "Coffee Business Vocabulary — Spaced Repetition Deck",
-    "source": "coffee-business-vocabulary.md + specialty-coffee-reading-guide.md",
+    "source": "coffee-business-vocabulary.md + specialty-coffee-reading-guide.md + Coffee_Soil_and_Yield_Reference.docx",
     "method": "Leitner box spaced repetition (5 boxes: 1/2/4/7/14 day intervals). Box 1 = MCQ recognition. Box 2+ = fill-in-the-blank recall.",
-    "card_count": 88,
-    "stage_count": 22
+    "card_count": 112,
+    "stage_count": 28
   },
   "stages": [
     {
@@ -138,6 +138,42 @@
       "title": "Café & Industry Practice",
       "blurb": "A few practical habits and myths worth knowing.",
       "file": "cards/industry_practice.json"
+    },
+    {
+      "id": "water_timing",
+      "title": "Water Timing & Irrigation Methods",
+      "blurb": "Why when water arrives matters more than how much falls, and the delivery methods that get the timing right.",
+      "file": "cards/water_timing.json"
+    },
+    {
+      "id": "water_conservation",
+      "title": "Water Conservation — In-Situ Structures",
+      "blurb": "Why abundant rainfall still leaves a dry-season deficit, and the low-capital structures that catch it before it runs off.",
+      "file": "cards/water_conservation.json"
+    },
+    {
+      "id": "water_harvesting",
+      "title": "Water Harvesting — Ex-Situ Storage",
+      "blurb": "Capital structures that store monsoon surplus for the dry season, beyond what in-situ structures alone can catch.",
+      "file": "cards/water_harvesting.json"
+    },
+    {
+      "id": "shade_soil_health",
+      "title": "Shade, Carbon & Soil Health",
+      "blurb": "What a shade canopy is actually doing for a coffee farm, and the risk of trading it away for short-term yield.",
+      "file": "cards/shade_soil_health.json"
+    },
+    {
+      "id": "zbnf_nutrients",
+      "title": "Regenerative Nutrient Management",
+      "blurb": "A documented zero-external-input farming case, and the specific practices behind its cost reduction.",
+      "file": "cards/zbnf_nutrients.json"
+    },
+    {
+      "id": "arabica_robusta_risk",
+      "title": "Arabica vs. Robusta — Climate Risk Profiles",
+      "blurb": "Why Arabica isn't just a pickier Robusta — a distinct elevation, disease, and timing risk profile of its own.",
+      "file": "cards/arabica_robusta_risk.json"
     }
   ]
 }

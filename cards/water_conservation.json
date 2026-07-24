@@ -1,0 +1,94 @@
+{
+  "cards": [
+    {
+      "id": "water_paradox",
+      "category": "Water Conservation — In-Situ Structures",
+      "term": "The Water Paradox",
+      "definition": "The situation where a region's annual rainfall is genuinely abundant, but most of it falls in a short monsoon window and much of that runs off unused — leaving a water deficit exactly when the plant needs it most, during the dry months.",
+      "analogy": "A paycheck-to-paycheck problem, not a low-income one — the salary is adequate, but it lands as one lump sum and half of it runs off the slope unspent.",
+      "why_it_matters": "Explains why 'how much rain did you get this year' is the wrong question — 'how much of it did you keep' is the one that predicts dry-season stress.",
+      "cloze": "___ describes abundant annual rainfall concentrated into a short monsoon window, leaving a deficit exactly when the plant needs water most.",
+      "mcq_options": [
+        "The Water Paradox",
+        "Cradle Pits",
+        "Contour Bunding",
+        "Shade-Tree Thinning"
+      ]
+    },
+    {
+      "id": "contour_bunding",
+      "category": "Water Conservation — In-Situ Structures",
+      "term": "Contour Bunding",
+      "definition": "Earthen embankments built along the natural contour of a slope, reducing both the amount and speed of surface runoff during heavy rain.",
+      "analogy": "A speed bump laid along the hillside instead of across the road.",
+      "why_it_matters": "A low-capital, farmer-executable structure worth asking about on any sloped plot — its presence signals active runoff management.",
+      "cloze": "___ are earthen embankments built along a slope's contour to reduce the amount and speed of runoff.",
+      "mcq_options": [
+        "Contour Bunding",
+        "Contour Ridges",
+        "Cradle Pits",
+        "Half-Moon Micro-Catchments"
+      ]
+    },
+    {
+      "id": "contour_ridges",
+      "category": "Water Conservation — In-Situ Structures",
+      "term": "Contour Ridges",
+      "definition": "Soil ridges built along a slope's contour that slow down water flow and catch sediment, distinct from the embankments used in bunding.",
+      "analogy": "A washboard pattern across the hillside that breaks up a straight downhill run into many small slow-downs.",
+      "why_it_matters": "Often used alongside bunding rather than instead of it — worth knowing they're two distinct techniques, not two names for the same thing.",
+      "cloze": "___ are soil ridges along a slope's contour that slow water flow and catch sediment.",
+      "mcq_options": [
+        "Contour Ridges",
+        "Contour Bunding",
+        "Half-Moon Micro-Catchments",
+        "Cradle Pits"
+      ]
+    },
+    {
+      "id": "cradle_pits",
+      "category": "Water Conservation — In-Situ Structures",
+      "term": "Cradle Pits",
+      "definition": "Staggered trenches roughly 30cm wide and 45cm deep, dug between coffee rows along the contour after the monsoon. They double as mini-compost pits while conserving soil moisture and preventing erosion.",
+      "analogy": "A row of small catch-basins doing two jobs at once — holding water and quietly composting whatever falls into them.",
+      "why_it_matters": "A structure that pays for its own labor twice over: erosion control and free compost from the same trench.",
+      "cloze": "___ are staggered 30cm × 45cm trenches dug along the contour after monsoon, doubling as mini-compost pits.",
+      "mcq_options": [
+        "Cradle Pits",
+        "Contour Ridges",
+        "Half-Moon Micro-Catchments",
+        "Contour Bunding"
+      ]
+    },
+    {
+      "id": "half_moon_catchments",
+      "category": "Water Conservation — In-Situ Structures",
+      "term": "Half-Moon Micro-Catchments",
+      "definition": "Semicircular earth bunds that catch water flowing downslope, with coffee planted in the lower pocket where the water collects.",
+      "analogy": "A catcher's mitt shape cut into the slope, positioned exactly where the plant needs the ball to land.",
+      "why_it_matters": "A structure built around a single plant rather than a whole row — useful where labor is available but bunding a full slope isn't practical.",
+      "cloze": "___ are semicircular earth bunds that catch downslope water, with coffee planted in the lower pocket.",
+      "mcq_options": [
+        "Half-Moon Micro-Catchments",
+        "Cradle Pits",
+        "Contour Bunding",
+        "Contour Ridges"
+      ]
+    },
+    {
+      "id": "mulching_coir_pith",
+      "category": "Water Conservation — In-Situ Structures",
+      "term": "Mulching (Coir Pith)",
+      "definition": "Covering soil with organic material to reduce evaporation and buffer dry-season moisture loss. Coffee Board research compared several mulch materials and found one performed clearly best at retaining dry-season soil moisture, with cherry husk as the closest runner-up.",
+      "analogy": "A mattress, not a blanket — its main job is absorbing shock and reducing evaporation, not providing warmth.",
+      "why_it_matters": "A cheap, farmer-executable practice worth asking about directly — and worth knowing that not all mulch materials perform equally.",
+      "cloze": "Coffee Board research found ___ to be the mulch material with the strongest effect on dry-season soil moisture, ahead of cherry husk.",
+      "mcq_options": [
+        "coir pith",
+        "cherry husk",
+        "vermicompost",
+        "cradle pits"
+      ]
+    }
+  ]
+}

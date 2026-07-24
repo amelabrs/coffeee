@@ -1,0 +1,79 @@
+{
+  "cards": [
+    {
+      "id": "blossom_stage",
+      "category": "Water Timing & Irrigation Methods",
+      "term": "Blossom (Flowering Trigger)",
+      "definition": "The flowering-trigger stage: a period of water stress followed by a rain or irrigation break wakes dormant flower buds and sets off uniform flowering, with full bloom following within 8–12 days. Missing the seasonal rainfall window at this stage causes a major setback to that year's production.",
+      "analogy": "Works like a due date, not a growth spurt — water arriving in the right week flips a switch.",
+      "why_it_matters": "Asking a supplier whether the blossom rains arrived on time is a real diagnostic question — it predicts that season's yield and quality better than asking about total rainfall.",
+      "cloze": "___ is the flowering-trigger stage where a water-stress-then-release wakes dormant buds, producing full bloom within 8–12 days.",
+      "mcq_options": [
+        "Blossom (Flowering Trigger)",
+        "Backing Shower",
+        "Drip Fertigation",
+        "Contour Bunding"
+      ]
+    },
+    {
+      "id": "backing_shower",
+      "category": "Water Timing & Irrigation Methods",
+      "term": "Backing Shower",
+      "definition": "A follow-up watering needed within 15–20 days after the flowering trigger, to lock in fruit set. Missing it causes floral abnormalities, poor fruit set, and berry drop, even if the earlier stage went well.",
+      "analogy": "If the flowering trigger flips the switch, this shower holds the circuit closed long enough for the current to actually flow.",
+      "why_it_matters": "A good bloom alone isn't enough — asking about this follow-up watering tells you whether that early promise actually converted into fruit.",
+      "cloze": "The ___ is the follow-up watering needed within 15–20 days after blossom to lock in fruit set.",
+      "mcq_options": [
+        "Backing Shower",
+        "Blossom (Flowering Trigger)",
+        "Micro-Sprinkler Irrigation",
+        "Half-Moon Micro-Catchments"
+      ]
+    },
+    {
+      "id": "sprinkler_irrigation",
+      "category": "Water Timing & Irrigation Methods",
+      "term": "Sprinkler Irrigation (Blossom + Backing)",
+      "definition": "Applying sprinkler irrigation specifically at the two critical watering windows, rather than continuously through the season. Documented as the most reliable, widely adopted irrigation method for lifting Robusta yield well above unirrigated coffee.",
+      "analogy": "Watering exactly at the two moments the plant is listening, instead of on a fixed schedule regardless of stage.",
+      "why_it_matters": "The single biggest documented yield lever in this reference — a useful benchmark when comparing why one farm's yield differs sharply from a neighbor's.",
+      "cloze": "Sprinkler irrigation timed to blossom and backing is documented to raise Robusta yield by roughly ___% over unirrigated coffee.",
+      "mcq_options": [
+        "75–110",
+        "25–60",
+        "20–45",
+        "40–50"
+      ]
+    },
+    {
+      "id": "micro_sprinkler",
+      "category": "Water Timing & Irrigation Methods",
+      "term": "Micro-Sprinkler Irrigation",
+      "definition": "A finer-scale sprinkler system delivering similar yield gains to standard sprinkler irrigation while using significantly less water. Adoption is limited mainly by clogging and the maintenance it demands.",
+      "analogy": "A low-flow showerhead that gets you just as clean using a fraction of the water — as long as you keep it unclogged.",
+      "why_it_matters": "Worth flagging in water-scarce sourcing regions where the tradeoff is maintenance labor, not water availability.",
+      "cloze": "___ delivers similar yield gains to standard sprinkler irrigation using 40–50% less water, limited mainly by clogging.",
+      "mcq_options": [
+        "Micro-Sprinkler Irrigation",
+        "Drip Fertigation",
+        "Sprinkler Irrigation (Blossom + Backing)",
+        "Backing Shower"
+      ]
+    },
+    {
+      "id": "drip_fertigation",
+      "category": "Water Timing & Irrigation Methods",
+      "term": "Drip Fertigation",
+      "definition": "Delivering the full recommended fertilizer dose through drip irrigation rather than conventional soil application, combining watering and feeding into one system. Documented to raise Robusta yield meaningfully over conventional soil fertilization.",
+      "analogy": "Feeding the plant through an IV drip instead of leaving meals on the ground nearby and hoping enough gets absorbed.",
+      "why_it_matters": "A relevant capital-vs-labor tradeoff to understand if a farm is weighing infrastructure upgrades against continuing manual fertilizer application.",
+      "cloze": "___ delivers the full recommended fertilizer dose through drip irrigation, raising Robusta yield by roughly 20–45% over conventional soil fertilization.",
+      "mcq_options": [
+        "Drip Fertigation",
+        "Micro-Sprinkler Irrigation",
+        "Sprinkler Irrigation (Blossom + Backing)",
+        "On-Farm Vermicompost"
+      ]
+    }
+  ]
+}

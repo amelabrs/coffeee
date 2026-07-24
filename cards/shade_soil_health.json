@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "id": "shade_canopy_value",
+      "category": "Shade, Carbon & Soil Health",
+      "term": "Shade Canopy Value",
+      "definition": "The combined ecological output of a shade-grown coffee system — carbon sequestration, biodiversity habitat, moisture retention, and microclimate regulation — running well beyond what the coffee crop itself provides.",
+      "analogy": "A roof that's simultaneously insulation, a rain catchment, and a wildlife shelter, not just cover.",
+      "why_it_matters": "The baseline your sourcing story is pricing a premium against — worth quantifying rather than treating as a vague marketing claim.",
+      "cloze": "___ refers to the combined carbon storage, biodiversity habitat, and moisture regulation a shade-grown system provides beyond the crop itself.",
+      "mcq_options": [
+        "Shade Canopy Value",
+        "Shade-Tree Thinning",
+        "The Water Paradox",
+        "ZBNF (Zero Budget Natural Farming)"
+      ]
+    },
+    {
+      "id": "shade_tree_thinning",
+      "category": "Shade, Carbon & Soil Health",
+      "term": "Shade-Tree Thinning",
+      "definition": "Removing native shade trees to chase a near-term yield boost. It measurably reduces biodiversity, carbon stocks, and soil moisture retention, and on steep slopes accelerates erosion — a cost that shows up in later seasons, after the short-term gain has already been banked.",
+      "analogy": "Selling the roof to insulate the house for one winter — it works briefly, but every job the roof was doing stops at once.",
+      "why_it_matters": "A farmgate premium for keeping the canopy intact is, in effect, a premium for the farmer who didn't sell the roof.",
+      "cloze": "___ trades long-term soil, carbon, and moisture health for a near-term yield boost, with the cost showing up in later seasons.",
+      "mcq_options": [
+        "Shade-Tree Thinning",
+        "Shade Canopy Value",
+        "Cradle Pits",
+        "On-Farm Vermicompost"
+      ]
+    }
+  ]
+}

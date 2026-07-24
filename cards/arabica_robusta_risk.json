@@ -1,0 +1,94 @@
+{
+  "cards": [
+    {
+      "id": "robusta_drought_sensitivity",
+      "category": "Arabica vs. Robusta — Climate Risk Profiles",
+      "term": "Robusta's Drought Sensitivity",
+      "definition": "The species more vulnerable to drought stress, which is why irrigation timing at blossom and backing is a proportionally bigger yield lever for it than for Arabica, whose main vulnerability runs through temperature and disease pressure instead.",
+      "analogy": "The hardier crop that tolerates a rough year — closer to a field tomato than a greenhouse one.",
+      "why_it_matters": "Explains why all the hard percentage stats on irrigation timing in this reference are Robusta-specific — Arabica's risk shows up through a different channel entirely.",
+      "cloze": "___ is more sensitive to drought than Arabica, making irrigation timing a proportionally bigger yield lever for it.",
+      "mcq_options": [
+        "Robusta",
+        "Arabica",
+        "Chandragiri (Rust-Resistant Arabica)",
+        "ZBNF (Zero Budget Natural Farming)"
+      ]
+    },
+    {
+      "id": "wayanad_yield_trend",
+      "category": "Arabica vs. Robusta — Climate Risk Profiles",
+      "term": "Wayanad Yield Trend (35-Year Dataset)",
+      "definition": "A long-run regional dataset found Robusta yield trending upward over several decades while Arabica yield trended downward in the same area, attributed to Robusta's better fit for the local climate. Arabica yield there was also hit particularly hard in strong El Niño years, even though El Niño has little effect on Indian coffee production overall.",
+      "analogy": "Two crops given the same three decades of weather, coming out with opposite trend lines — one adapting, one struggling.",
+      "why_it_matters": "A directional signal, not a universal one — worth asking Shevaroys and BR Hills farmers whether they're seeing the same Arabica-vs-Robusta drift in their own microclimate.",
+      "cloze": "The ___ found Robusta yield trending up and Arabica yield trending down over the same 35 years in the same Kerala region.",
+      "mcq_options": [
+        "Wayanad Yield Trend (35-Year Dataset)",
+        "India's Arabica Yield Decline (USDA)",
+        "Arabica Elevation Band",
+        "Chandragiri (Rust-Resistant Arabica)"
+      ]
+    },
+    {
+      "id": "arabica_national_decline",
+      "category": "Arabica vs. Robusta — Climate Risk Profiles",
+      "term": "India's Arabica Yield Decline (USDA)",
+      "definition": "A national assessment put India's Arabica yield at roughly 360 kg per hectare, with a meaningful year-on-year decline driven by Arabica's greater sensitivity to rising temperatures, leaf rust, and white stem borer. Farmers are documented actively shifting new plantings toward Robusta as a result.",
+      "analogy": "A specific, sourced number behind the general sense that 'Arabica seems to be struggling' — not just anecdote.",
+      "why_it_matters": "Useful context if a farmer mentions declining Arabica yields — this is a documented national pattern, not just their own bad luck.",
+      "cloze": "A national USDA assessment put India's Arabica yield at 360 kg/ha, a ___% year-on-year decline, driven by heat, leaf rust, and white stem borer pressure.",
+      "mcq_options": [
+        "7",
+        "60",
+        "80",
+        "25"
+      ]
+    },
+    {
+      "id": "arabica_elevation_band",
+      "category": "Arabica vs. Robusta — Climate Risk Profiles",
+      "term": "Arabica Elevation Band",
+      "definition": "The elevation and rainfall range Arabica needs to perform well — cooler conditions with 1,600–2,500mm annual rainfall — noticeably narrower than what Robusta tolerates. Falling outside this band is a leading reason Arabica underperforms on a given plot.",
+      "analogy": "A greenhouse's operating range, not a field crop's — narrower, but rewarding if you stay inside it.",
+      "why_it_matters": "A plot's elevation is close to a precondition, not just one input among many — worth confirming directly rather than assuming from general region reputation.",
+      "cloze": "Arabica wants roughly ___–2,000m elevation — cooler and moisture-rich, a narrower band than Robusta tolerates.",
+      "mcq_options": [
+        "600",
+        "1,000",
+        "1,600",
+        "2,500"
+      ]
+    },
+    {
+      "id": "chandragiri_variety",
+      "category": "Arabica vs. Robusta — Climate Risk Profiles",
+      "term": "Chandragiri (Rust-Resistant Arabica)",
+      "definition": "A CCRI-developed Arabica selection bred for rust resistance, needing to sit above a specific elevation threshold to reach its full yield potential and show its strongest resistance to leaf rust.",
+      "analogy": "A variety bred to handle a specific disease threat, but only if it's planted where it can actually perform.",
+      "why_it_matters": "Worth asking whether a rust-resistant selection like this is actually planted at the elevation it needs — the resistance figure is conditional, not guaranteed.",
+      "cloze": "___ needs elevation above roughly 1,000m to hit its yield potential and shows 95–98% rust resistance in that band.",
+      "mcq_options": [
+        "Chandragiri (Rust-Resistant Arabica)",
+        "Arabica Elevation Band",
+        "Robusta's Drought Sensitivity",
+        "India's Arabica Yield Decline (USDA)"
+      ]
+    },
+    {
+      "id": "arabica_berry_expansion_window",
+      "category": "Arabica vs. Robusta — Climate Risk Profiles",
+      "term": "Berry Expansion (Arabica's Critical Window)",
+      "definition": "The Arabica-equivalent of Robusta's blossom/backing timing story — a comparable field trial found that splitting fertilizer application across flowering, this stage, and ripening, weighted toward this middle stage, meaningfully beat an even split, while a poorly-timed split lost significant yield against the same baseline. Skipping nitrogen entirely during the reproductive stage was even more costly.",
+      "analogy": "Like adding the right amount of salt at the wrong stage of cooking — the ingredient was correct, the timing wasn't.",
+      "why_it_matters": "No India-specific Arabica irrigation-timing study exists yet — this is the closest evidence available, and directionally it says Arabica's sensitive window comes later than Robusta's.",
+      "cloze": "In an Arabica fertilizer-timing trial, favoring the ___ stage beat an even split by +8.86% yield, while a poorly-timed split lost up to 19%.",
+      "mcq_options": [
+        "berry expansion",
+        "early flowering",
+        "berry ripening",
+        "harvest"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "id": "check_dams",
+      "category": "Water Harvesting — Ex-Situ Storage",
+      "term": "Check Dams",
+      "definition": "Small dams built to impound water during the monsoon, storing it for sprinkler irrigation in the dry months. They can also help rejuvenate wells that had gone dry.",
+      "analogy": "A savings account funded by the monsoon's surplus, withdrawn from in February and March when the plant needs it.",
+      "why_it_matters": "A capital-intensive structure compared to bunds or pits — worth noting whether it's a cooperative or individual-farm investment.",
+      "cloze": "___ impound monsoon water for later sprinkler irrigation and can help rejuvenate wells that had gone dry.",
+      "mcq_options": [
+        "Check Dams",
+        "Farm Ponds / Water Tanks",
+        "Cradle Pits",
+        "Contour Bunding"
+      ]
+    },
+    {
+      "id": "farm_ponds",
+      "category": "Water Harvesting — Ex-Situ Storage",
+      "term": "Farm Ponds / Water Tanks",
+      "definition": "Excavated storage — a pond or tank — that holds water collected during the monsoon for use later in the season.",
+      "analogy": "A bucket instead of a dam — smaller-scale, simpler storage doing the same basic job.",
+      "why_it_matters": "A more modest, lower-capital alternative to a check dam, worth distinguishing when a farmer mentions 'water storage' without specifying which kind.",
+      "cloze": "___ are excavated storage that holds monsoon water for later use, a simpler alternative to a check dam.",
+      "mcq_options": [
+        "Farm Ponds / Water Tanks",
+        "Check Dams",
+        "Half-Moon Micro-Catchments",
+        "Mulching (Coir Pith)"
+      ]
+    }
+  ]
+}
